@@ -16,12 +16,15 @@ plugins:
   - jekyll-sitemap
 
 collections:
+  pages:
+    output: true
+    permalink: /:title
   posts:
     output: true
-    permalink: /:collection/:title/
+    permalink: /:collection/:title
   resume:
     output: true
-    permalink: /:collection/:title/
+    permalink: /:collection/:title
 
 defaults:
   - scope:
@@ -50,10 +53,10 @@ author:
   links:
     - label: "About Me"
       icon: "fas fa-fw fa-user"
-      url: "/about/"
+      url: "/about"
     - label: "Resume"
       icon: "fas fa-fw fa-file-alt"
-      url: "/resume/"
+      url: "/resume"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/radleta"
@@ -65,10 +68,10 @@ footer:
   links:
     - label: "About Me"
       icon: "fas fa-fw fa-user"
-      url: "/about/"
+      url: "/about"
     - label: "Resume"
       icon: "fas fa-fw fa-file-alt"
-      url: "/resume/"
+      url: "/resume"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/radleta"
@@ -77,4 +80,4 @@ footer:
       url: "https://www.linkedin.com/in/radleta"
     - label: "Posts"
       icon: "fas fa-fw fa-pen"
-      url: "/posts/"
+      url: "/posts"

@@ -1,7 +1,6 @@
 ---
 layout: single
-title: "About Richard Adleta"
-permalink: /about/
+title: "About"
 author_profile: true
 share: true
 toc: true

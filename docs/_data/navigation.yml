@@ -2,47 +2,47 @@ main:
   - title: "Home"
     url: /
   - title: "Posts"
-    url: /posts/
+    url: /posts
   - title: "Resume"
-    url: /resume/
+    url: /resume
   - title: "About"
-    url: /about/
+    url: /about
 
 resume:
   - title: "Resume Overview"
-    url: /resume/
+    url: /resume
     children:
       - title: "Welcome"
-        url: /resume/#-welcome-im-richard-adleta
+        url: /resume#-welcome-im-richard-adleta
       - title: "What Sets Me Apart?"
-        url: /resume/#-what-sets-me-apart
+        url: /resume#-what-sets-me-apart
       - title: "Technologies & Expertise"
-        url: /resume/#-technologies--expertise
+        url: /resume#-technologies--expertise
       - title: "Explore My Career"
-        url: /resume/#-explore-my-career
+        url: /resume#-explore-my-career
       - title: "Let's Collaborate"
-        url: /resume/#-lets-collaborate
+        url: /resume#-lets-collaborate
 
   - title: "Formats"
     children:
       - title: "Condensed"
-        url: /resume/condensed/
+        url: /resume/condensed
       - title: "Full"
-        url: /resume/full/
+        url: /resume/full
 
 resume_full:
   - title: "Key Sections"
     children:
       - title: "Professional Summary"
-        url: /resume/full/#professional-summary
+        url: /resume/full#professional-summary
       - title: "Professional Experience"
-        url: /resume/full/#professional-experience
+        url: /resume/full#professional-experience
       - title: "Open Source Contributions"
-        url: /resume/full/#open-source-contributions
+        url: /resume/full#open-source-contributions
       - title: "Education"
-        url: /resume/full/#education
+        url: /resume/full#education
       - title: "Certifications"
-        url: /resume/full/#certifications
+        url: /resume/full#certifications
   - title: "Download"
     children:
       - title: "PDF"
@@ -54,15 +54,15 @@ resume_condensed:
   - title: "Key Sections"
     children:
       - title: "Professional Summary"
-        url: /resume/condensed/#professional-summary
+        url: /resume/condensed#professional-summary
       - title: "Professional Experience"
-        url: /resume/condensed/#professional-experience
+        url: /resume/condensed#professional-experience
       - title: "Open Source Contributions"
-        url: /resume/condensed/#open-source-contributions
+        url: /resume/condensed#open-source-contributions
       - title: "Education"
-        url: /resume/condensed/#education
+        url: /resume/condensed#education
       - title: "Certifications"
-        url: /resume/condensed/#certifications
+        url: /resume/condensed#certifications
   - title: "Download"
     children:
       - title: "PDF"
