@@ -43,13 +43,13 @@ Throughout my career, I’ve balanced **hands-on coding** with leadership roles.
 
 A snapshot of my most impactful technical achievements and contributions, perfect for a quick overview.
 
-Availabe to download in [PDF](/assets/files/Adleta%20Richard%20-%20Resume%20-%20Condensed%20-%202024-09-19.pdf) format or [Word](/assets/files/Adleta%20Richard%20-%20Resume%20-%20Condensed%20-%202024-09-19.docx) format.
+{% include download_note.md file=site.data.downloads.adleta_richard_resume_condensed %}
 
 ### [Full Resume]({{ site.baseurl }}/resume/full)
 
 A comprehensive deep dive into my career, including detailed insights into my technical work, leadership experience, and key projects.
 
-Availabe to download in [PDF](/assets/files/Adleta%20Richard%20-%20Resume%20-%20Full%20-%202024-09-19.pdf) format or [Word](/assets/files/Adleta%20Richard%20-%20Resume%20-%20Full%20-%202024-09-19.docx) format.
+{% include download_note.md file=site.data.downloads.adleta_richard_resume_full %}
 
 ## 🤝 **Let’s Collaborate**
 

@@ -43,12 +43,6 @@ resume_full:
         url: /resume/full#education
       - title: "Certifications"
         url: /resume/full#certifications
-  - title: "Download"
-    children:
-      - title: "PDF"
-        url: /assets/files/Adleta%20Richard%20-%20Resume%20-%20Full%20-%202024-09-19.pdf
-      - title: "Word"
-        url: /assets/files/Adleta%20Richard%20-%20Resume%20-%20Full%20-%202024-09-19.docx
 
 resume_condensed:
   - title: "Key Sections"
@@ -63,9 +57,3 @@ resume_condensed:
         url: /resume/condensed#education
       - title: "Certifications"
         url: /resume/condensed#certifications
-  - title: "Download"
-    children:
-      - title: "PDF"
-        url: /assets/files/Adleta%20Richard%20-%20Resume%20-%20Condensed%20-%202024-09-19.pdf
-      - title: "Word"
-        url: /assets/files/Adleta%20Richard%20-%20Resume%20-%20Condensed%20-%202024-09-19.docx

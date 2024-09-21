@@ -1,0 +1,23 @@
+# Generated downloads YAML file
+adleta_richard_resume_full:
+  title: "adleta_richard_resume_full"
+  formats:
+    - format: "pdf"
+      path: "assets/downloads/adleta_richard_resume_full.pdf"
+    - format: "docx"
+      path: "assets/downloads/adleta_richard_resume_full.docx"
+    - format: "odt"
+      path: "assets/downloads/adleta_richard_resume_full.odt"
+    - format: "epub"
+      path: "assets/downloads/adleta_richard_resume_full.epub"
+adleta_richard_resume_condensed:
+  title: "adleta_richard_resume_condensed"
+  formats:
+    - format: "pdf"
+      path: "assets/downloads/adleta_richard_resume_condensed.pdf"
+    - format: "docx"
+      path: "assets/downloads/adleta_richard_resume_condensed.docx"
+    - format: "odt"
+      path: "assets/downloads/adleta_richard_resume_condensed.odt"
+    - format: "epub"
+      path: "assets/downloads/adleta_richard_resume_condensed.epub"

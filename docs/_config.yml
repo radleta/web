@@ -10,6 +10,14 @@ minimal_mistakes_skin: "default"
 
 description: "Richard Adleta, Senior Software Developer and Solution Architect, passionate about hands-on coding, AI, and building innovative, scalable software solutions."
 
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - README.md
+  - "*.sh"
+  - _source
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -23,6 +31,9 @@ collections:
     output: true
     permalink: /:collection/:title
   resume:
+    output: true
+    permalink: /:collection/:title
+  downloads:
     output: true
     permalink: /:collection/:title
 
