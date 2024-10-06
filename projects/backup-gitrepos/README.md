@@ -68,7 +68,7 @@ To run the script automatically on a regular basis (e.g., every day), you can us
    ```
 3. In the **Add arguments** field, add the path to the script and the necessary parameters:
    ```plaintext
-   -File "C:\path-to-your-script\Backup-GitRepos.ps1" -SourcePath "C:\Projects\MyRepos" -DestinationPath "C:\OneDrive\Backups" -EnableLogging $true -PreventOverwrite $true
+   -Command "C:\path-to-your-script\Backup-GitRepos.ps1" -SourcePath "C:\Projects\MyRepos" -DestinationPath "C:\OneDrive\Backups" -EnableLogging $true -PreventOverwrite $true
    ```
 
 #### 5. Set Conditions
