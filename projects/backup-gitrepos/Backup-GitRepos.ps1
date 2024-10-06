@@ -31,9 +31,6 @@
 
 [CmdletBinding()]
 param (
-	[Parameter(Mandatory = $false, HelpMessage = "Throttle limit for parallel processing.")]
-	[int]$ThrottleLimit = 4,
-
 	[Parameter(Mandatory = $true, HelpMessage = "Path to the folder containing Git repositories.")]
 	[string]$SourcePath,
 
