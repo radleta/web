@@ -132,9 +132,7 @@ try {
 	$StagingDir = New-Item -ItemType Directory -Path (Join-Path -Path $env:TEMP -ChildPath "GitBackupStaging_$([guid]::NewGuid())") -Force
 
 	# Load the assembly once before the loop for efficiency
-	if (-not ([System.Reflection.Assembly]::GetAssembly([System.IO.Compression.ZipFile]))) {
-		Add-Type -AssemblyName 'System.IO.Compression.FileSystem'
-	}
+	Add-Type -AssemblyName 'System.IO.Compression.FileSystem'
 
 	# Compress each Git repo into a separate archive
 	foreach ($repo in $gitRepos) {
