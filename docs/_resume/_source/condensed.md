@@ -1,125 +1,97 @@
-## Professional Summary
+## Professional Summary  
 
-Seasoned technology leader with over 20 years of experience in software architecture, full-stack development, and team leadership. Proven track record as a CTO, VP of Engineering, and Lead Architect, specializing in scalable web applications, cloud computing, and AI integration. Expertise in .NET technologies, Angular, React, AWS services, and Agile methodologies. Committed to driving innovation and delivering impactful software solutions that align with business objectives.
+Hands‑on software architect and senior engineer with 20 + years designing and coding high‑scale, event‑driven platforms, AI/LLM integrations, and cloud solutions. Deep expertise in .NET 6 / C#, ASP.NET MVC, Angular, React, TypeScript, SQL Server, and AWS. Proven leader who mentors teams while shipping code for systems such as 25 M + email‑day delivery, 50‑server grid compute, and sub‑100 ms search.
 
-## Professional Experience
+## Professional Experience  
 
-### Nexxt, Inc. | Frisco, TX
+### Nexxt, Inc. | Frisco, TX  
 
-**Lead Architect**
-_Oct 2023 – Present_
+**Lead Architect** *Oct 2023 – Present*  
 
-- Architected and developed an AI assistant framework supporting multiple enterprise AI integrations
-- Integrated AI for email, web page building, job postings, and more
-- Designed a flexible framework for seamless improvements based on user input and prompt design
-- Developed in T-SQL, C#, ASP.NET MVC, Typescript, Angular, and collaborated with leadership on key design decisions
+- Design and code an enterprise AI Assistant for email, web‑page, and job‑post
+  generation (C#, ASP.NET MVC, GPT models).  
+- Engineer an event‑driven integration framework with validation layers that
+  speeds onboarding of external AI and data services (.NET 6, AWS).  
+- Develop job‑title‑normalization algorithms with confidence scoring to elevate
+  data quality across internal systems.  
+- Build admin dashboards and analytics that improve monitoring and operational
+  insight.  
+- Champion infrastructure upgrades, including a new beta environment and
+  automated zero‑downtime deployments.  
 
-_Technologies:_ Angular, C#, ASP.NET MVC, .NET Core, TypeScript, SQL Server, Git
+*Technologies:* .NET 6, C#, ASP.NET MVC, Angular, TypeScript, SQL Server, AWS (Lambda, S3,  
+CloudFront, EC2), Git, Jenkins, OpenAI GPT  
 
-### All Kids Network, LLC | Frisco, TX
+### All Kids Network, LLC | Frisco, TX  
 
-**Technical Founder**
-_May 2014 – Present_
+**Technical Founder** *May 2014 – Present*  
 
-- Co-founded and architected a high-traffic educational platform with over 3 million annual users.
-- Rebuilt the website using C#, ASP.NET MVC, React.js, and AWS services for improved performance.
-- Managed a development team, overseeing project planning and code reviews.
-- Implemented scalable solutions using AWS Open Search Engine, AWS DynamoDB, Elasticache Redis, and AWS Lambda.
+- Hold 40 % equity; steer business and technical direction while coding
+  part‑time.  
+- Serve **6.8 M page views** and **1.5 M active users** in the past 12 months
+  with **30 ms** average server response.  
+- Deliver a weekly newsletter to **175 K +** subscribers via SES + Mailtrain.  
+- Maintain 9 K + content pages and a 2.2 M‑member user base.  
+- Re‑architect admin CMS to React + TypeScript + Tailwind UI backed by C# REST
+  APIs.  
+- Scale search to < 100 ms with DynamoDB, Lambda, and OpenSearch; blue‑green
+  deploys on Elastic Beanstalk.  
 
-_Technologies:_ ASP.NET MVC, C#, React.js, MySql, AWS Open Search Engine, AWS DynamoDB, AWS Elasticache, AWS RDS, AWS S3, AWS Elastic Beanstalk, AWS SES, AWS Lambda, Git.
+*Technologies:* ASP.NET MVC, C#, React, TypeScript, Tailwind CSS, AWS (Elastic Beanstalk, ALB,  
+WAF, OpenSearch, DynamoDB, ElastiCache Redis, S3, Lambda, SES), Git/Bitbucket  
 
-### Splinterlands | Philadelphia, PA
+### Steem Monsters Corp. dba Splinterlands | Philadelphia, PA  
 
-**VP of Engineering / CTO / Head of Product**
-_Sept 2021 – Sept 2023_
+**Head of Product** (Dec 2022 – Sep 2023) · **Chief Technology Officer**
+ (Dec 2021 – Dec 2022) · **VP of Engineering** (Sep 2021 – Dec 2021)  
 
-- Led development and deployment of blockchain-based gaming products using AWS, React, TypeScript, PostGreSQL, DynamoDB, and Redis.
-- Scaled the company from 20+ to 150+ employees and stabilized the Splinterlands infrastructure during a period of rapid growth.
-- Developed tech strategy, overseeing product design and updates for Splinterlands on the HIVE blockchain, ensuring stability and scalability.
-- Introduced Agile methodologies and collaborated with senior leadership to refine product vision and execution.
-- Led R&D efforts, exploring new gaming products and technology advancements to bring to market.
-- Presented company innovations at GDC 2022, highlighting successful product development.
-- Built and managed an engineering team, enhancing software architecture, coding standards, and deployment practices.
+- Stabilised a HIVE‑based collectible‑card game during explosive user growth,
+  adding Redis caching and PostgreSQL tuning.  
+- Shipped React + TypeScript features and AWS‑hosted services powering new
+  in‑game economies and marketplace.  
+- Introduced Agile practices and CI/CD pipelines while scaling engineering from
+  20 + to 150 + contributors.  
+- Presented architectural innovations at Game Developers Conference 2022.  
 
-_Technologies:_ React, TypeScript, PostGreSQL, DynamoDB, Redis, Git, JavaScript, AWS.
+*Technologies:* React, TypeScript, PostgreSQL, DynamoDB, Redis, AWS, Git  
 
-### Nexxt, Inc. | Philadelphia, PA
+### Nexxt, Inc. | Philadelphia, PA  
 
-**Lead Architect / Solutions Architect**
-_May 2011 – Sept 2021_
+**Lead Architect** (Jan 2018 – Sep 2021) · **Solutions Architect**
+ (May 2011 – Jan 2018)  
 
-- Led the architectural design and deployment of large-scale web applications and real-time data processing solutions across 50+ servers.
-- Engineered a horizontally scalable email system, capable of delivering 25+ million emails daily, and a grid computing framework to handle diverse data loads in near real-time.
-- Built a real-time monitoring system for enterprise APIs, boosting system reliability and responsiveness.
-- Managed an Elasticsearch cluster for real-time indexing and searching of 80M resumes and millions of job listings.
-- Developed new web applications using .NET, MVC, AngularJS, and jQuery, and deployed projects on AWS leveraging DynamoDB, Lambda, S3, and EC2.
-- Improved CI/CD pipelines with NAnt, MSBuild, Jenkins, and NuGet to automate builds and testing.
+- Engineered a horizontally scalable email platform sending **25 M +**
+  messages/day with compliance throttling.  
+- Built a 50‑server grid‑computing framework for near real‑time data
+  processing.  
+- Managed an Elasticsearch cluster indexing ~ 80 M resumes and tens of millions
+  of job listings.  
+- Established CI/CD pipelines (Jenkins, MSBuild, Web Deploy) enabling rapid,
+  reliable releases.  
+- Modernised legacy job‑search and people‑search apps, boosting organic traffic
+  via SEO and responsive design.  
 
-_Technologies:_ .NET Core 2.1, C#, .NET 4.7, ASP.NET MVC, ElasticSearch, Ubuntu, Windows Server, MSMQ, Angular 1, AWS DynamoDB, CloudFront, S3, EC2, Lambda, SQL Server, Couchbase, Redis, Git, Mercurial (Hg), SubVersion, NAnt, MSBuild, Jenkins, NuGet.
+*Technologies:* .NET Core, C#, ASP.NET MVC, Elasticsearch, MSMQ, AngularJS, AWS (DynamoDB, S3, CloudFront), SQL Server, Couchbase, Redis, Git/Mercurial  
 
-### Earlier Roles
+### Earlier Career (1995 – 2011)  
 
-- **Enterprise Architect / Technical Lead**
-  Project Management Institute _(Aug 2008 – June 2011)_
+Enterprise Architect & Team Lead at PMI, Sr. .NET Developer at ATK Elkton, Process & Infrastructure Lead / Web Team Lead at Chatham Financial, plus additional engineering roles dating back to 1995 (details available on request).
 
-  - Led IT architecture and eCommerce platforms for 300,000+ members, optimizing SDLC processes and managing Agile Scrum projects using ASP.NET, SharePoint, BizTalk, C#/VB.NET, SQL Server, and iBatis.NET.
+## Open Source Contributions  
 
-- **Sr. .NET Developer**
-  ATK Elkton _(Feb 2008 – Aug 2008)_
+- **Open Flash Chart:** .NET API integration  
+- **NAntContrib:** VssDelete build‑automation task  
+- **Copy Context:** VS Code extension for markdown‑formatted file copies  
 
-  - Migrated ERP systems from Cincom to Costpoint using VB.NET, C#, SQL Server, and Oracle.
+## Education  
 
-- **Process and Infrastructure Lead, Web Team Lead, Sr. .NET Developer**
-  Chatham Financial Corporation _(Feb 2004 – Jan 2008)_
+- **B.S. Business Administration**, Oral Roberts University — Dec 2002  
+- MBA coursework in e‑Business & Org Change, Regent University (2000 – 2001)  
 
-  - Led web development, build automation, and release management using .NET, ASP.NET, SQL Server, and Agile methodologies.
+## Certifications  
 
-- **.NET Developer**
-  Exelon Power Team _(Jan 2003 – Feb 2004)_
+- Microsoft Certified Solutions Developer (MCSD)  
+- Dale Carnegie Course Graduate  
+- Certified PC Troubleshooter  
 
-  - Developed .NET web applications for power trading using C#, T-SQL, and SQL Server.
-
-- **.NET Developer**
-  MiraTech Consulting Group, Inc _(Sept 2002 – Jan 2003)_
-
-  - Managed multiple projects using ASP.NET, SQL Server, and VB.NET.
-
-- **.NET Developer**
-  AppsChannel, Inc _(Jan 2002 – Aug 2002)_
-
-  - Developed add-ins for Visual Studio .NET using VB.NET and C#.
-
-- **DMS Systems Programmer**
-  Baker Oil Tools _(Aug 2001 – Jan 2002)_
-
-  - Implemented Documentum and developed web-based document management systems with VB6, ASP, and COM.
-
-- **Lead Programmer**
-  Network for Strategic Missions _(Mar 1999 – Apr 2001)_
-
-  - Developed web projects using PHP, PostgreSQL, ASP, and VBScript.
-
-- **Information Systems Administrator / Sales Representative**
-  Family Mission/Vision Enterprises _(Feb 1995 – Aug 1997)_
-
-  - Managed MS Windows network operations and launched the organization's online catalog.
-
-_Note:_ Additional details for earlier roles are available on LinkedIn or upon request.
-
-## Open Source Contributions
-
-- **Open Flash Chart:** Developed .NET API integration.
-- **NAntContrib:** Contributed the VssDelete task for build automation.
-- **Copy for Context:** Contributed to the development of a VS Code extension for copying selected files as formatted markdown.
-
-## Education
-
-- **Bachelor of Science in Business Administration**
-  Oral Roberts University
-  _(Dec 2002)_
-
-## Certifications
-
-- **Microsoft Certified Solutions Developer (MCSD)**
-- **Dale Carnegie Course Graduate**
-- **Certified PC Troubleshooter**
+*Full, annotated résumé available on request.*

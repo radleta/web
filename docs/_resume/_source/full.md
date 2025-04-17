@@ -4,34 +4,39 @@ Seasoned technology leader with over 20 years of experience in software architec
 
 ## Professional Experience
 
-### Nexxt, Inc.
+### Nexxt, Inc
 
 **Lead Architect**
 October 2023 - Present
 
-- Architected and developed an AI assistant framework to support multiple AI integrations across the enterprise.
-- Integrated AI technologies for email composition, web page building, job postings, and other applications, enhancing overall product offerings.
-- Designed a flexible framework allowing for seamless improvements through prompt design and user input integration.
-- Collaborated with senior leadership on design approvals, serving as the primary architect and designer.
-- Authored key components of the system, including T-SQL, C#, and Angular front-end code.
-- Facilitated cross-functional collaboration to deliver innovative, AI-driven solutions across departments.
-- Followed Agile methodologies to ensure timely delivery and iterative improvement of the AI framework.
+- Architected and developed scalable AI‑driven solutions, including an enterprise AI Assistant used for email composition, web‑page building, job postings, and other applications.
+- Designed and implemented a flexible integration framework featuring event‑driven architecture and robust data‑validation mechanisms that support seamless external platform integrations.
+- Developed and refined job‑title‑normalization algorithms with confidence scoring to improve data accuracy and usability across internal systems.
+- Built advanced admin interfaces and reporting dashboards that enhanced monitoring, analytics, and administrative capabilities.
+- Supported infrastructure enhancements such as new beta environment setup, domain‑certification handling, and rigorous testing and deployment processes.
+- Coordinated cross‑functional teams, provided documentation and status updates, and ensured adherence to development best practices.
 
-_Technologies:_ Angular, C#, .NET Core, TypeScript, SQL Server, Git.
+_Technologies:_ .NET (C#, ASP.NET MVC, .NET 6), Angular, AngularJS, TypeScript, SQL Server, JavaScript, HTML5, CSS3, AWS Services, Git, Jenkins, RESTful APIs, JSON, OpenAI GPT models.
 
-### All Kids Network, LLC
+### All Kids Network, LLC  
 
-**Technical Founder**
-May 2014 - Present
+**Partner & Principal Engineer**  
+May 2014 – Present  
 
-- Co-founded the venture and assumed the primary technical role within the organization, shaping the initial framework and architecture of the digital platform.
-- Developed the website twice from scratch, first basing it on Node.js and React and later rebuilding it using ASP.NET MVC, C#, React.js, and JavaScript along with extensive AWS services like DynamoDB, Redis on AWS Elastic Cache, MySQL on AWS RDS, AWS S3, AWS Elastic Beanstalk, AWS Simple Email Service, and AWS Lambda.
-- Successfully steered the site to achieve remarkable growth, attracting nearly 3 million unique visitors annually and sustaining monthly traffic of over 250,000 users.
-- Took strategic steps towards capacity building, nurturing the development team from being the sole developer to having two other part-time developers.
+- Hold 40 % equity; co‑own all business & technical decisions while working part‑time outside primary employment.  
+- **Admin CMS** — evolved from Node.js + Jade + JavaScript → ASP.NET MVC + React → today's React + TypeScript + Tailwind CSS UI backed by C# REST APIs .  
+- **Public platform** — ASP.NET MVC + Razor app using DynamoDB for data, Redis ElastiCache for caching, S3 for static assets, and a C# Lambda pipeline that feeds Amazon OpenSearch for sub‑100 ms queries.  
+- Protected by AWS Application Load Balancer and AWS WAF against DDoS/OWASP threats; blue‑green releases via Elastic Beanstalk.  
+- Deliver a **weekly newsletter** to 175 K + subscribers over AWS SES + Mailtrain (self‑hosted OSS).  
+- Serve **6.8 M page views and 1.5 M active users** in the past 12 months; third‑party trackers corroborate 100 K–160 K monthly visits with peaks of ≈52 K daily .  
+- Host **9 K + educational pages** and maintain a **2.2 M‑member** user base; average **30 ms avg server response time** from internal monitoring.  
+- Manage Git workflows in Bitbucket and scripted, repeatable deployments.
 
-_Technologies:_ Node.js, React, ASP.NET MVC, C#, JavaScript, AWS Services (DynamoDB, Redis, MySQL, S3, Elastic Beanstalk, Simple Email Service, Lambda), Git.
+_Technologies:_ ASP.NET MVC, C#, React, TypeScript, Tailwind CSS, AWS (Elastic Beanstalk, ALB, WAF, OpenSearch Service, DynamoDB, Redis ElastiCache, S3, Lambda, SES), Git/Bitbucket.
 
 ### Steem Monsters Corporation dba Splinterlands
+
+September 2021 - September 2023
 
 **Head of Product / Solutions Developer**
 December 2022 - September 2023
@@ -63,26 +68,30 @@ _Technologies:_ Git, JavaScript, PostGreSQL, Redis, Amazon Web Services (AWS).
 
 ### Nexxt
 
+May 2011 - September 2021
+
 **Lead Architect**
 January 2018 - September 2021
 
-- Directed architectural efforts, spearheading the design and rollout of large-scale web applications that supported business objectives.
-- Pioneered software solutions that enabled large-scale near real-time data processing, streamlining company operations.
-- Engineered a horizontally scalable email delivery system, achieving a capability to dispatch over 25 million emails daily.
-- Conceived a grid computing framework operating on 50+ servers, ensuring near real-time processing of diverse data sets tailored to dynamic production loads.
-- Instituted a near real-time monitoring and tracking mechanism for the company's enterprise APIs, enhancing system reliability and responsiveness.
-- Oversaw the development and management of a massive Elastic Search cluster, facilitating real-time indexing and searching of 80 million resumes and tens of millions of job listings.
+- Directed architectural efforts, spearheading the design and rollout of large‑scale web applications that supported business objectives.
+- Engineered a horizontally scalable email‑delivery system capable of sending more than 25 million emails per day while observing throttling and compliance requirements.
+- Conceived a grid‑computing framework operating on 50+ servers to process diverse data sets in near real‑time and adjust to dynamic production loads.
+- Implemented near real‑time monitoring and tracking for the company's enterprise APIs, enhancing system reliability and responsiveness.
+- Oversaw the development and management of a massive Elasticsearch cluster used to index and search approximately 80 million resumes and tens of millions of job listings.
 
-_Technologies:_ Microsoft .NET Core 2.1, C#, .NET 4.7, ASP.NET MVC, Elastic Search, Ubuntu, Windows Server, MSMQ, AngularJS, Git, AWS DynamoDB, AWS CloudFront, AWS S3, Microsoft SQL Server, Couchbase, Redis.
+_Technologies:_ Microsoft .NET Core, C#, .NET Framework, ASP.NET MVC, Elasticsearch, Ubuntu, Windows Server, MSMQ, AngularJS, Git, AWS DynamoDB, AWS CloudFront, AWS S3, Microsoft SQL Server, Couchbase, Redis.
 
 **Solutions Architect**
 May 2011 - January 2018
 
-- Championed the development and design of new web applications, leveraging a diverse toolkit including Microsoft .NET 4.6, C#, MVC 3/4, jQuery, AngularJS, and more.
-- Orchestrated the deployment of multiple projects on AWS, harnessing tools such as DynamoDB, Elastic Beanstalk, Lambda, S3, EC2, and more.
-- Enhanced development processes by configuring and automating continuous integration workflows for Microsoft .NET using tools like NAnt, MSBuild, Jenkins, and NuGet.
+- Led the development and modernization of web applications, including a next‑generation job‑search engine and a full‑featured People Search platform with advanced filtering and employer authorization.
+- Implemented continuous‑integration and automated‑deployment pipelines using Jenkins, MSBuild, Web Deploy, and related tooling, enabling frequent and reliable releases.
+- Unified disparate Classic ASP and .NET components into consolidated solutions, improving maintainability and deployment efficiency.
+- Introduced alert and notification systems with behavioral and keyword‑based algorithms, and created diagnostic tools and monitoring hooks for production readiness.
+- Guided responsive‑design efforts, SEO optimization (structured data, canonical links, sitemaps), and UX improvements that increased organic traffic and user engagement.
+- Mentored junior developers, conducted code reviews, and collaborated across teams to troubleshoot production issues and drive architectural decisions.
 
-_Technologies:_ VBScript, Classic ASP, SQL Server (2008 & 2014), MySQL, MSMQ, AWS CloudFront, Lambda, Kinesis, S3, EC2, CloudWatch, NAnt, MSBuild, Jenkins, NuGet, Git, Mercurial (Hg), SubVersion.
+_Technologies:_ C#, ASP.NET MVC, Classic ASP, JavaScript, jQuery, Bootstrap, Solr, Lucene.NET, SQL Server, Couchbase, Redis, AWS S3 / CloudFront, Jenkins, Mercurial / Git, NUnit, MiniProfiler, Elmah.
 
 ### Project Management Institute
 
@@ -117,9 +126,9 @@ Feb. 2004 – Jan. 2008
 Nov. 2007 – Jan. 2008
 
 - Championed departmental strategies, fostering communication and collaboration for software production improvements.
-- Founded and led the Build Automation Group, overseeing the department’s build processes, automated testing, and deployment scripts.
-- Pioneered the Code Generation Group, enhancing the department’s code generation scripts and innovating data access techniques.
-- Participated in the Agile Group, refining the department’s Agile process implementation.
+- Founded and led the Build Automation Group, overseeing the department's build processes, automated testing, and deployment scripts.
+- Pioneered the Code Generation Group, enhancing the department's code generation scripts and innovating data access techniques.
+- Participated in the Agile Group, refining the department's Agile process implementation.
 - Contributed to the Release Management Group, optimizing software release procedures and developer-Q/A interactions.
 - Customized a version of BugTracker.NET to support Agile Scrum management, helpdesk, release management, and SAS70 audit compliance.
 
@@ -132,7 +141,7 @@ Jan. 2007 – Jan. 2008
 **Web Team Lead**
 Mar. 2006 – Oct. 2007
 
-- Oversaw the company’s US and UK web presence, internal web applications, and high-value business projects.
+- Oversaw the company's US and UK web presence, internal web applications, and high-value business projects.
 - Mentored a team comprising four developers, a Q/A specialist, and a project coordinator.
 - Strengthened cross-team collaborations and led Agile Scrum practices, achieving regular 30-day production deliveries.
 - Navigated the team through a multi-year migration from ASP to ASP.NET, ensuring timely value additions and fixes.
@@ -143,8 +152,8 @@ Feb. 2004 – Mar. 2006
 
 - Executed extensive projects using VB.NET, C#.NET, Microsoft Office 2003, SQL Server Reporting Services, and SQL Server 2000.
 - Managed end-to-end development processes, from requirements to deployment.
-- Introduced the company’s inaugural automated build scripts, which became a departmental standard.
-- Developed custom data entities and access layers using Code Smith Templates, forming the foundation for the company’s core business/data layers.
+- Introduced the company's inaugural automated build scripts, which became a departmental standard.
+- Developed custom data entities and access layers using Code Smith Templates, forming the foundation for the company's core business/data layers.
 - Collaborated intensively with Business Teams, producing intricate financial reporting software across various platforms.
 
 ### Exelon Power Team
@@ -192,7 +201,7 @@ August 2001 – January 2002
 **Lead Programmer**
 March 1999 – April 2001
 
-- Headed the installation and technical troubleshooting for the organization’s MS Windows-based infrastructure.
+- Headed the installation and technical troubleshooting for the organization's MS Windows-based infrastructure.
 - Orchestrated the design, development, and launch of multiple web projects, leveraging technologies such as HTML, PHP, ASP, Postgre SQL, VBScript, Microsoft Access, and JavaScript.
 - Established and maintained several relational databases hosted on a Linux-based Apache server utilizing Postgre SQL.
 - Pioneered web interface and design aesthetics with Corel Graphics Suite 9, ensuring user-friendly and visually appealing experiences.
@@ -201,7 +210,7 @@ March 1999 – April 2001
 
 - Played a pivotal role as the lead designer for the site's inaugural release on September 2, 2000, supporting a major marketing campaign targeting a live audience of over 300,000 at the Mall in Washington, D.C.
 - Authored the foundational code and graphics, harnessing PHP, HTML, Postgre SQL, and Corel Graphics Suite 9.
-- Conceived and realized the website’s multi-faceted functionality, accommodating thousands of member preferences, a vast library of articles and links, an interactive forum, and other vital site components.
+- Conceived and realized the website's multi-faceted functionality, accommodating thousands of member preferences, a vast library of articles and links, an interactive forum, and other vital site components.
 
 ### Family Mission/Vision Enterprises
 
@@ -209,8 +218,8 @@ March 1999 – April 2001
 February 1995 – August 1997
 
 - Represented the organization as a Sales Representative at over 20 conferences across the continental US, fostering relationships and promoting products.
-- Oversaw the installation, diagnostics, and maintenance of the organization’s MS Windows peer-to-peer network, ensuring smooth and uninterrupted operations.
-- Led the initiative to launch the organization’s online catalog, utilizing HTML for a seamless and user-friendly experience.
+- Oversaw the installation, diagnostics, and maintenance of the organization's MS Windows peer-to-peer network, ensuring smooth and uninterrupted operations.
+- Led the initiative to launch the organization's online catalog, utilizing HTML for a seamless and user-friendly experience.
 
 ### PC Consulting
 
