@@ -39,10 +39,12 @@ else
 fi
 
 # Configure rbenv in the shell
-print_message $YELLOW "Configuring rbenv..."
-echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
-echo 'eval "$(rbenv init -)"' >> ~/.bashrc
-source ~/.bashrc
+if ! grep -q 'rbenv' ~/.bashrc; then
+    print_message $YELLOW "Configuring rbenv..."
+    echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
+    echo 'eval "$(rbenv init -)"' >> ~/.bashrc
+    source ~/.bashrc
+fi
 
 # Verify rbenv installation
 if type rbenv > /dev/null; then
@@ -52,10 +54,17 @@ else
     exit 1
 fi
 
-# Install Ruby 3.3.5
-print_message $YELLOW "Installing Ruby 3.3.5..."
-rbenv install 3.3.5
 
+# Install Ruby 3.3.5
+print_message $YELLOW "Checking if Ruby 3.3.5 is already installed..."
+if rbenv versions | grep -q "3.3.5"; then
+    print_message $GREEN "Ruby 3.3.5 is already installed."
+else
+    print_message $YELLOW "Installing Ruby 3.3.5..."
+    rbenv install 3.3.5
+fi
+
+# Check if Ruby installation was successful
 if [ $? -eq 0 ]; then
     print_message $GREEN "Ruby 3.3.5 installed successfully."
 else
@@ -123,7 +132,7 @@ source ~/.bashrc
 # Check gems directory
 print_message $YELLOW "Listing gems directory..."
 if [ -d ~/gems ]; then
-    ll ~/gems
+    ls -alF ~/gems
 else
     print_message $RED "Gems directory not found."
 fi

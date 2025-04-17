@@ -15,11 +15,14 @@ TEMPLATES_DIR="$PANDOC_DATA_DIR/templates"
 mkdir -p "$TEMPLATES_DIR"
 
 # Download the Eisvogel template
-EISVOGEL_URL="https://raw.githubusercontent.com/Wandmalfarbe/pandoc-latex-template/master/eisvogel.tex"
+EISVOGEL_URL="https://raw.githubusercontent.com/Wandmalfarbe/pandoc-latex-template/refs/tags/v2.5.0/eisvogel.tex"
 
 echo "Downloading the Eisvogel template..."
-curl -sSL "$EISVOGEL_URL" -o "$TEMPLATES_DIR/eisvogel.latex"
-
+http_code=$(curl -sSL -w "%{http_code}" "$EISVOGEL_URL" -o "$TEMPLATES_DIR/eisvogel.latex")
+if [ "$http_code" -eq 404 ]; then
+    echo "Failed to download the Eisvogel template: HTTP 404 Not Found."
+    exit 1
+fi
 if [ $? -eq 0 ]; then
     echo "Eisvogel template successfully downloaded to $TEMPLATES_DIR"
 else

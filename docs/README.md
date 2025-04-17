@@ -25,7 +25,7 @@ bash build.sh
 The following command will serve the website locally.
 
 ```bash
-bash serve.sh
+bash test.sh
 ```
 
 Note: The downloads are only generated when the website is built. See the [downloads](#downloads) section for more information.
