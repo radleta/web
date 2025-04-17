@@ -8,7 +8,7 @@ github_username: radleta
 theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: "default"
 
-description: "Richard Adleta, Senior Software Developer and Solution Architect, passionate about hands-on coding, AI, and building innovative, scalable software solutions."
+description: "Richard Adleta, Hands-On Senior Engineer & Solution Architect, passionate about hands-on coding, AI, and building innovative, scalable software solutions."
 
 exclude:
   - Gemfile

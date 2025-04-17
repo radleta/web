@@ -6,57 +6,50 @@ share: true
 toc: true
 ---
 
-## **Hands‑On Software Architect & Principal Engineer**
+## **Hands‑On Senior Engineer & Solution Architect**
 
-Architect and principal engineer who ships production code every day—designing  
-AI‑driven, cloud‑native platforms that:
+With over 20 years of experience in software architecture, engineering leadership, and building innovative solutions, I thrive at the intersection of **creativity** and **technology**. My passion for **coding** and **problem-solving** has always been the driving force behind everything I do, both in my career and as a hobby.
 
-- **Deliver 25 M + emails/day** via a 50‑server grid (C#, .NET Core, AWS).  
-- **Serve 6.8 M yearly page views** to 1.5 M learners on a serverless kids‑education  
-  site (ASP.NET MVC, React, DynamoDB).  
-- **Index 80 M + résumés** and tens of millions of job postings for millisecond‑search  
-  experiences (Elasticsearch, event‑driven design).
+## My Journey
 
-Over 20 years in the field, I’ve stayed relentlessly hands‑on—from my first C#  
-web app in the early 2000s to building today’s generative‑AI assistants.  
-Whether leading architecture at **Nexxt**, co‑founding **All Kids Network**, or  
-scaling game tech at **Splinterlands**, the common thread is writing code that  
-hits production and moves the needle.
+From early in my career as a .NET developer to leading teams as a Lead Architect, my path has been one of continuous exploration. Whether I'm solving complex challenges at work or creating something new in my spare time, I'm always drawn to **building things that people use**. Nothing brings me more satisfaction than watching someone interact with what I've built and hearing their reaction: _"Wow!"_
 
-### Journey Highlights
+Over the years, I've taken on a variety of roles:
 
-| Role & Company | Impact |
-| -------------- | ------ |
-| **Lead Architect, Nexxt (2023 – Present)** | Built an AI Assistant framework for email composition, landing‑page creation, and job‑posting automation, opening new revenue streams. |
-| **Partner & Principal Engineer, All Kids Network (2014 – Present)** | Runs a 2.2 M‑member platform with sub‑30 ms responses, blue‑green deploys, and a 175 K weekly newsletter. |
-| **CTO / Head of Product, Splinterlands (2021 – 2023)** | Scaled org from 20 → 150 staff, modernized AWS stack, and shipped player‑facing features on React & blockchain APIs. |
+- **Lead Architect** at Nexxt, Inc., where I developed scalable, AI-driven solutions, including an enterprise AI Assistant and advanced integration frameworks.
+- **Partner & Principal Engineer** of All Kids Network, an educational platform serving millions of users annually, where I built and evolved a robust, cloud-native architecture.
+- **VP of Engineering** to **CTO** at Splinterlands, where I contributed to blockchain-based gaming products and scaled engineering teams to meet rapid growth demands.
 
-*See résumé for full chronology and numbers.*
+Through all of these experiences, I've remained hands-on with the code. I love **writing code**, solving problems, and pushing the limits of what's possible. The rise of **AI** has only fueled my excitement, enabling me to build smarter, more innovative solutions.
 
-### Technologies & Expertise
+## My Approach
 
-**.NET 8, C#, ASP.NET MVC, React, Angular, TypeScript, SQL Server, DynamoDB,  
-Redis, Elasticsearch, AWS (Lambda, S3, CloudFront, OpenSearch), Azure,  
-event‑driven architecture, CI/CD (GitHub Actions, Jenkins), AI & LLM  
-integrations**
+I'm not just a leader—I'm a **builder** at heart. I take pride in rolling up my sleeves and diving into the code, whether it's to solve a problem, architect a new system, or optimize an existing one. My approach is rooted in being **hands-on** and **collaborative**: I love working directly with teams to bring ideas to life.
 
-### How I Work
+For me, coding is both a **hobby** and a career. I'm constantly torn between the two, as I find immense joy in exploring new ideas and creating things, whether at work or in my free time. That drive for exploration is what keeps me excited every day—there's always something new to learn, a new challenge to tackle, or a new solution to build.
 
-Builder first, leader second. I architect systems, write the core code, automate  
-the pipeline, and mentor engineers—all in service of shipping something users  
-love. My sweet spot lies at the intersection of performance, scale, and  
-developer experience: clean domain models, observable services, and  
-deploy‑on‑push workflows.
+## Technologies & Expertise
 
-### Beyond Work
+Over the years, I've mastered a wide array of technologies that allow me to build efficient, scalable solutions. Here's a breakdown of my core expertise:
 
-When I’m not optimising queries or tweaking TypeScript, you’ll find me deep into  
-an RPG, hanging out with family, or experimenting with the next AI prototype.  
-Games keep my creative edge sharp; family keeps me grounded.
+- **Programming Languages**: C#, JavaScript, TypeScript, SQL – Mastery in building full-stack applications and backend systems using .NET and modern JavaScript frameworks.
+- **Frameworks**: ASP.NET MVC, .NET Core, Angular, React – Developed dynamic, responsive web applications with an emphasis on scalability and user experience.
+- **Cloud Platforms**: AWS (DynamoDB, Lambda, S3, Elastic Beanstalk, CloudFront) – Designed cloud-native, highly available solutions leveraging key AWS services for data storage, processing, and serverless computing.
+- **Databases**: SQL Server, PostgreSQL, DynamoDB, Redis – Expertise in designing and optimizing relational and NoSQL databases for high-traffic environments.
+- **DevOps & CI/CD**: Implemented automated build and deployment pipelines using tools like Jenkins, MSBuild, and GitHub Actions, ensuring smooth, continuous delivery.
+- **AI Integration**: Built AI-driven frameworks for intelligent automation and recommendations, enhancing enterprise applications with NLP and machine learning capabilities.
+- **Blockchain & Gaming**: Contributed to blockchain-based gaming products, leveraging technologies like HIVE engine, PostgreSQL, and AWS for scalable, innovative solutions.
 
-### Let’s Connect
+Every technology in my toolkit has been honed by building real-world solutions that impact users and drive business success. Whether it's designing microservices, implementing AI-driven features, or architecting cloud-native applications, I'm passionate about the **craft** of development.
 
-Have a challenging idea or just want to geek out about architecture?  
-[Reach out on LinkedIn](https://www.linkedin.com/in/radleta) or explore my code  
-on [GitHub](https://github.com/radleta). Let’s build something **amazing**  
-together.
+## Beyond Work
+
+When I'm not coding, you'll often find me relaxing with a good **game**. Gaming has always been my go-to way to unwind, and I love the creativity and immersion that great games provide. It's this same love for creating experiences that drives my work—whether I'm writing code or playing, I'm always thinking about how to build something better.
+
+In addition to gaming, I spend as much time as I can with my family. I believe in maintaining a healthy balance between work, play, and family life, which keeps me grounded and creative.
+
+## Let's Connect
+
+I'm always interested in collaborating, whether on exciting new projects, innovative technologies, or simply connecting with fellow creators. Feel free to [reach out on LinkedIn](https://www.linkedin.com/in/radleta) or [check out my GitHub](https://github.com/radleta) to see some of my work.
+
+Let's build something **amazing** together.
