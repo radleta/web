@@ -1,0 +1,99 @@
+---
+layout: single
+title: "Timeline Resume (vis.js)"
+description: "A timeline of my career milestones, including positions held, companies worked for, and technologies used, powered by vis.js."
+toc: false
+classes: wide
+sidebar:
+  nav:
+    - resume
+    - resume_full
+---
+
+<!-- See https://github.com/visjs/vis-timeline -->
+<script src="https://unpkg.com/vis-timeline/standalone/umd/vis-timeline-graph2d.min.js"></script>
+
+<p class="notice">
+  <i class="fa fa-info-circle"></i> <strong>Note:</strong>
+  Click on the buttons below to filter the timeline by Career, Company,
+  Position, or Technologies. The timeline will update accordingly.
+</p>
+
+<div style="text-align: center; margin-bottom:20px">
+  <button onclick="updateTimeline('career')">Career</button>
+  <button onclick="updateTimeline('company')">Company</button>
+  <button onclick="updateTimeline('position')">Position</button>
+  <button onclick="updateTimeline('technologies')">Technologies</button>
+</div>
+
+<h2 id="timelineTitle" style="margin-bottom: 20px;"></h2>
+
+<div id="timeline" style="height: 500px;"></div>
+
+<script>
+  let timelineData = [];
+  let timeline;
+
+  fetch('/assets/data/richard_adleta_resume_full.json')
+    .then(response => response.json())
+    .then(data => {
+      timelineData = data.work;
+      updateTimeline('career'); // Default view
+      document.getElementById('timelineTitle').innerText = 'Career Timeline';
+    })
+    .catch(error => console.error('Error loading timeline data:', error));
+
+  function updateTimeline(view) {
+    const items = timelineData
+      .filter(job => view !== 'technologies' || (job.technologies && job.technologies.length > 0)) // Filter out jobs without technologies
+      .map(job => {
+        const id = `${job.name}-${job.position}-${job.startDate}`; // Unique ID for each item
+        const content = getContent(job, view);
+        return {
+          id,
+          content,
+          start: job.startDate,
+          end: job.endDate || new Date(), // Include end date if available
+          title: job.summary // Add summary as a tooltip
+        };
+      });
+
+    const container = document.getElementById('timeline');
+    const options = {
+      orientation: { axis: 'both' },
+      margin: { item: 20 }, // Increase spacing between items
+      tooltip: { followMouse: true }, // Enable tooltips
+      editable: false, // Disable editing
+      stack: true,
+      zoomable: true, // Enable zooming
+      cluster: function(item) {
+        // give a good cluster name to the item by summarizing the content
+        return item.content.split('<br>').slice(0, 2).join('<br>'); // Show first two lines of content in cluster
+
+      },
+    };
+
+    if (timeline) {
+      timeline.setItems(items); // Update existing timeline
+    } else {
+      timeline = new vis.Timeline(container, items, options); // Initialize timeline
+    }
+
+    console.log('Timeline items:', items); // Log items for debugging
+    console.log('Timeline options:', options); // Log options for debugging
+
+    document.getElementById('timelineTitle').innerText = `${view.charAt(0).toUpperCase() + view.slice(1)} Timeline`; // Update title based on view
+  }
+
+  function getContent(job, view) {
+    if (view === 'career') {
+      return `<strong>${job.position}</strong> at <em>${job.name}</em>`;
+    } else if (view === 'company') {
+      return `<strong>${job.name}</strong>`;
+    } else if (view === 'position') {
+      return `<strong>${job.position}</strong>`;
+    } else if (view === 'technologies') {
+      return `<strong>Technologies:</strong> ${job.technologies?.join(', ') || 'N/A'}`;
+    }
+  }
+</script>
