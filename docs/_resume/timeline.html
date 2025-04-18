@@ -1,0 +1,75 @@
+---
+layout: single
+title: "Timeline Resume"
+description: "A timeline of my career milestones, including positions held, companies worked for, and technologies used."
+toc: false
+classes: wide
+sidebar:
+  nav:
+    - resume
+    - resume_full
+---
+
+<!-- See https://github.com/walterra/d3-milestones -->
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/d3-milestones/build/d3-milestones.css"
+/>
+<script src="https://unpkg.com/d3-milestones/build/d3-milestones.min.js"></script>
+
+<p class="notice">
+  <i class="fa fa-info-circle"></i> <strong>Note:</strong>
+  Click on the buttons below to filter the timeline by Career, Company,
+  Position, or Technologies. The timeline will update accordingly.
+</p>
+
+<div style="text-align: center; margin-bottom:20px">
+  <button onclick="updateTimeline('career')">Career</button>
+  <button onclick="updateTimeline('company')">Company</button>
+  <button onclick="updateTimeline('position')">Position</button>
+  <button onclick="updateTimeline('technologies')">Technologies</button>
+</div>
+
+<h2 id="timelineTitle" style="margin-bottom: 20px;"></h2>
+
+<div id="timeline"></div>
+
+<script>
+  let timelineData = [];
+
+  fetch('/assets/data/richard_adleta_resume_full.json')
+    .then(response => response.json())
+    .then(data => {
+      timelineData = data.work;
+      updateTimeline('career'); // Default view
+      document.getElementById('timelineTitle').innerText = 'Career Timeline';
+    })
+    .catch(error => console.error('Error loading timeline data:', error));
+
+  function updateTimeline(view) {
+    const mappedData = timelineData
+      .filter(job => view !== 'technologies' || (job.technologies && job.technologies.length > 0)) // Filter out jobs without technologies
+      .map(job => {
+        if (view === 'career') {
+          return { date: job.startDate, title: `${job.position} at ${job.name}` };
+        } else if (view === 'company') {
+          return { date: job.startDate, title: job.name };
+        } else if (view === 'position') {
+          return { date: job.startDate, title: job.position };
+        } else if (view === 'technologies') {
+          return { date: job.startDate, title: job.technologies?.join(', ') || 'N/A' };
+        }
+      });
+
+    document.getElementById('timeline').innerHTML = ''; // Clear previous timeline
+    document.getElementById('timelineTitle').innerText = `${view.charAt(0).toUpperCase() + view.slice(1)} Timeline`; // Update title based on view
+    milestones('#timeline')
+      .mapping({
+        'timestamp': 'date',
+        'text': 'title'
+      })
+      .optimize(true)
+      .labelFormat('%b %Y')
+      .render(mappedData);
+  }
+</script>

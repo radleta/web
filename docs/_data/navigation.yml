@@ -29,6 +29,8 @@ resume:
         url: /resume/condensed
       - title: "Full"
         url: /resume/full
+      - title: "Timeline"
+        url: /resume/timeline
 
 resume_full:
   - title: "Key Sections"
