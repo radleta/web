@@ -13,9 +13,9 @@
   },
   "work": [
     {
-      "name": "Nexxt, Inc",
+      "name": "Nexxt",
       "position": "Lead Architect",
-      "startDate": "2023-10",
+      "startDate": "2023-10-01",
       "summary": "Architected and developed scalable AI-driven solutions and integrations.",
       "highlights": [
         "Developed enterprise AI Assistant for email composition, web-page building, and job postings",
@@ -38,9 +38,9 @@
       ]
     },
     {
-      "name": "All Kids Network, LLC",
+      "name": "All Kids Network",
       "position": "Partner & Principal Engineer",
-      "startDate": "2014-05",
+      "startDate": "2014-05-01",
       "summary": "Co-owned business and led end-to-end development of a high-traffic educational platform.",
       "highlights": [
         "Served 6.8M page views annually, with 2.2M-member user base",
@@ -60,10 +60,10 @@
       ]
     },
     {
-      "name": "Steem Monsters Corporation dba Splinterlands",
+      "name": "Splinterlands",
       "position": "Head of Product / Solutions Developer",
-      "startDate": "2022-12",
-      "endDate": "2023-09",
+      "startDate": "2022-12-01",
+      "endDate": "2023-09-30",
       "summary": "Developed and deployed projects for the Splinterlands collectible card game.",
       "highlights": [
         "Developed and deployed projects using React, TypeScript, PostgreSQL, DynamoDB, Redis, and AWS",
@@ -79,10 +79,10 @@
       ]
     },
     {
-      "name": "Steem Monsters Corporation dba Splinterlands",
+      "name": "Splinterlands",
       "position": "Chief Technology Officer",
-      "startDate": "2021-12",
-      "endDate": "2022-12",
+      "startDate": "2021-12-01",
+      "endDate": "2022-12-31",
       "summary": "Helped grow the organization and launch simultaneous products.",
       "highlights": [
         "Scaled the organization from 20+ to 150+ employees and contractors",
@@ -92,10 +92,10 @@
       "technologies": ["React", "TypeScript", "PostgreSQL", "Redis", "AWS"]
     },
     {
-      "name": "Steem Monsters Corporation dba Splinterlands",
+      "name": "Splinterlands",
       "position": "Vice President Of Engineering",
-      "startDate": "2021-09",
-      "endDate": "2021-12",
+      "startDate": "2021-09-01",
+      "endDate": "2021-12-31",
       "summary": "Stabilized the company's main product and grew the engineering team.",
       "highlights": [
         "Troubleshot and stabilized Splinterlands during rapid growth",
@@ -107,8 +107,8 @@
     {
       "name": "Nexxt",
       "position": "Lead Architect",
-      "startDate": "2018-01",
-      "endDate": "2021-09",
+      "startDate": "2018-01-01",
+      "endDate": "2021-09-30",
       "summary": "Directed architectural efforts for large-scale web applications.",
       "highlights": [
         "Engineered a horizontally scalable email-delivery system for 25M+ emails/day",
@@ -127,8 +127,8 @@
     {
       "name": "Nexxt",
       "position": "Solutions Architect",
-      "startDate": "2011-05",
-      "endDate": "2018-01",
+      "startDate": "2011-05-01",
+      "endDate": "2018-01-31",
       "summary": "Modernized web applications and implemented CI/CD pipelines.",
       "highlights": [
         "Led development of a next-generation job-search engine",
@@ -139,8 +139,8 @@
     {
       "name": "Project Management Institute",
       "position": "Enterprise Architect / Team Lead",
-      "startDate": "2009-06",
-      "endDate": "2011-06",
+      "startDate": "2009-06-01",
+      "endDate": "2011-06-30",
       "summary": "Led architecture reviews, team leadership, and major IT platform development for 300,000+ user base.",
       "highlights": [
         "Shaped future IT architecture and optimized SDLC processes",
@@ -160,8 +160,8 @@
     {
       "name": "Project Management Institute",
       "position": "Technical Lead / Sr. Developer",
-      "startDate": "2008-08",
-      "endDate": "2009-06",
+      "startDate": "2008-08-01",
+      "endDate": "2009-06-30",
       "summary": "Directed Agile Scrum projects and improved build processes.",
       "highlights": [
         "Completed 5-week Agile sprints with .NET, SharePoint, BizTalk",
@@ -182,8 +182,8 @@
     {
       "name": "ATK Elkton",
       "position": "Sr. .NET Developer",
-      "startDate": "2008-02",
-      "endDate": "2008-08",
+      "startDate": "2008-02-01",
+      "endDate": "2008-08-31",
       "summary": "Migrated ERP systems and developed .NET applications.",
       "highlights": [
         "Transitioned from Cincom to Costpoint 6.0",
@@ -192,10 +192,10 @@
       "technologies": ["VB.NET", "C#.NET", "SQL Server", "Oracle"]
     },
     {
-      "name": "Chatham Financial Corporation",
+      "name": "Chatham Financial",
       "position": "Software Development Process and Infrastructure Department Lead",
-      "startDate": "2007-11",
-      "endDate": "2008-01",
+      "startDate": "2007-11-01",
+      "endDate": "2008-01-31",
       "summary": "Directed process and automation groups in software development.",
       "highlights": [
         "Founded Build Automation and Code Generation groups",
@@ -204,10 +204,10 @@
       ]
     },
     {
-      "name": "Chatham Financial Corporation",
+      "name": "Chatham Financial",
       "position": "Architecture/Mentoring Department Lead",
-      "startDate": "2007-01",
-      "endDate": "2008-01",
+      "startDate": "2007-01-01",
+      "endDate": "2008-01-31",
       "summary": "Co-led software architecture direction and mentoring initiatives.",
       "highlights": [
         "Mentored developers across teams",
@@ -215,10 +215,10 @@
       ]
     },
     {
-      "name": "Chatham Financial Corporation",
+      "name": "Chatham Financial",
       "position": "Web Team Lead",
-      "startDate": "2006-03",
-      "endDate": "2007-10",
+      "startDate": "2006-03-01",
+      "endDate": "2007-10-31",
       "summary": "Led web team for US/UK platforms with Agile execution.",
       "highlights": [
         "Oversaw web strategy and team of 6",
@@ -227,10 +227,10 @@
       "technologies": ["ASP.NET", "ASP", "Agile Scrum", "C#", "SQL Server"]
     },
     {
-      "name": "Chatham Financial Corporation",
+      "name": "Chatham Financial",
       "position": "Sr. .NET Developer",
-      "startDate": "2004-02",
-      "endDate": "2006-03",
+      "startDate": "2004-02-01",
+      "endDate": "2006-03-31",
       "summary": "Delivered full lifecycle financial reporting and automation tools.",
       "highlights": [
         "Developed custom reporting and code-gen tools",
@@ -240,8 +240,8 @@
     {
       "name": "Exelon Power Team",
       "position": ".NET Developer",
-      "startDate": "2003-01",
-      "endDate": "2004-02",
+      "startDate": "2003-01-01",
+      "endDate": "2004-02-29",
       "summary": "Supported power trading systems using full Microsoft stack.",
       "highlights": [
         "Worked on .NET Web Services and Remoting",
@@ -258,10 +258,10 @@
       ]
     },
     {
-      "name": "MiraTech Consulting Group, Inc",
+      "name": "MiraTech Consulting Group",
       "position": ".NET Developer",
-      "startDate": "2002-09",
-      "endDate": "2003-01",
+      "startDate": "2002-09-01",
+      "endDate": "2003-01-31",
       "summary": "Consulted across multiple simultaneous projects.",
       "highlights": [
         "Created XML/XSLT SQL report systems",
@@ -270,10 +270,10 @@
       "technologies": ["ASP.NET", "SQL Server", "VB.NET", "VB6", "XML", "XSLT"]
     },
     {
-      "name": "AppsChannel, Inc",
+      "name": "AppsChannel",
       "position": ".NET Developer",
-      "startDate": "2002-01",
-      "endDate": "2002-08",
+      "startDate": "2002-01-01",
+      "endDate": "2002-08-31",
       "summary": "Built Visual Studio .NET extensions and COM integrations.",
       "highlights": [
         "Used Reflection in .NET assemblies",
@@ -284,8 +284,8 @@
     {
       "name": "Baker Oil Tools",
       "position": "DMS Systems Programmer",
-      "startDate": "2001-08",
-      "endDate": "2002-01",
+      "startDate": "2001-08-01",
+      "endDate": "2002-01-31",
       "summary": "Installed and supported Documentum systems worldwide.",
       "highlights": [
         "Integrated Office and web apps with Documentum",
@@ -302,8 +302,8 @@
     {
       "name": "Network for Strategic Missions",
       "position": "Lead Programmer",
-      "startDate": "1999-03",
-      "endDate": "2001-04",
+      "startDate": "1999-03-01",
+      "endDate": "2001-04-30",
       "summary": "Built full-stack web platforms and Linux-hosted databases.",
       "highlights": [
         "Built PostgreSQL-backed websites with PHP and ASP",
@@ -314,8 +314,8 @@
     {
       "name": "Family Mission/Vision Enterprises",
       "position": "IS Admin / Sales Representative",
-      "startDate": "1995-02",
-      "endDate": "1997-08",
+      "startDate": "1995-02-01",
+      "endDate": "1997-08-31",
       "summary": "Sales and IT management at conferences and internal operations.",
       "highlights": [
         "Maintained Windows peer-to-peer network",
@@ -325,8 +325,8 @@
     {
       "name": "PC Consulting",
       "position": "Independent Consultant",
-      "startDate": "1993-01",
-      "endDate": "1995-02",
+      "startDate": "1993-01-01",
+      "endDate": "1995-02-28",
       "summary": "Provided IBM PC troubleshooting and retail hardware/software solutions.",
       "highlights": [
         "Performed hardware diagnostics",
@@ -339,15 +339,15 @@
       "institution": "Regent University",
       "area": "e-Business and Organizational Change",
       "studyType": "MBA Coursework",
-      "startDate": "2000-08",
-      "endDate": "2001-05"
+      "startDate": "2000-08-01",
+      "endDate": "2001-05-31"
     },
     {
       "institution": "Oral Roberts University",
       "area": "Business Administration",
       "studyType": "Bachelor of Science",
-      "startDate": "1997-08",
-      "endDate": "2002-12",
+      "startDate": "1997-08-01",
+      "endDate": "2002-12-31",
       "gpa": "3.49"
     }
   ],
