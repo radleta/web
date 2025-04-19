@@ -1,0 +1,24 @@
+{% comment %}
+Include parameters:
+- entry_point: The entry point path (e.g., 'index.html')
+- manifest_file: The manifest file to use (e.g., 'vite_manifest_d3-resume-timeline')
+Usage example: {% include vite_manifest.html entry_point="index.html" manifest_file="vite_manifest_d3-resume-timeline" %}
+{% endcomment %} 
+{% assign project = include.project %}
+{% assign entry_point = include.entry_point | default:"index.html" %}
+{% assign manifest_file = include.manifest_file | default: "vite_manifest_" | append: include.project %}
+{% assign manifest = site.data[manifest_file] %}
+{% assign entry = manifest[entry_point] %}
+{% if entry %}
+{% if entry.css %}
+{% for css in entry.css %}
+<link rel="stylesheet" href="/assets/{{ project }}/{{ css }}" />
+{% endfor %}
+{% endif %}
+<script type="module" src="/assets/{{ project }}/{{ entry.file }}"></script>
+{% else %}
+<!-- Error: Entry point "{{ entry_point }}" not found in Vite manifest -->
+ <script>
+  console.error("Error: Entry point '{{ entry_point }}' not found in Vite manifest '{{ manifest_file }}'.");
+</script>
+{% endif %}
