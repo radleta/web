@@ -25,16 +25,20 @@
         "Supported infrastructure enhancements, including beta environment setup and domain-certification handling"
       ],
       "technologies": [
-        ".NET (C#, ASP.NET MVC, .NET 6)",
+        ".NET",
+        "ASP.NET MVC",
+        "C#",
         "Angular",
         "AngularJS",
         "TypeScript",
         "SQL Server",
-        "AWS Services",
+        "T-SQL",
         "Git",
         "Jenkins",
         "RESTful APIs",
-        "OpenAI GPT models"
+        "OpenAI GPT",
+        "Event-Driven Architecture",
+        "Data Validation"
       ]
     },
     {
@@ -50,13 +54,28 @@
         "Delivered weekly newsletter to 175K+ subscribers using AWS SES"
       ],
       "technologies": [
-        "ASP.NET MVC",
+        ".NET",
         "C#",
+        "ASP.NET",
         "React",
         "TypeScript",
         "Tailwind CSS",
-        "AWS (Elastic Beanstalk, ALB, WAF, OpenSearch Service, DynamoDB, Redis ElastiCache, S3, Lambda, SES)",
-        "Git/Bitbucket"
+        "AWS",
+        "Git",
+        "DynamoDB",
+        "OpenSearch",
+        "Lambda",
+        "SES",
+        "Elastic Beanstalk",
+        "S3",
+        "CloudFront",
+        "CloudFormation",
+        "Route 53",
+        "WAF",
+        "ALB",
+        "CloudWatch",
+        "MySQL",
+        "Redis"
       ]
     },
     {
@@ -75,7 +94,8 @@
         "PostgreSQL",
         "DynamoDB",
         "Redis",
-        "AWS"
+        "AWS",
+        "HIVE Engine Blockchain"
       ]
     },
     {
@@ -89,7 +109,16 @@
         "Developed technology and product strategy for multiple gaming products",
         "Presented at Game Developer Conference (GDC) 2022"
       ],
-      "technologies": ["React", "TypeScript", "PostgreSQL", "Redis", "AWS"]
+      "technologies": [
+        "Blockchain Technology",
+        "Web3",
+        "NFTs",
+        "Cryptocurrency",
+        "Decentralized Applications (dApps)",
+        "Smart Contracts",
+        "Game Development",
+        "Web Development"
+      ]
     },
     {
       "name": "Splinterlands",
@@ -102,7 +131,15 @@
         "Hired and organized developers to expand the engineering team",
         "Implemented best practices for architecture and software development"
       ],
-      "technologies": ["Git", "JavaScript", "PostgreSQL", "Redis", "AWS"]
+      "technologies": [
+        "Git",
+        "JavaScript",
+        "PostgreSQL",
+        "Redis",
+        "AWS",
+        "EC2",
+        "WAF"
+      ]
     },
     {
       "name": "Nexxt",
@@ -116,13 +153,7 @@
         "Developed an Elasticsearch cluster for 80M+ resumes and job listings",
         "Enhanced enterprise API monitoring and tracking"
       ],
-      "technologies": [
-        "Microsoft .NET Core",
-        "C#",
-        "Elasticsearch",
-        "AWS DynamoDB",
-        "Redis"
-      ]
+      "technologies": [".NET", "C#", "Elasticsearch", "AWS", "Redis"]
     },
     {
       "name": "Nexxt",
@@ -134,6 +165,13 @@
         "Led development of a next-generation job-search engine",
         "Unified Classic ASP and .NET components into consolidated solutions",
         "Introduced alert systems and diagnostic tools for production readiness"
+      ],
+      "technologies": [
+        ".NET",
+        "C#",
+        "SQL Server",
+        "Classic ASP",
+        "CI/CD Pipelines"
       ]
     },
     {
@@ -148,13 +186,14 @@
         "Designed and deployed DotNetNuke organization-wide"
       ],
       "technologies": [
+        ".NET",
+        "C#",
         "ASP.NET",
         "SharePoint",
         "BizTalk",
         "Commerce Server",
-        "C#",
-        "VB.NET",
-        "SQL Server"
+        "SQL Server",
+        "DotNetNuke"
       ]
     },
     {
@@ -169,10 +208,10 @@
         "Built division-wide CruiseControl.NET automation"
       ],
       "technologies": [
+        ".NET",
+        "C#",
         "SharePoint",
         "BizTalk",
-        "C#",
-        "VB.NET",
         "CruiseControl.NET",
         "Jira",
         "Confluence",
@@ -189,7 +228,7 @@
         "Transitioned from Cincom to Costpoint 6.0",
         "Worked with VB.NET, C#.NET, Oracle, and SQL Server"
       ],
-      "technologies": ["VB.NET", "C#.NET", "SQL Server", "Oracle"]
+      "technologies": [".NET", "C#", "VB.NET", "SQL Server", "Oracle"]
     },
     {
       "name": "Chatham Financial",
@@ -201,6 +240,16 @@
         "Founded Build Automation and Code Generation groups",
         "Enhanced Agile and Release Management processes",
         "Customized BugTracker.NET for Agile and compliance needs"
+      ],
+      "technologies": [
+        ".NET",
+        "C#",
+        "VB.NET",
+        "SQL Server",
+        "Build Automation",
+        "Code Generation",
+        "Agile Processes",
+        "Release Management"
       ]
     },
     {
@@ -212,7 +261,8 @@
       "highlights": [
         "Mentored developers across teams",
         "Guided long-term architectural strategy"
-      ]
+      ],
+      "technologies": ["Mentoring", "Software Architecture"]
     },
     {
       "name": "Chatham Financial",
@@ -224,7 +274,14 @@
         "Oversaw web strategy and team of 6",
         "Led multi-year ASP to ASP.NET migration"
       ],
-      "technologies": ["ASP.NET", "ASP", "Agile Scrum", "C#", "SQL Server"]
+      "technologies": [
+        ".NET",
+        "C#",
+        "ASP.NET",
+        "SQL Server",
+        "Agile",
+        "ASP to ASP.NET Migration"
+      ]
     },
     {
       "name": "Chatham Financial",
@@ -235,6 +292,13 @@
       "highlights": [
         "Developed custom reporting and code-gen tools",
         "Implemented company-wide build scripts"
+      ],
+      "technologies": [
+        ".NET",
+        "C#",
+        "Custom Reporting",
+        "Code Generation",
+        "Build Scripts"
       ]
     },
     {
@@ -248,9 +312,9 @@
         "Built ASP.NET and C# web applications"
       ],
       "technologies": [
+        ".NET",
         "C#",
         "ASP.NET",
-        "T-SQL",
         "SQL Server",
         "XML",
         ".NET Web Services",
@@ -267,7 +331,17 @@
         "Created XML/XSLT SQL report systems",
         "Enhanced Dialogic telephony apps with VB6"
       ],
-      "technologies": ["ASP.NET", "SQL Server", "VB.NET", "VB6", "XML", "XSLT"]
+      "technologies": [
+        ".NET",
+        "C#",
+        "ASP.NET",
+        "SQL Server",
+        "VB.NET",
+        "VB6",
+        "XML",
+        "XSLT",
+        "Dialogic Telephony"
+      ]
     },
     {
       "name": "AppsChannel",
@@ -279,7 +353,7 @@
         "Used Reflection in .NET assemblies",
         "Maintained ActiveX libraries in VB6"
       ],
-      "technologies": ["C#.NET", "VB.NET", "ActiveX", "COM", "Reflection"]
+      "technologies": [".NET", "C#", "VB.NET", "ActiveX", "COM", "Reflection"]
     },
     {
       "name": "Baker Oil Tools",
@@ -291,13 +365,7 @@
         "Integrated Office and web apps with Documentum",
         "Supported multiple international server environments"
       ],
-      "technologies": [
-        "Documentum",
-        "Visual Basic",
-        "VBA",
-        "ASP",
-        "COM Components"
-      ]
+      "technologies": ["Documentum", "Visual Basic", "VBA", "ASP", "COM"]
     },
     {
       "name": "Network for Strategic Missions",
@@ -320,7 +388,8 @@
       "highlights": [
         "Maintained Windows peer-to-peer network",
         "Launched company\u2019s first online catalog"
-      ]
+      ],
+      "technologies": ["Windows Networking", "HTML"]
     },
     {
       "name": "PC Consulting",
@@ -331,7 +400,8 @@
       "highlights": [
         "Performed hardware diagnostics",
         "Represented wholesalers at local markets"
-      ]
+      ],
+      "technologies": ["Hardware Diagnostics"]
     }
   ],
   "education": [

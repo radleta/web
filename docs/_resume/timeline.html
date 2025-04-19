@@ -17,6 +17,38 @@ sidebar:
 />
 <script src="https://unpkg.com/d3-milestones/build/d3-milestones.min.js"></script>
 
+<style>
+  #tagCloud {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  .tag {
+    display: inline-block;
+    padding: 8px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 20px;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .tag:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+  }
+
+  .tag.selected {
+    background-color: #28a745;
+  }
+</style>
+
 <p class="notice">
   <i class="fa fa-info-circle"></i> <strong>Note:</strong>
   Click on the buttons below to filter the timeline by Career, Company,
@@ -31,11 +63,12 @@ sidebar:
 </div>
 
 <h2 id="timelineTitle" style="margin-bottom: 20px;"></h2>
-
 <div id="timeline"></div>
+<div id="tagCloud" style="display: none;"></div>
 
 <script>
   let timelineData = [];
+  let selectedTechnology = null;
 
   fetch('/assets/data/richard_adleta_resume_full.json')
     .then(response => response.json())
@@ -47,19 +80,43 @@ sidebar:
     .catch(error => console.error('Error loading timeline data:', error));
 
   function updateTimeline(view) {
-    const mappedData = timelineData
-      .filter(job => view !== 'technologies' || (job.technologies && job.technologies.length > 0)) // Filter out jobs without technologies
-      .map(job => {
-        if (view === 'career') {
-          return { date: job.startDate, title: `${job.position} at ${job.name}` };
-        } else if (view === 'company') {
-          return { date: job.startDate, title: job.name };
-        } else if (view === 'position') {
-          return { date: job.startDate, title: job.position };
-        } else if (view === 'technologies') {
-          return { date: job.startDate, title: job.technologies?.join(', ') || 'N/A' };
+    if (view === 'technologies') {
+      renderTagCloud();
+    } else {
+      document.getElementById('tagCloud').style.display = 'none';
+    }
+
+    const filteredData = timelineData;
+
+    const mappedData = filteredData.map(job => {
+      if (view === 'career') {
+        return { date: job.startDate, title: `${job.position} at ${job.name}` };
+      } else if (view === 'company') {
+        return { date: job.startDate, title: job.name };
+      } else if (view === 'position') {
+        return { date: job.startDate, title: job.position };
+      } else if (view === 'technologies') {
+        let textStyle = undefined;
+        let titleStyle = undefined;
+        if (selectedTechnology) {
+          const isSelected = job.technologies.some(tech => tech === selectedTechnology);
+          if (isSelected) {
+            textStyle = {
+              'font-weight': 'bold',
+              'background-color': 'yellow',
+              'border-radius': '5px',
+              'font-size': '1.2em'
+            };
+          } else {
+            textStyle = titleStyle = {
+              'opacity': '0.5',
+            };
+          }
         }
-      });
+
+        return { date: job.startDate, title: `${job.technologies?.join(', ') || 'N/A'}`, titleStyle, textStyle };
+      }
+    });
 
     document.getElementById('timeline').innerHTML = ''; // Clear previous timeline
     document.getElementById('timelineTitle').innerText = `${view.charAt(0).toUpperCase() + view.slice(1)} Timeline`; // Update title based on view
@@ -71,5 +128,29 @@ sidebar:
       .optimize(true)
       .labelFormat('%b %Y')
       .render(mappedData);
+  }
+
+  function renderTagCloud() {
+    const allTechnologies = timelineData
+      .flatMap(job => job.technologies || [])
+      .reduce((acc, tech) => {
+        acc[tech] = (acc[tech] || 0) + 1;
+        return acc;
+      }, {});
+
+    const tagCloud = document.getElementById('tagCloud');
+    tagCloud.innerHTML = '';
+    tagCloud.style.display = 'flex';
+
+    Object.keys(allTechnologies).forEach(tech => {
+      const tag = document.createElement('span');
+      tag.textContent = tech;
+      tag.className = `tag ${tech === selectedTechnology ? 'selected' : ''}`;
+      tag.onclick = () => {
+        selectedTechnology = selectedTechnology === tech ? null : tech;
+        updateTimeline('technologies');
+      };
+      tagCloud.appendChild(tag);
+    });
   }
 </script>
