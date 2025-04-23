@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Timeline Resume (vis.js)"
-description: "A timeline of my career milestones, including positions held, companies worked for, and technologies used, powered by vis.js."
+description: "A timeline of my career milestones, including positions held, companies worked for, and skills used, powered by vis.js."
 toc: false
 classes: wide
 sidebar:
@@ -16,14 +16,14 @@ sidebar:
 <p class="notice">
   <i class="fa fa-info-circle"></i> <strong>Note:</strong>
   Click on the buttons below to filter the timeline by Career, Company,
-  Position, or Technologies. The timeline will update accordingly.
+  Position, or Skills. The timeline will update accordingly.
 </p>
 
 <div style="text-align: center; margin-bottom:20px">
   <button onclick="updateTimeline('career')">Career</button>
   <button onclick="updateTimeline('company')">Company</button>
   <button onclick="updateTimeline('position')">Position</button>
-  <button onclick="updateTimeline('technologies')">Technologies</button>
+  <button onclick="updateTimeline('skills')">Skills</button>
 </div>
 
 <h2 id="timelineTitle" style="margin-bottom: 20px;"></h2>
@@ -34,7 +34,7 @@ sidebar:
   let timelineData = [];
   let timeline;
 
-  fetch('/assets/data/richard_adleta_resume_full.json')
+  fetch('/assets/downloads/adleta_richard_resume_full.json')
     .then(response => response.json())
     .then(data => {
       timelineData = data.work;
@@ -45,7 +45,7 @@ sidebar:
 
   function updateTimeline(view) {
     const items = timelineData
-      .filter(job => view !== 'technologies' || (job.technologies && job.technologies.length > 0)) // Filter out jobs without technologies
+      .filter(job => view !== 'skills' || (job.skills && job.skills.length > 0)) // Filter out jobs without skills
       .map(job => {
         const id = `${job.name}-${job.position}-${job.startDate}`; // Unique ID for each item
         const content = getContent(job, view);
@@ -92,8 +92,10 @@ sidebar:
       return `<strong>${job.name}</strong>`;
     } else if (view === 'position') {
       return `<strong>${job.position}</strong>`;
-    } else if (view === 'technologies') {
-      return `<strong>Technologies:</strong> ${job.technologies?.join(', ') || 'N/A'}`;
+    } else if (view === 'skills') {
+      // Extract skill names from job.skills array
+      const skillNames = job.skills ? job.skills.map(skill => skill.name).join(', ') : 'N/A';
+      return `<strong>Skills:</strong> ${skillNames}`;
     }
   }
 </script>

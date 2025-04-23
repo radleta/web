@@ -70,7 +70,7 @@ sidebar:
   let timelineData = [];
   let selectedTechnology = null;
 
-  fetch('/assets/data/richard_adleta_resume_full.json')
+  fetch('/assets/downloads/adleta_richard_resume_full.json')
     .then(response => response.json())
     .then(data => {
       timelineData = data.work;
@@ -98,8 +98,12 @@ sidebar:
       } else if (view === 'technologies') {
         let textStyle = undefined;
         let titleStyle = undefined;
+
+        // Extract skill names from the skills array
+        const skillNames = job.skills ? job.skills.map(skill => skill.name) : [];
+
         if (selectedTechnology) {
-          const isSelected = job.technologies.some(tech => tech === selectedTechnology);
+          const isSelected = skillNames.some(tech => tech === selectedTechnology);
           if (isSelected) {
             textStyle = {
               'font-weight': 'bold',
@@ -114,7 +118,7 @@ sidebar:
           }
         }
 
-        return { date: job.startDate, title: `${job.technologies?.join(', ') || 'N/A'}`, titleStyle, textStyle };
+        return { date: job.startDate, title: `${skillNames.join(', ') || 'N/A'}`, titleStyle, textStyle };
       }
     });
 
@@ -131,8 +135,9 @@ sidebar:
   }
 
   function renderTagCloud() {
+    // Collect all unique skills from all jobs
     const allTechnologies = timelineData
-      .flatMap(job => job.technologies || [])
+      .flatMap(job => job.skills ? job.skills.map(skill => skill.name) : [])
       .reduce((acc, tech) => {
         acc[tech] = (acc[tech] || 0) + 1;
         return acc;
