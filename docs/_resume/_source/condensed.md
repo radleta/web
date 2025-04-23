@@ -7,7 +7,7 @@
 {% assign earliest_year = earliest_position.startDate | date: "%Y" %}
 {% endif %}
 {% assign highlight_limit = 0 %}
-{% assign cert_limit = 2 %}
+{% assign cert_limit = 4 %}
 {% if site.data.resume.certificates.size < cert_limit %}{% assign cert_limit = site.data.resume.certificates.size %}{% endif %}
 
 ## Professional Summary
@@ -34,53 +34,32 @@
 {% endfor %}
 {% endif %}
 {% endif %}
-
-{% assign all_skills = "" | split: "" %}
-{% for job in company_jobs %}
-{% for skill in job.skills %}
-{% assign all_skills = all_skills | push: skill.name %}
-{% endfor %}
-{% endfor %}
-{% assign unique_skills = all_skills | uniq | sort %}
-{% if unique_skills.size > 0 %}
-{% assign skills_to_show = unique_skills | slice: 0, 10 %}
-{% assign remaining_skills_count = unique_skills.size | minus: 10 %}
-**Skills:** {{ skills_to_show | join: ", " }}{% if remaining_skills_count > 0 %}, and {{ remaining_skills_count }} more{% endif %}
-{% endif %}
 {% endfor %}
 
 {% if remaining_companies.size > 0 %}
 ### Previous Experience
 
-{% assign previous_companies_to_show = remaining_companies | slice: 0, 3 %}
-{% for company in previous_companies_to_show %}
-{% assign company_jobs = company.items | sort: "startDate" | reverse %}
-{% assign most_recent_job = company_jobs | first %}
-{% assign earliest_job = company_jobs | last %}
-- **{{ company.name }}**: {% if company_jobs.size > 1 %}{{ company_jobs.size }} positions{% else %}{{ most_recent_job.position }}{% endif %} ({% if earliest_job.startDate %}{{ earliest_job.startDate | date: "%Y" }}{% endif %} - {% if most_recent_job.endDate %}{{ most_recent_job.endDate | date: "%Y" }}{% else %}Present{% endif %})
-{% endfor %}
-
-{% assign remaining_companies_count = remaining_companies.size | minus: 3 %}
+{% assign remaining_companies_count = remaining_companies.size %}
 {% if remaining_companies_count > 0 %}
-**Additional Experience:** Positions at {{ remaining_companies_count }} more companies dating back to {{ earliest_year }} are available upon request.
+Positions at {{ remaining_companies_count }} more companies dating back to {{ earliest_year }} are available upon request.
 {% endif %}
 {% endif %}
 
-## Education
+## Skills
 
-{% for edu in site.data.resume.education %}
-**{{ edu.studyType }}** in {{ edu.area }}, {{ edu.institution }} ({% if edu.endDate %}{{ edu.startDate | date: "%Y" }} - {{ edu.endDate | date: "%Y" }}{% else %}{{ edu.startDate | date: "%Y" }} - Present{% endif %})
+{% for skill_category in site.data.resume.skills %}
+**{{ skill_category.name }}**: {{ skill_category.keywords | join: ", " }}
 {% endfor %}
 
-## Certifications
+## Education & Certifications
 
-{% for i in (0..cert_limit-1) %}
-- {{ site.data.resume.certificates[i].name }}{% if site.data.resume.certificates[i].date %} ({{ site.data.resume.certificates[i].date | date: "%b %Y" }}){% endif %}
-{% endfor %}
+**Education:** {% for edu in site.data.resume.education %}_{{ edu.studyType }}_ in {{ edu.area }}{% unless forloop.last %}, {% endunless %}{% endfor %}
+
+**Certifications:** {% for i in (0..cert_limit) %}{{ site.data.resume.certificates[i].name }}{% if site.data.resume.certificates[i].date %} ({{ site.data.resume.certificates[i].date | date: "%Y" }}){% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}
 
 ## References
 
-**Strong professional references** available from leadership at Nexxt, Splinterlands, Project Management Institute, and Chatham Financial available upon request.
+**Strong professional references** available from leadership at Nexxt, Project Management Institute, and Chatham Financial available upon request.
 
 {% if site.data.resume.references.size > 0 %}
 

@@ -49,6 +49,11 @@ convert_file() {
         else
             echo "Failed to generate ${output_file}"
         fi
+        
+        # second pass to strip the {#richard-adleta---senior-software-architect--full-stack-engineer} from markdown files
+        if [ "$format" == "md" ]; then
+            sed -i 's/{#richard-adleta---senior-software-architect--full-stack-engineer}//g' "$output_file"
+        fi
     done
 }
 

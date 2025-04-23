@@ -62,6 +62,7 @@ author:
   avatar: "/assets/images/radleta_headshot_v3.jpg"
   bio: "Senior Software Architect & Full-Stack Engineer"
   location: "Dallas, TX"
+  website: "https://www.richardadleta.com"
   links:
     - label: "About Me"
       icon: "fas fa-fw fa-user"

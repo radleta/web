@@ -1,4 +1,6 @@
-# Richard Adleta - Senior Software Architect & Full-Stack Engineer {#richard-adleta---senior-software-architect--full-stack-engineer}
+# Richard Adleta - Senior Software Architect & Full-Stack Engineer 
+
+<radleta@gmail.com> - [richardadleta.com](https://www.richardadleta.com)
 
 ## Professional Summary
 
@@ -14,7 +16,9 @@ observability.
 
 Oct 2023 - Present
 
-Architected and developed scalable AI-driven solutions and integrations.
+Architected and developed scalable AI-driven solutions and integrations
+using .NET, C#, Angular, and TypeScript. Specialized in event-driven
+architecture, OpenAI GPT integration, and AWS cloud services.
 
 - Developed enterprise AI Assistant for email composition, web-page
   building, and job postings
@@ -45,7 +49,9 @@ Requirements Gathering
 May 2014 - Present
 
 Co-owned business and led end-to-end development of a high-traffic
-educational platform.
+educational platform using React, TypeScript, .NET, C#, and AWS cloud
+infrastructure. Managed scalable systems serving millions of page views
+annually.
 
 - Served 6.8M page views annually, with 2.2M-member user base
 
@@ -72,8 +78,9 @@ Processing, Performance Tuning, Requirements Gathering, Mentoring
 
 Dec 2022 - Sep 2023
 
-Developed and deployed projects for the Splinterlands collectible card
-game.
+Developed and deployed blockchain gaming projects using React,
+TypeScript, PostgreSQL, DynamoDB, Redis, and AWS. Specialized in Web3
+technologies and HIVE engine blockchain integration.
 
 - Developed and deployed projects using React, TypeScript, PostgreSQL,
   DynamoDB, Redis, and AWS
@@ -92,7 +99,9 @@ Mentoring, Agile, Scrum, Performance Tuning, Requirements Gathering
 
 Dec 2021 - Dec 2022
 
-Helped grow the organization and launch simultaneous products.
+Led organization growth and multi-product launches in blockchain gaming
+space. Applied executive leadership, strategic planning, and Web3
+expertise to scale from 20+ to 150+ employees and contractors.
 
 - Scaled the organization from 20+ to 150+ employees and contractors
 
@@ -114,7 +123,9 @@ Marketing, Game Community Management
 
 Sep 2021 - Dec 2021
 
-Stabilized the company's main product and grew the engineering team.
+Stabilized high-growth gaming product and expanded engineering team
+using AWS, PostgreSQL, Redis, and JavaScript. Implemented performance
+tuning and technical leadership practices during rapid expansion.
 
 - Troubleshot and stabilized Splinterlands during rapid growth
 
@@ -135,7 +146,10 @@ Marketing, Game Community Management, Game Development, Game Design
 
 Jan 2018 - Sep 2021
 
-Directed architectural efforts for large-scale web applications.
+Directed architectural efforts for large-scale web applications using
+C#, .NET, ASP.NET, AngularJS, SQL Server, and Elasticsearch. Engineered
+grid computing and high-volume processing systems handling millions of
+transactions daily.
 
 - Engineered a horizontally scalable email-delivery system for 25M+
   emails/day
@@ -164,7 +178,9 @@ Enterprise Systems Design, Process Improvement, Technical Documentation
 
 May 2011 - Jan 2018
 
-Modernized web applications and implemented CI/CD pipelines.
+Modernized web applications and implemented CI/CD pipelines using .NET,
+C#, ASP.NET MVC, AngularJS, SQL Server, and AWS. Led development of
+next-generation search technologies and production monitoring systems.
 
 - Led development of a next-generation job-search engine
 
@@ -240,8 +256,9 @@ Systems, Data Migration
 
 Nov 2007 - Jan 2008
 
-Led enterprise-wide software process improvement initiatives and
-established critical infrastructure groups.
+Led enterprise-wide software process improvement initiatives using .NET,
+C#, and SQL Server. Established build automation, code generation, and
+Agile methodologies while ensuring SAS70 compliance.
 
 - Founded and led Build Automation Group responsible for build
   processes, servers, test integration, and automated deployment scripts
@@ -270,8 +287,10 @@ Management
 
 Jan 2007 - Jan 2008
 
-Selected to jointly shape software architecture decisions and establish
-comprehensive mentoring programs.
+Shaped software architecture decisions and established mentoring
+programs focusing on .NET architecture, enterprise systems design, and
+technical standards. Co-led strategic technical direction for
+development teams.
 
 - Co-led critical architecture decisions and strategic technical
   direction for the entire development department
@@ -296,8 +315,9 @@ Enterprise Architecture, Cross-team Coordination, Technical Standards
 
 Mar 2006 - Oct 2007
 
-Led a cross-functional team delivering US/UK web platforms and
-high-value business applications using Agile methodology.
+Led cross-functional team delivering US/UK web platforms using .NET, C#,
+ASP.NET, and SQL Server. Served as Agile Scrum Master while completing
+ASP to ASP.NET migration and delivering business-critical features.
 
 - Led and mentored a team of six (four developers, one QA, one project
   coordinator) through consistent 30-day release cycles
@@ -322,8 +342,9 @@ Infrastructure Management, Cross-team Collaboration
 
 Feb 2004 - Mar 2006
 
-Delivered full lifecycle financial applications and established
-foundational development practices.
+Delivered full lifecycle financial applications using VB.NET, C#, SQL
+Server, and Microsoft Office integration. Pioneered automated build
+scripts and code generation while developing complex reporting software.
 
 - Completed major multi-month projects utilizing VB.NET, C#, Microsoft
   Office 2003, SQL Server Reporting Services
@@ -352,7 +373,9 @@ Leadership, Mentoring, Process Improvement, Cross-team Coordination
 
 Jan 2003 - Feb 2004
 
-Supported power trading systems using full Microsoft stack.
+Supported power trading systems using .NET, C#, ASP.NET, Web Services,
+Remoting, and SQL Server. Built financial applications for the energy
+trading industry.
 
 - Worked on .NET Web Services and Remoting
 
@@ -366,7 +389,9 @@ Power Trading Systems
 
 Sep 2002 - Jan 2003
 
-Consulted across multiple simultaneous projects.
+Consulted across multiple projects using .NET, C#, ASP.NET, XML/XSLT,
+SQL Server, and VB6. Specialized in reporting systems and Dialogic
+telephony application development.
 
 - Created XML/XSLT SQL report systems
 
@@ -379,7 +404,9 @@ Dialogic Telephony
 
 Jan 2002 - Aug 2002
 
-Built Visual Studio .NET extensions and COM integrations.
+Built Visual Studio .NET extensions and COM integrations using C#,
+VB.NET, Reflection, and ActiveX technologies. Developed tools for
+enhancing developer productivity.
 
 - Used Reflection in .NET assemblies
 
@@ -391,7 +418,9 @@ Built Visual Studio .NET extensions and COM integrations.
 
 Aug 2001 - Jan 2002
 
-Installed and supported Documentum systems worldwide.
+Installed and supported Documentum systems worldwide using Visual Basic,
+VBA, ASP, and COM. Integrated web applications with enterprise document
+management systems.
 
 - Integrated Office and web apps with Documentum
 
@@ -403,7 +432,9 @@ Installed and supported Documentum systems worldwide.
 
 Mar 1999 - Apr 2001
 
-Built full-stack web platforms and Linux-hosted databases.
+Built full-stack web platforms using PHP, ASP, PostgreSQL, HTML, and
+JavaScript. Led development for large-scale campaign reaching 300,000+
+users.
 
 - Built PostgreSQL-backed websites with PHP and ASP
 
@@ -415,7 +446,9 @@ Built full-stack web platforms and Linux-hosted databases.
 
 Feb 1995 - Aug 1997
 
-Sales and IT management at conferences and internal operations.
+Managed sales and IT operations using Windows networking, HTML, CSS, and
+JavaScript. Implemented company's first e-commerce presence and online
+catalog.
 
 - Maintained Windows peer-to-peer network
 
@@ -427,7 +460,9 @@ Sales and IT management at conferences and internal operations.
 
 Jan 1993 - Feb 1995
 
-Provided IBM PC troubleshooting and retail hardware/software solutions.
+Provided IBM PC troubleshooting and retail solutions using hardware and
+software diagnostics. Delivered technical support and product
+representation for technology wholesalers.
 
 - Performed hardware diagnostics
 
@@ -514,8 +549,8 @@ Processing, Grid Computing, Performance Tuning
 
 ### AI & Machine Learning {#ai--machine-learning}
 
-OpenAI GPT, Machine Learning Integration, Algorithm Design,
-Job-Title-Normalization, Confidence Scoring, Data Validation
+OpenAI GPT, Machine Learning Integration, Algorithm Design, Confidence
+Scoring, Data Validation
 
 ### Blockchain & Web3 {#blockchain--web3}
 
