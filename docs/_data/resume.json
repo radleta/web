@@ -16,7 +16,7 @@
       "name": "Nexxt",
       "position": "Lead Architect",
       "startDate": "2023-10-01",
-      "summary": "Architected and developed scalable AI-driven solutions and integrations.",
+      "summary": "Architected and developed scalable AI-driven solutions and integrations using .NET, C#, Angular, and TypeScript. Specialized in event-driven architecture, OpenAI GPT integration, and AWS cloud services.",
       "highlights": [
         "Developed enterprise AI Assistant for email composition, web-page building, and job postings",
         "Designed event-driven integration framework with robust data-validation mechanisms",
@@ -74,7 +74,7 @@
       "name": "All Kids Network",
       "position": "Partner & Principal Engineer",
       "startDate": "2014-05-01",
-      "summary": "Co-owned business and led end-to-end development of a high-traffic educational platform.",
+      "summary": "Co-owned business and led end-to-end development of a high-traffic educational platform using React, TypeScript, .NET, C#, and AWS cloud infrastructure. Managed scalable systems serving millions of page views annually.",
       "highlights": [
         "Served 6.8M page views annually, with 2.2M-member user base",
         "Built CMS with React, TypeScript, and RESTful C# APIs",
@@ -147,7 +147,7 @@
       "position": "Head of Product / Solutions Developer",
       "startDate": "2022-12-01",
       "endDate": "2023-09-30",
-      "summary": "Developed and deployed projects for the Splinterlands collectible card game.",
+      "summary": "Developed and deployed blockchain gaming projects using React, TypeScript, PostgreSQL, DynamoDB, Redis, and AWS. Specialized in Web3 technologies and HIVE engine blockchain integration.",
       "highlights": [
         "Developed and deployed projects using React, TypeScript, PostgreSQL, DynamoDB, Redis, and AWS",
         "Assisted in product design using HIVE engine blockchain"
@@ -191,7 +191,7 @@
       "position": "Chief Technology Officer",
       "startDate": "2021-12-01",
       "endDate": "2022-12-31",
-      "summary": "Helped grow the organization and launch simultaneous products.",
+      "summary": "Led organization growth and multi-product launches in blockchain gaming space. Applied executive leadership, strategic planning, and Web3 expertise to scale from 20+ to 150+ employees and contractors.",
       "highlights": [
         "Scaled the organization from 20+ to 150+ employees and contractors",
         "Developed technology and product strategy for multiple gaming products",
@@ -238,7 +238,7 @@
       "position": "Vice President Of Engineering",
       "startDate": "2021-09-01",
       "endDate": "2021-12-31",
-      "summary": "Stabilized the company's main product and grew the engineering team.",
+      "summary": "Stabilized high-growth gaming product and expanded engineering team using AWS, PostgreSQL, Redis, and JavaScript. Implemented performance tuning and technical leadership practices during rapid expansion.",
       "highlights": [
         "Troubleshot and stabilized Splinterlands during rapid growth",
         "Hired and organized developers to expand the engineering team",
@@ -289,7 +289,7 @@
       "position": "Lead Architect",
       "startDate": "2018-01-01",
       "endDate": "2021-09-30",
-      "summary": "Directed architectural efforts for large-scale web applications.",
+      "summary": "Directed architectural efforts for large-scale web applications using C#, .NET, ASP.NET, AngularJS, SQL Server, and Elasticsearch. Engineered grid computing and high-volume processing systems handling millions of transactions daily.",
       "highlights": [
         "Engineered a horizontally scalable email-delivery system for 25M+ emails/day",
         "Built a grid-computing framework operating on 50+ servers",
@@ -378,7 +378,7 @@
       "position": "Solutions Architect",
       "startDate": "2011-05-01",
       "endDate": "2018-01-31",
-      "summary": "Modernized web applications and implemented CI/CD pipelines.",
+      "summary": "Modernized web applications and implemented CI/CD pipelines using .NET, C#, ASP.NET MVC, AngularJS, SQL Server, and AWS. Led development of next-generation search technologies and production monitoring systems.",
       "highlights": [
         "Led development of a next-generation job-search engine",
         "Unified Classic ASP and .NET components into consolidated solutions",
@@ -562,7 +562,7 @@
       "position": "Software Development Process and Infrastructure Department Lead",
       "startDate": "2007-11-01",
       "endDate": "2008-01-31",
-      "summary": "Led enterprise-wide software process improvement initiatives and established critical infrastructure groups.",
+      "summary": "Led enterprise-wide software process improvement initiatives using .NET, C#, and SQL Server. Established build automation, code generation, and Agile methodologies while ensuring SAS70 compliance.",
       "highlights": [
         "Founded and led Build Automation Group responsible for build processes, servers, test integration, and automated deployment scripts",
         "Established Code Generation Group to design and maintain data access layer generation systems",
@@ -601,7 +601,7 @@
       "position": "Architecture/Mentoring Department Lead",
       "startDate": "2007-01-01",
       "endDate": "2008-01-31",
-      "summary": "Selected to jointly shape software architecture decisions and establish comprehensive mentoring programs.",
+      "summary": "Shaped software architecture decisions and established mentoring programs focusing on .NET architecture, enterprise systems design, and technical standards. Co-led strategic technical direction for development teams.",
       "highlights": [
         "Co-led critical architecture decisions and strategic technical direction for the entire development department",
         "Established and participated in a cross-team mentoring initiative ensuring professional growth for all department members",
@@ -634,7 +634,7 @@
       "position": "Web Team Lead",
       "startDate": "2006-03-01",
       "endDate": "2007-10-31",
-      "summary": "Led a cross-functional team delivering US/UK web platforms and high-value business applications using Agile methodology.",
+      "summary": "Led cross-functional team delivering US/UK web platforms using .NET, C#, ASP.NET, and SQL Server. Served as Agile Scrum Master while completing ASP to ASP.NET migration and delivering business-critical features.",
       "highlights": [
         "Led and mentored a team of six (four developers, one QA, one project coordinator) through consistent 30-day release cycles",
         "Successfully completed a multi-year ASP to ASP.NET migration while simultaneously delivering high-value enhancements",
@@ -669,7 +669,7 @@
       "position": "Sr. .NET Developer",
       "startDate": "2004-02-01",
       "endDate": "2006-03-31",
-      "summary": "Delivered full lifecycle financial applications and established foundational development practices.",
+      "summary": "Delivered full lifecycle financial applications using VB.NET, C#, SQL Server, and Microsoft Office integration. Pioneered automated build scripts and code generation while developing complex reporting software.",
       "highlights": [
         "Completed major multi-month projects utilizing VB.NET, C#, Microsoft Office 2003, SQL Server Reporting Services",
         "Pioneered company's first automated build scripts, which became the department standard used by 90% of development teams",
@@ -709,7 +709,7 @@
       "position": ".NET Developer",
       "startDate": "2003-01-01",
       "endDate": "2004-02-29",
-      "summary": "Supported power trading systems using full Microsoft stack.",
+      "summary": "Supported power trading systems using .NET, C#, ASP.NET, Web Services, Remoting, and SQL Server. Built financial applications for the energy trading industry.",
       "highlights": [
         "Worked on .NET Web Services and Remoting",
         "Built ASP.NET and C# web applications"
@@ -733,7 +733,7 @@
       "position": ".NET Developer",
       "startDate": "2002-09-01",
       "endDate": "2003-01-31",
-      "summary": "Consulted across multiple simultaneous projects.",
+      "summary": "Consulted across multiple projects using .NET, C#, ASP.NET, XML/XSLT, SQL Server, and VB6. Specialized in reporting systems and Dialogic telephony application development.",
       "highlights": [
         "Created XML/XSLT SQL report systems",
         "Enhanced Dialogic telephony apps with VB6"
@@ -755,7 +755,7 @@
       "position": ".NET Developer",
       "startDate": "2002-01-01",
       "endDate": "2002-08-31",
-      "summary": "Built Visual Studio .NET extensions and COM integrations.",
+      "summary": "Built Visual Studio .NET extensions and COM integrations using C#, VB.NET, Reflection, and ActiveX technologies. Developed tools for enhancing developer productivity.",
       "highlights": [
         "Used Reflection in .NET assemblies",
         "Maintained ActiveX libraries in VB6"
@@ -774,7 +774,7 @@
       "position": "DMS Systems Programmer",
       "startDate": "2001-08-01",
       "endDate": "2002-01-31",
-      "summary": "Installed and supported Documentum systems worldwide.",
+      "summary": "Installed and supported Documentum systems worldwide using Visual Basic, VBA, ASP, and COM. Integrated web applications with enterprise document management systems.",
       "highlights": [
         "Integrated Office and web apps with Documentum",
         "Supported multiple international server environments"
@@ -792,7 +792,7 @@
       "position": "Lead Programmer",
       "startDate": "1999-03-01",
       "endDate": "2001-04-30",
-      "summary": "Built full-stack web platforms and Linux-hosted databases.",
+      "summary": "Built full-stack web platforms using PHP, ASP, PostgreSQL, HTML, and JavaScript. Led development for large-scale campaign reaching 300,000+ users.",
       "highlights": [
         "Built PostgreSQL-backed websites with PHP and ASP",
         "Led livethecall.com launch for 300,000+ campaign"
@@ -810,7 +810,7 @@
       "position": "IS Admin / Sales Representative",
       "startDate": "1995-02-01",
       "endDate": "1997-08-31",
-      "summary": "Sales and IT management at conferences and internal operations.",
+      "summary": "Managed sales and IT operations using Windows networking, HTML, CSS, and JavaScript. Implemented company's first e-commerce presence and online catalog.",
       "highlights": [
         "Maintained Windows peer-to-peer network",
         "Launched company's first online catalog"
@@ -827,7 +827,7 @@
       "position": "Independent Consultant",
       "startDate": "1993-01-01",
       "endDate": "1995-02-28",
-      "summary": "Provided IBM PC troubleshooting and retail hardware/software solutions.",
+      "summary": "Provided IBM PC troubleshooting and retail solutions using hardware and software diagnostics. Delivered technical support and product representation for technology wholesalers.",
       "highlights": [
         "Performed hardware diagnostics",
         "Represented wholesalers at local markets"
