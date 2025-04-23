@@ -1,4 +1,4 @@
-# Richard Adleta - Senior Software Architect & Full-Stack Engineer
+# Richard Adleta - Senior Software Architect & Full-Stack Engineer {#richard-adleta---senior-software-architect--full-stack-engineer}
 
 ## Professional Summary
 
@@ -21,10 +21,8 @@ observability.
 - **Solutions Architect** (May 2011 - Jan 2018) - Modernized web
   applications and implemented CI/CD pipelines.
 
-**Skills:** .NET, ASP.NET MVC, AWS, Angular, AngularJS, C#, CI/CD
-Pipelines, Classic ASP, Data Validation, Elasticsearch, Event-Driven
-Architecture, Git, Jenkins, OpenAI GPT, RESTful APIs, Redis, SQL Server,
-T-SQL, TypeScript
+**Skills:** .NET, .NET 6, .NET Core, .NET Framework, .NET Standard,
+AJAX, ASP.NET, ASP.NET Core, ASP.NET MVC, ASP.NET Razor, and 115 more
 
 ### All Kids Network (May 2014 - Present)
 
@@ -32,9 +30,8 @@ T-SQL, TypeScript
   business and led end-to-end development of a high-traffic educational
   platform.
 
-**Skills:** .NET, ALB, ASP.NET, AWS, C#, CloudFormation, CloudFront,
-CloudWatch, DynamoDB, Elastic Beanstalk, Git, Lambda, MySQL, OpenSearch,
-React, Redis, Route 53, S3, SES, Tailwind CSS, TypeScript, WAF
+**Skills:** .NET, .NET 6, .NET 8, .NET Core, .NET Framework, AJAX,
+ASP.NET, ASP.NET MVC, ASP.NET Razor, AWS, and 47 more
 
 ### Splinterlands (Sep 2021 - Sep 2023)
 
@@ -48,10 +45,8 @@ React, Redis, Route 53, S3, SES, Tailwind CSS, TypeScript, WAF
 - **Vice President Of Engineering** (Sep 2021 - Dec 2021) - Stabilized
   the company's main product and grew the engineering team.
 
-**Skills:** AWS, Blockchain Technology, Cryptocurrency, Decentralized
-Applications (dApps), DynamoDB, EC2, Game Development, Git, HIVE Engine
-Blockchain, JavaScript, NFTs, PostgreSQL, React, Redis, Smart Contracts,
-TypeScript, WAF, Web Development, Web3
+**Skills:** AWS, AWS CloudWatch, AWS DynamoDB, AWS EC2, AWS ElastiCache,
+AWS Lambda, AWS Route 53, AWS S3, AWS WAF, Agile, and 38 more
 
 ### Previous Experience
 
@@ -75,6 +70,18 @@ University (1997 - 2002)
 ## Certifications
 
 - Dale Carnegie Course (2005-06)
+
+## References
+
+**Strong professional references** available from leadership at Nexxt,
+Splinterlands, Project Management Institute, and Chatham Financial
+available upon request.
+
+> "I've had the privilege of working with Richard Adleta for over 10
+> years at Nexxt, and during that time, he's consistently demonstrated
+> the kind of technical leadership and versa..."
+>
+> --- Bill Rybinski, Director of Technology at Nexxt, Inc.
 
 ## Additional Information
 

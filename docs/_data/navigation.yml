@@ -45,6 +45,8 @@ resume_full:
         url: /resume/full#education
       - title: "Certifications"
         url: /resume/full#certifications
+      - title: "References"
+        url: /resume/full#references
 
 resume_condensed:
   - title: "Key Sections"
@@ -59,3 +61,5 @@ resume_condensed:
         url: /resume/condensed#education
       - title: "Certifications"
         url: /resume/condensed#certifications
+      - title: "References"
+        url: /resume/condensed#references

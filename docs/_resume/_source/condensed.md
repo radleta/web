@@ -42,7 +42,11 @@
 {% endfor %}
 {% endfor %}
 {% assign unique_skills = all_skills | uniq | sort %}
-{% if unique_skills.size > 0 %}**Skills:** {{ unique_skills | join: ", " }}{% endif %}
+{% if unique_skills.size > 0 %}
+{% assign skills_to_show = unique_skills | slice: 0, 10 %}
+{% assign remaining_skills_count = unique_skills.size | minus: 10 %}
+**Skills:** {{ skills_to_show | join: ", " }}{% if remaining_skills_count > 0 %}, and {{ remaining_skills_count }} more{% endif %}
+{% endif %}
 {% endfor %}
 
 {% if remaining_companies.size > 0 %}
@@ -73,3 +77,16 @@
 {% for i in (0..cert_limit-1) %}
 - {{ site.data.resume.certificates[i].name }}{% if site.data.resume.certificates[i].date %} ({{ site.data.resume.certificates[i].date | date: "%b %Y" }}){% endif %}
 {% endfor %}
+
+## References
+
+**Strong professional references** available from leadership at Nexxt, Splinterlands, Project Management Institute, and Chatham Financial available upon request.
+
+{% if site.data.resume.references.size > 0 %}
+
+{% assign top_reference = site.data.resume.references | first %}
+> "{{ top_reference.reference | truncate: 180 }}"
+> 
+> — {{ top_reference.name }}, {{ top_reference.position }}
+
+{% endif %}

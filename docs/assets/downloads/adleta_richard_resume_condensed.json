@@ -26,19 +26,48 @@
       ],
       "skills": [
         { "name": ".NET" },
+        { "name": ".NET Core" },
+        { "name": ".NET Framework" },
+        { "name": ".NET Standard" },
+        { "name": ".NET 6" },
         { "name": "ASP.NET MVC" },
+        { "name": "ASP.NET Core" },
+        { "name": "ASP.NET Razor" },
         { "name": "C#" },
         { "name": "Angular" },
         { "name": "AngularJS" },
         { "name": "TypeScript" },
         { "name": "SQL Server" },
         { "name": "T-SQL" },
+        { "name": "JavaScript" },
+        { "name": "HTML" },
+        { "name": "CSS" },
+        { "name": "OpenAI GPT" },
+        { "name": "Elasticsearch" },
+        { "name": "OpenSearch" },
+        { "name": "Azure DevOps" },
         { "name": "Git" },
         { "name": "Jenkins" },
+        { "name": "AWS Services" },
         { "name": "RESTful APIs" },
-        { "name": "OpenAI GPT" },
+        { "name": "JSON" },
+        { "name": "Webhooks" },
         { "name": "Event-Driven Architecture" },
-        { "name": "Data Validation" }
+        { "name": "Data Validation" },
+        { "name": "Algorithm Design" },
+        { "name": "Machine Learning Integration" },
+        { "name": "CI/CD Pipelines" },
+        { "name": "Trello" },
+        { "name": "Team Leadership" },
+        { "name": "Mentoring" },
+        { "name": "Technical Leadership" },
+        { "name": "Scalable Systems" },
+        { "name": "Software Architecture" },
+        { "name": "Enterprise Systems Design" },
+        { "name": "Cross-team Coordination" },
+        { "name": "Strategic Planning" },
+        { "name": "Performance Tuning" },
+        { "name": "Requirements Gathering" }
       ]
     },
     {
@@ -55,27 +84,62 @@
       ],
       "skills": [
         { "name": ".NET" },
+        { "name": ".NET Framework" },
+        { "name": ".NET Core" },
+        { "name": ".NET 6" },
+        { "name": ".NET 8" },
         { "name": "C#" },
         { "name": "ASP.NET" },
+        { "name": "ASP.NET MVC" },
+        { "name": "ASP.NET Razor" },
         { "name": "React" },
         { "name": "TypeScript" },
         { "name": "Tailwind CSS" },
         { "name": "AWS" },
         { "name": "Git" },
-        { "name": "DynamoDB" },
-        { "name": "OpenSearch" },
-        { "name": "Lambda" },
-        { "name": "SES" },
-        { "name": "Elastic Beanstalk" },
-        { "name": "S3" },
-        { "name": "CloudFront" },
-        { "name": "CloudFormation" },
-        { "name": "Route 53" },
-        { "name": "WAF" },
-        { "name": "ALB" },
-        { "name": "CloudWatch" },
+        { "name": "AWS DynamoDB" },
+        { "name": "AWS OpenSearch" },
+        { "name": "AWS CloudSearch" },
+        { "name": "AWS Lambda" },
+        { "name": "AWS SES" },
+        { "name": "AWS Elastic Beanstalk" },
+        { "name": "AWS S3" },
+        { "name": "AWS CloudFront" },
+        { "name": "AWS Route 53" },
+        { "name": "AWS WAF" },
+        { "name": "AWS EC2" },
+        { "name": "Azure DevOps" },
+        { "name": "Jenkins" },
+        { "name": "Bitbucket" },
+        { "name": "CI/CD Pipelines" },
+        { "name": "REST APIs" },
+        { "name": "JSON" },
+        { "name": "XML" },
+        { "name": "AWS CloudWatch" },
+        { "name": "AWS ElastiCache" },
         { "name": "MySQL" },
-        { "name": "Redis" }
+        { "name": "Redis" },
+        { "name": "JavaScript" },
+        { "name": "HTML" },
+        { "name": "CSS" },
+        { "name": "LESS" },
+        { "name": "Bootstrap" },
+        { "name": "AJAX" },
+        { "name": "jQuery" },
+        { "name": "xUnit" },
+        { "name": "Agile" },
+        { "name": "Scrum" },
+        { "name": "Bash" },
+        { "name": "Trello" },
+        { "name": "Team Leadership" },
+        { "name": "Technical Leadership" },
+        { "name": "Strategic Planning" },
+        { "name": "Software Architecture" },
+        { "name": "Scalable Systems" },
+        { "name": "High-Volume Processing" },
+        { "name": "Performance Tuning" },
+        { "name": "Requirements Gathering" },
+        { "name": "Mentoring" }
       ]
     },
     {
@@ -95,7 +159,31 @@
         { "name": "DynamoDB" },
         { "name": "Redis" },
         { "name": "AWS" },
-        { "name": "HIVE Engine Blockchain" }
+        { "name": "HIVE Engine Blockchain" },
+        { "name": "Web3" },
+        { "name": "NFTs" },
+        { "name": "Cryptocurrency" },
+        { "name": "Decentralized Applications (dApps)" },
+        { "name": "Smart Contracts" },
+        { "name": "Game Development" },
+        { "name": "Web Development" },
+        { "name": "Git" },
+        { "name": "JavaScript" },
+        { "name": "HTML" },
+        { "name": "CSS" },
+        { "name": "Jira" },
+        { "name": "Technical Leadership" },
+        { "name": "Product Management" },
+        { "name": "Strategic Planning" },
+        { "name": "Software Architecture" },
+        { "name": "Enterprise Systems Design" },
+        { "name": "Cross-team Coordination" },
+        { "name": "Team Leadership" },
+        { "name": "Mentoring" },
+        { "name": "Agile" },
+        { "name": "Scrum" },
+        { "name": "Performance Tuning" },
+        { "name": "Requirements Gathering" }
       ]
     },
     {
@@ -117,7 +205,32 @@
         { "name": "Decentralized Applications (dApps)" },
         { "name": "Smart Contracts" },
         { "name": "Game Development" },
-        { "name": "Web Development" }
+        { "name": "Web Development" },
+        { "name": "Jira" },
+        { "name": "Team Leadership" },
+        { "name": "Mentoring" },
+        { "name": "Executive Leadership" },
+        { "name": "Strategic Planning" },
+        { "name": "Software Architecture" },
+        { "name": "Enterprise Systems Design" },
+        { "name": "Technical Leadership" },
+        { "name": "Cross-team Coordination" },
+        { "name": "Agile" },
+        { "name": "Scrum" },
+        { "name": "Performance Tuning" },
+        { "name": "Requirements Gathering" },
+        { "name": "Product Management" },
+        { "name": "Game Design" },
+        { "name": "Game Monetization" },
+        { "name": "Game Analytics" },
+        { "name": "Game Marketing" },
+        { "name": "Game Community Management" },
+        { "name": "Game Development" },
+        { "name": "Game Design" },
+        { "name": "Game Monetization" },
+        { "name": "Game Analytics" },
+        { "name": "Game Marketing" },
+        { "name": "Game Community Management" }
       ]
     },
     {
@@ -137,8 +250,38 @@
         { "name": "PostgreSQL" },
         { "name": "Redis" },
         { "name": "AWS" },
-        { "name": "EC2" },
-        { "name": "WAF" }
+        { "name": "AWS Lambda" },
+        { "name": "AWS DynamoDB" },
+        { "name": "AWS S3" },
+        { "name": "AWS Route 53" },
+        { "name": "AWS CloudWatch" },
+        { "name": "AWS ElastiCache" },
+        { "name": "JavaScript" },
+        { "name": "HTML" },
+        { "name": "CSS" },
+        { "name": "AWS EC2" },
+        { "name": "AWS WAF" },
+        { "name": "Trello" },
+        { "name": "Team Leadership" },
+        { "name": "Technical Leadership" },
+        { "name": "Mentoring" },
+        { "name": "Software Architecture" },
+        { "name": "Scalable Systems" },
+        { "name": "Performance Tuning" },
+        { "name": "Requirements Gathering" },
+        { "name": "Agile" },
+        { "name": "Scrum" },
+        { "name": "Cross-team Coordination" },
+        { "name": "Strategic Planning" },
+        { "name": "Enterprise Systems Design" },
+        { "name": "Product Management" },
+        { "name": "Game Design" },
+        { "name": "Game Monetization" },
+        { "name": "Game Analytics" },
+        { "name": "Game Marketing" },
+        { "name": "Game Community Management" },
+        { "name": "Game Development" },
+        { "name": "Game Design" }
       ]
     },
     {
@@ -155,10 +298,79 @@
       ],
       "skills": [
         { "name": ".NET" },
+        { "name": ".NET Core" },
+        { "name": ".NET Framework" },
+        { "name": ".NET Standard" },
         { "name": "C#" },
+        { "name": "LINQ" },
+        { "name": "ASP.NET" },
+        { "name": "SQL Server" },
+        { "name": "T-SQL" },
+        { "name": "PostgreSQL" },
         { "name": "Elasticsearch" },
+        { "name": "Elasticsearch Kibana" },
+        { "name": "NEST" },
+        { "name": "Lucene" },
+        { "name": "Solr" },
+        { "name": "Redis" },
+        { "name": "Couchbase" },
         { "name": "AWS" },
-        { "name": "Redis" }
+        { "name": "AWS Lambda" },
+        { "name": "AWS DynamoDB" },
+        { "name": "AWS S3" },
+        { "name": "AWS EC2" },
+        { "name": "AWS Elastic Beanstalk" },
+        { "name": "AWS CloudFront" },
+        { "name": "AWS CloudWatch" },
+        { "name": "AWS SES" },
+        { "name": "AWS Route 53" },
+        { "name": "AWS EMR" },
+        { "name": "AWS DataSync" },
+        { "name": "PowerShell" },
+        { "name": "JavaScript" },
+        { "name": "AngularJS" },
+        { "name": "HTML" },
+        { "name": "CSS" },
+        { "name": "Classic ASP" },
+        { "name": "Git" },
+        { "name": "GitHub" },
+        { "name": "Jenkins" },
+        { "name": "Nagios" },
+        { "name": "NagiosXI" },
+        { "name": "Ansible" },
+        { "name": "Windows Services" },
+        { "name": "Linux" },
+        { "name": "Ubuntu" },
+        { "name": "IIS" },
+        { "name": "MSMQ" },
+        { "name": "REST APIs" },
+        { "name": "JSON" },
+        { "name": "XML" },
+        { "name": "Robocopy" },
+        { "name": "HAProxy" },
+        { "name": "DevOps" },
+        { "name": "CI/CD Pipelines" },
+        { "name": "Trello" },
+        { "name": "Microsoft Teams" },
+        { "name": "NUnit" },
+        { "name": "xUnit" },
+        { "name": "Agile" },
+        { "name": "Scrum" },
+        { "name": "Bash" },
+        { "name": "Technical Leadership" },
+        { "name": "Software Architecture" },
+        { "name": "Scalable Systems" },
+        { "name": "High-Volume Processing" },
+        { "name": "Grid Computing" },
+        { "name": "Performance Tuning" },
+        { "name": "Requirements Gathering" },
+        { "name": "Mentoring" },
+        { "name": "Team Leadership" },
+        { "name": "Cross-team Coordination" },
+        { "name": "Strategic Planning" },
+        { "name": "Enterprise Systems Design" },
+        { "name": "Process Improvement" },
+        { "name": "Technical Documentation" }
       ]
     },
     {
@@ -174,10 +386,93 @@
       ],
       "skills": [
         { "name": ".NET" },
+        { "name": ".NET Framework" },
+        { "name": ".NET Standard" },
+        { "name": ".NET Core" },
         { "name": "C#" },
-        { "name": "SQL Server" },
+        { "name": "ASP.NET" },
+        { "name": "ASP.NET MVC" },
+        { "name": "ASP.NET Web API" },
+        { "name": "Razor" },
+        { "name": "LINQ" },
         { "name": "Classic ASP" },
-        { "name": "CI/CD Pipelines" }
+        { "name": "SQL Server" },
+        { "name": "T-SQL" },
+        { "name": "MySQL" },
+        { "name": "Elasticsearch" },
+        { "name": "Solr" },
+        { "name": "Redis" },
+        { "name": "Couchbase" },
+        { "name": "RavenDB" },
+        { "name": "MongoDB" },
+        { "name": "DynamoDB" },
+        { "name": "JavaScript" },
+        { "name": "jQuery" },
+        { "name": "AJAX" },
+        { "name": "AngularJS" },
+        { "name": "HTML" },
+        { "name": "CSS" },
+        { "name": "LESS" },
+        { "name": "Bootstrap" },
+        { "name": "AWS" },
+        { "name": "AWS S3" },
+        { "name": "AWS CloudFront" },
+        { "name": "AWS SNS" },
+        { "name": "AWS EMR" },
+        { "name": "AWS Redshift" },
+        { "name": "AWS Lambda" },
+        { "name": "AWS EC2" },
+        { "name": "Azure" },
+        { "name": "Git" },
+        { "name": "SVN" },
+        { "name": "Mercurial" },
+        { "name": "Jenkins" },
+        { "name": "CI/CD Pipelines" },
+        { "name": "NuGet" },
+        { "name": "MSBuild" },
+        { "name": "NAnt" },
+        { "name": "Web Deploy" },
+        { "name": "MSDeploy" },
+        { "name": "IIS" },
+        { "name": "Windows Services" },
+        { "name": "Nagios" },
+        { "name": "MSMQ" },
+        { "name": "XML" },
+        { "name": "JSON" },
+        { "name": "REST APIs" },
+        { "name": "Ninject" },
+        { "name": "SquishIt" },
+        { "name": "Cassette" },
+        { "name": "Google Analytics" },
+        { "name": "Google Webmaster Tools" },
+        { "name": "SEO Optimization" },
+        { "name": "Schema.org" },
+        { "name": "OAuth" },
+        { "name": "Neo4j" },
+        { "name": "InfluxDB" },
+        { "name": "Kinesis" },
+        { "name": "HAProxy" },
+        { "name": "NUnit" },
+        { "name": "NCover" },
+        { "name": "Perl" },
+        { "name": "Ansible" },
+        { "name": "COM Interop" },
+        { "name": "Google AdSense" },
+        { "name": "Performance Tuning" },
+        { "name": "Agile" },
+        { "name": "Scrum" },
+        { "name": "Trello" },
+        { "name": "Technical Leadership" },
+        { "name": "Mentoring" },
+        { "name": "Software Architecture" },
+        { "name": "Scalable Systems" },
+        { "name": "High-Volume Processing" },
+        { "name": "Grid Computing" },
+        { "name": "Process Improvement" },
+        { "name": "Cross-team Coordination" },
+        { "name": "Strategic Planning" },
+        { "name": "Enterprise Systems Design" },
+        { "name": "Technical Documentation" }
       ]
     },
     {
@@ -199,7 +494,14 @@
         { "name": "BizTalk" },
         { "name": "Commerce Server" },
         { "name": "SQL Server" },
-        { "name": "DotNetNuke" }
+        { "name": "DotNetNuke" },
+        { "name": "Team Leadership" },
+        { "name": "Technical Leadership" },
+        { "name": "Enterprise Systems Design" },
+        { "name": "Software Architecture" },
+        { "name": "Mentoring" },
+        { "name": "Requirements Gathering" },
+        { "name": "Strategic Planning" }
       ]
     },
     {
@@ -221,7 +523,17 @@
         { "name": "CruiseControl.NET" },
         { "name": "Jira" },
         { "name": "Confluence" },
-        { "name": "FishEye" }
+        { "name": "FishEye" },
+        { "name": "Agile" },
+        { "name": "Scrum" },
+        { "name": "Team Leadership" },
+        { "name": "Technical Leadership" },
+        { "name": "Mentoring" },
+        { "name": "Software Architecture" },
+        { "name": "Enterprise Systems Design" },
+        { "name": "Process Improvement" },
+        { "name": "Cross-team Coordination" },
+        { "name": "Strategic Planning" }
       ]
     },
     {
@@ -239,7 +551,10 @@
         { "name": "C#" },
         { "name": "VB.NET" },
         { "name": "SQL Server" },
-        { "name": "Oracle" }
+        { "name": "Oracle" },
+        { "name": "Costpoint" },
+        { "name": "ERP Systems" },
+        { "name": "Data Migration" }
       ]
     },
     {
@@ -247,21 +562,38 @@
       "position": "Software Development Process and Infrastructure Department Lead",
       "startDate": "2007-11-01",
       "endDate": "2008-01-31",
-      "summary": "Directed process and automation groups in software development.",
+      "summary": "Led enterprise-wide software process improvement initiatives and established critical infrastructure groups.",
       "highlights": [
-        "Founded Build Automation and Code Generation groups",
-        "Enhanced Agile and Release Management processes",
-        "Customized BugTracker.NET for Agile and compliance needs"
+        "Founded and led Build Automation Group responsible for build processes, servers, test integration, and automated deployment scripts",
+        "Established Code Generation Group to design and maintain data access layer generation systems",
+        "Initiated and actively contributed to Agile and Release Management working groups to optimize SDLC processes",
+        "Architected and implemented a custom fork of BugTracker.NET supporting Agile Scrum, help desk, release management, and SAS70 compliance",
+        "Facilitated communication across department leads to drive continuous improvement in software development practices"
       ],
       "skills": [
         { "name": ".NET" },
         { "name": "C#" },
         { "name": "VB.NET" },
         { "name": "SQL Server" },
+        { "name": "BugTracker.NET" },
         { "name": "Build Automation" },
         { "name": "Code Generation" },
         { "name": "Agile Processes" },
-        { "name": "Release Management" }
+        { "name": "Scrum" },
+        { "name": "Release Management" },
+        { "name": "SAS70 Compliance" },
+        { "name": "Continuous Integration" },
+        { "name": "Automated Testing" },
+        { "name": "Technical Leadership" },
+        { "name": "Team Leadership" },
+        { "name": "Process Improvement" },
+        { "name": "Cross-team Coordination" },
+        { "name": "Strategic Planning" },
+        { "name": "Enterprise Systems Design" },
+        { "name": "Software Architecture" },
+        { "name": "Mentoring" },
+        { "name": "Technical Documentation" },
+        { "name": "Infrastructure Management" }
       ]
     },
     {
@@ -269,22 +601,45 @@
       "position": "Architecture/Mentoring Department Lead",
       "startDate": "2007-01-01",
       "endDate": "2008-01-31",
-      "summary": "Co-led software architecture direction and mentoring initiatives.",
+      "summary": "Selected to jointly shape software architecture decisions and establish comprehensive mentoring programs.",
       "highlights": [
-        "Mentored developers across teams",
-        "Guided long-term architectural strategy"
+        "Co-led critical architecture decisions and strategic technical direction for the entire development department",
+        "Established and participated in a cross-team mentoring initiative ensuring professional growth for all department members",
+        "Guided architectural standards and best practices across multiple development teams",
+        "Provided technical leadership on strategic technology adoption and platform decisions"
       ],
-      "skills": [{ "name": "Mentoring" }, { "name": "Software Architecture" }]
+      "skills": [
+        { "name": "Software Architecture" },
+        { "name": "Mentoring" },
+        { "name": "Technical Leadership" },
+        { "name": ".NET Architecture" },
+        { "name": "Enterprise Systems Design" },
+        { "name": "Cross-team Collaboration" },
+        { "name": "Professional Development" },
+        { "name": "Strategic Planning" },
+        { "name": "Agile Processes" },
+        { "name": "Scrum" },
+        { "name": "Process Improvement" },
+        { "name": "Team Leadership" },
+        { "name": "Technical Documentation" },
+        { "name": "Infrastructure Management" },
+        { "name": "Software Development Life Cycle (SDLC)" },
+        { "name": "Enterprise Architecture" },
+        { "name": "Cross-team Coordination" },
+        { "name": "Technical Standards" }
+      ]
     },
     {
       "name": "Chatham Financial",
       "position": "Web Team Lead",
       "startDate": "2006-03-01",
       "endDate": "2007-10-31",
-      "summary": "Led web team for US/UK platforms with Agile execution.",
+      "summary": "Led a cross-functional team delivering US/UK web platforms and high-value business applications using Agile methodology.",
       "highlights": [
-        "Oversaw web strategy and team of 6",
-        "Led multi-year ASP to ASP.NET migration"
+        "Led and mentored a team of six (four developers, one QA, one project coordinator) through consistent 30-day release cycles",
+        "Successfully completed a multi-year ASP to ASP.NET migration while simultaneously delivering high-value enhancements",
+        "Served as Agile Scrum Master, coordinating development efforts between Web Team and other departmental teams",
+        "Developed team capabilities and succession planning, ultimately transitioning leadership to a team member"
       ],
       "skills": [
         { "name": ".NET" },
@@ -292,7 +647,21 @@
         { "name": "ASP.NET" },
         { "name": "SQL Server" },
         { "name": "Agile" },
-        { "name": "ASP to ASP.NET Migration" }
+        { "name": "Scrum Master" },
+        { "name": "ASP to ASP.NET Migration" },
+        { "name": "Team Leadership" },
+        { "name": "Release Planning" },
+        { "name": "Web Development" },
+        { "name": "Cross-team Coordination" },
+        { "name": "Succession Planning" },
+        { "name": "Mentoring" },
+        { "name": "Process Improvement" },
+        { "name": "Technical Leadership" },
+        { "name": "Software Development Life Cycle (SDLC)" },
+        { "name": "Enterprise Systems Design" },
+        { "name": "Technical Documentation" },
+        { "name": "Infrastructure Management" },
+        { "name": "Cross-team Collaboration" }
       ]
     },
     {
@@ -300,17 +669,39 @@
       "position": "Sr. .NET Developer",
       "startDate": "2004-02-01",
       "endDate": "2006-03-31",
-      "summary": "Delivered full lifecycle financial reporting and automation tools.",
+      "summary": "Delivered full lifecycle financial applications and established foundational development practices.",
       "highlights": [
-        "Developed custom reporting and code-gen tools",
-        "Implemented company-wide build scripts"
+        "Completed major multi-month projects utilizing VB.NET, C#, Microsoft Office 2003, SQL Server Reporting Services",
+        "Pioneered company's first automated build scripts, which became the department standard used by 90% of development teams",
+        "Implemented custom data entities and access layers through code generation with Code Smith Templates",
+        "Developed complex financial reporting software across Windows Forms, Web Forms, and Windows Services",
+        "Led full-cycle development from requirements gathering through implementation and rollout"
       ],
       "skills": [
         { "name": ".NET" },
         { "name": "C#" },
-        { "name": "Custom Reporting" },
+        { "name": "VB.NET" },
+        { "name": "SQL Server" },
+        { "name": "SQL Server Reporting Services" },
+        { "name": "Microsoft Office 2003 Integration" },
+        { "name": "Code Smith Templates" },
         { "name": "Code Generation" },
-        { "name": "Build Scripts" }
+        { "name": "Build Scripts" },
+        { "name": "Windows Forms" },
+        { "name": "Web Forms" },
+        { "name": "Windows Services" },
+        { "name": "Requirements Gathering" },
+        { "name": "Financial Reporting" },
+        { "name": "Custom Reporting" },
+        { "name": "Data Entities" },
+        { "name": "Data Access Layers" },
+        { "name": "Full Lifecycle Development" },
+        { "name": "Software Development Life Cycle (SDLC)" },
+        { "name": "Enterprise Systems Design" },
+        { "name": "Technical Leadership" },
+        { "name": "Mentoring" },
+        { "name": "Process Improvement" },
+        { "name": "Cross-team Coordination" }
       ]
     },
     {
@@ -330,7 +721,11 @@
         { "name": "SQL Server" },
         { "name": "XML" },
         { "name": ".NET Web Services" },
-        { "name": ".NET Remoting" }
+        { "name": ".NET Remoting" },
+        { "name": "Web Applications" },
+        { "name": "C# Web Applications" },
+        { "name": "Financial Systems" },
+        { "name": "Power Trading Systems" }
       ]
     },
     {
@@ -418,9 +813,14 @@
       "summary": "Sales and IT management at conferences and internal operations.",
       "highlights": [
         "Maintained Windows peer-to-peer network",
-        "Launched company’s first online catalog"
+        "Launched company's first online catalog"
       ],
-      "skills": [{ "name": "Windows Networking" }, { "name": "HTML" }]
+      "skills": [
+        { "name": "Windows Networking" },
+        { "name": "HTML" },
+        { "name": "CSS" },
+        { "name": "JavaScript" }
+      ]
     },
     {
       "name": "PC Consulting",
@@ -432,7 +832,10 @@
         "Performed hardware diagnostics",
         "Represented wholesalers at local markets"
       ],
-      "skills": [{ "name": "Hardware Diagnostics" }]
+      "skills": [
+        { "name": "Hardware Diagnostics" },
+        { "name": "Software Diagnostics" }
+      ]
     }
   ],
   "education": [
@@ -474,6 +877,22 @@
   ],
   "projects": [
     {
+      "name": "PromptPasta",
+      "description": "A VS Code extension that allows users to copy selected files as formatted markdown.",
+      "url": "https://marketplace.visualstudio.com/items?itemName=RichardAdleta.promptpasta",
+      "client": "Richard Adleta",
+      "startDate": "2024-10-01",
+      "endDate": "2024-10-31"
+    },
+    {
+      "name": "Copy Context",
+      "description": "Submitted enhancements and features for the VS Code extension for copying selected files as formatted markdown",
+      "url": "https://marketplace.visualstudio.com/items?itemName=collinc777.context-copy",
+      "client": "Collin Campbell",
+      "startDate": "2024-08-01",
+      "endDate": "2024-08-31"
+    },
+    {
       "name": "Open Flash Chart",
       "description": ".NET API for Flash Charting Component",
       "url": "http://teethgrinder.co.uk/open-flash-chart/"
@@ -484,48 +903,223 @@
       "url": "http://nantcontrib.sourceforge.net/"
     },
     {
-      "name": "Copy Context",
-      "description": "VS Code extension for copying selected files as formatted markdown"
+      "name": "Demeanor Add-in for Visual Studio .NET",
+      "description": "Developed a Microsoft C# .NET add-in for Wise Owl's Demeanor obfuscation utility, enabling on-the-fly assembly obfuscation directly within the IDE",
+      "client": "Wise Owl, Inc.",
+      "startDate": "2002-04",
+      "endDate": "2002-06"
+    },
+    {
+      "name": "FasstScan",
+      "description": "Created a VB6 application enabling bank tellers to scan and save important documents and track banking information using COM, Microsoft Access, and scanning components",
+      "client": "First Nation Bank of Coweta",
+      "startDate": "2001-09",
+      "endDate": "2001-12"
+    },
+    {
+      "name": "Billionhours.org",
+      "description": "Developed a web application using PHP, MySQL, and Corel Photo-Shop 9 to provide web exposure for a global organization's project",
+      "client": "Global Christian Network Incorporated",
+      "startDate": "1999-02"
     }
   ],
   "skills": [
     {
-      "name": "Backend",
+      "name": "Backend Development",
       "keywords": [
         "C#",
-        "ASP.NET MVC",
+        ".NET",
+        ".NET Core",
+        ".NET Framework",
         ".NET 6",
         ".NET 8",
-        "Lambda",
-        "Elasticsearch",
-        "DynamoDB",
-        "SQL Server"
+        "ASP.NET MVC",
+        "ASP.NET Core",
+        "ASP.NET Razor",
+        "ASP.NET Web API",
+        "LINQ",
+        "Windows Services"
       ]
     },
     {
-      "name": "Frontend",
+      "name": "Frontend Development",
       "keywords": [
         "React",
         "Angular",
+        "AngularJS",
         "TypeScript",
-        "Tailwind CSS",
         "JavaScript",
-        "HTML5",
-        "CSS3"
+        "HTML",
+        "CSS",
+        "Tailwind CSS",
+        "Bootstrap",
+        "LESS",
+        "jQuery",
+        "AJAX"
       ]
     },
     {
-      "name": "DevOps & Cloud",
+      "name": "Databases & Search",
+      "keywords": [
+        "SQL Server",
+        "T-SQL",
+        "PostgreSQL",
+        "MySQL",
+        "DynamoDB",
+        "Redis",
+        "Elasticsearch",
+        "OpenSearch",
+        "Couchbase",
+        "RavenDB",
+        "MongoDB",
+        "Lucene",
+        "Solr"
+      ]
+    },
+    {
+      "name": "Cloud & DevOps",
       "keywords": [
         "AWS",
-        "Elastic Beanstalk",
-        "WAF",
-        "S3",
-        "ALB",
+        "AWS Lambda",
+        "AWS S3",
+        "AWS CloudFront",
+        "AWS Elastic Beanstalk",
+        "AWS DynamoDB",
+        "AWS CloudWatch",
+        "AWS SES",
+        "AWS Route 53",
+        "AWS WAF",
+        "AWS EC2",
+        "CI/CD Pipelines",
         "Git",
         "Jenkins",
-        "Bitbucket"
+        "Azure DevOps",
+        "Bitbucket",
+        "Ansible"
       ]
+    },
+    {
+      "name": "Architecture & Design",
+      "keywords": [
+        "Software Architecture",
+        "Enterprise Systems Design",
+        "Event-Driven Architecture",
+        "RESTful APIs",
+        "Microservices",
+        "Scalable Systems",
+        "High-Volume Processing",
+        "Grid Computing",
+        "Performance Tuning"
+      ]
+    },
+    {
+      "name": "AI & Machine Learning",
+      "keywords": [
+        "OpenAI GPT",
+        "Machine Learning Integration",
+        "Algorithm Design",
+        "Job-Title-Normalization",
+        "Confidence Scoring",
+        "Data Validation"
+      ]
+    },
+    {
+      "name": "Blockchain & Web3",
+      "keywords": [
+        "HIVE Engine Blockchain",
+        "Web3",
+        "NFTs",
+        "Cryptocurrency",
+        "Decentralized Applications (dApps)",
+        "Smart Contracts"
+      ]
+    },
+    {
+      "name": "Leadership",
+      "keywords": [
+        "Team Leadership",
+        "Mentoring",
+        "Technical Leadership",
+        "Cross-team Coordination",
+        "Agile",
+        "Scrum",
+        "Requirements Gathering",
+        "Strategic Planning"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Bill Rybinski",
+      "work": "Nexxt",
+      "date": "2025-04-25",
+      "position": "Director of Technology at Nexxt, Inc.",
+      "relationship": "Bill managed Richard directly",
+      "reference": "I've had the privilege of working with Richard Adleta for over 10 years at Nexxt, and during that time, he's consistently demonstrated the kind of technical leadership and versatility that any engineering team would be lucky to have. Richard brings a rare combination of hands-on coding ability and architectural insight. Whether he's designing large-scale systems or rolling up his sleeves to write elegant, production-ready code, his work reflects a deep understanding of both the big picture and the fine details. His creativity and problem-solving ability have been invaluable to our team - he consistently finds smart, scalable solutions to complex challenges, even under pressure. At Nexxt, we deal with a high volume of traffic and data across multiple platforms, and Richard has been instrumental in designing and maintaining systems that are reliable, flexible, and built for scale. He's contributed to both front-end and back-end efforts with equal skill, and his output has always been top quality. Equally impressive is the way Richard works with others. He's a steady, collaborative presence who communicates clearly and elevates the people around him. Whether he's mentoring junior developers, partnering with peers, or aligning with stakeholders, he brings calm, thoughtful energy to every interaction. Richard has been a trusted and valued member of our engineering team for over a decade, and I truly can't say enough good things about his contributions. He's the kind of person you always want on your team!"
+    },
+    {
+      "name": "Scott Wormington",
+      "work": "Nexxt",
+      "date": "2025-04-21",
+      "position": "Programmer, Data Analyst, Tech Strategy | Big Data, High-Scale Systems",
+      "relationship": "Scott worked with Richard but on different teams",
+      "reference": "Richard is a rare find: a brilliantly creative architect, a relentless problem‑solver, and a natural leader who elevates everyone around him. I recommend him without hesitation to any organization seeking a combination of deep technical mastery, outstanding communication skills, and an infectious, can‑do attitude. He's the kind of teammate who doesn't just meet expectations—he redefines them. Over the past decade, I've had the privilege of partnering with Richard on some of our most critical, high‑stakes projects. He fluidly steps into whatever role is needed—architect, developer, systems designer—and delivers solutions that are not only robust and scalable today, but also built to adapt effortlessly to tomorrow's challenges. His proactive design choices and forward‑thinking architecture consistently set the bar for the rest of the team. But it's Richard's positivity and mentorship that truly set him apart. When the unexpected inevitably crops up, he brings calm clarity and breaks down complex problems into clear, actionable steps. Under his guidance, junior developers accelerate their growth and seasoned developers sharpen their skills—our entire tech organization has been elevated by his influence. In short, Richard's blend of technical brilliance, strategic vision, and uplifting leadership makes him an invaluable asset. I am confident he will spark innovation, inspire teams, and drive excellence wherever he goes—and I give him my highest recommendation."
+    },
+    {
+      "name": "Rich Milgram",
+      "work": "Nexxt",
+      "date": "2025-04-18",
+      "position": "CEO at Nexxt",
+      "relationship": "Rich was senior to Richard but didn't manage Richard directly (April 2025)",
+      "reference": "I've had the pleasure of working with Richard Adleta for over a decade at Nexxt, where he has consistently delivered exceptional results as a software consultant and lead engineer. Richard is a rare combination of technical expertise, thoughtful communication, and dependable leadership. He approaches each project with intelligence, clarity, and a calm, solution-oriented mindset. Whether working independently or collaborating across teams, Richard can always be relied upon to move things forward with precision and professionalism. He's the kind of consultant every company hopes for—someone who not only gets the job done but elevates those around him. Over the years, Richard has become a trusted and integral part of our engineering efforts. His ability to lead when needed and support others with grace and humility makes him an invaluable asset. We've been incredibly fortunate to have him on our team for so many years."
+    },
+    {
+      "name": "Andrea Durlak",
+      "work": "Nexxt",
+      "date": "2025-04-15",
+      "position": "VP - Data Services at Nexxt",
+      "relationship": "Andrea worked with Richard but on different teams",
+      "reference": "I've had the privilege of working with Richard, and without hesitation, I can say he is one of the most technically competent and intelligent professionals I've met. His depth and breadth of technical knowledge are remarkable—spanning across architecture, development, and systems design. Richard is a truly exceptional system architect. He consistently builds solutions that are not only robust and fault-tolerant but also impressively flexible—future-proofing infrastructure while keeping real-world business needs in focus. His ability to translate complex requirements into elegant, scalable systems adds tremendous value to every project he touches. He works seamlessly across all levels of an organization, from CEO to junior developer, with a natural ability to tailor his communication to the audience. Richard excels at bridging the gap between business requirements and technical execution—ensuring that solutions are not only technically sound but aligned with strategic goals. Beyond his technical skills, Richard is a steady, collaborative presence who helps keep projects on track and teams working cohesively. Any organization would be lucky to have him guiding their technical vision."
+    },
+    {
+      "name": "Stephen Morrell",
+      "work": "Nexxt",
+      "date": "2025-04-11",
+      "position": "Software Developer at Nexxt, Inc.",
+      "relationship": "Stephen worked with Richard on the same team",
+      "reference": "Richard is one of the most talented engineers and problem solvers I've had the privilege to work with. He consistently brings a rare combination of deep technical skill, creativity, and precision to every project. Whether he's designing systems, optimizing code, or tackling challenging problems, his contributions always raise the bar for quality, innovation, and efficiency. Beyond his technical skill, what really sets Richard apart is the way he mentors and uplifts those around him. He has a natural ability to break down complex concepts, guide teammates with patience and clarity, and foster a team environment where people feel empowered to learn and grow. He leads by example and brings a calm, confident energy to even the most challenging situations. If you're looking for someone who can design systems at scale, solve the hard problems, and bring out the best in a team—Richard is that person."
+    },
+    {
+      "name": "Kevin E. Schlabach",
+      "work": "Nexxt",
+      "date": "2013-01-23",
+      "position": "Agile veteran passionate about software",
+      "relationship": "Kevin worked with Richard on the same team",
+      "reference": "Richard is a powerhouse on our team! My best advice is give him the big project, lay out the scope, connect him with the customer, and get out of the way! If you have a small fire causing problems, he'll step in and help his peers put it out in half the time. Need an integration server set up with scripts to manage the code base... no problem, he can do that too! Richard is also great at teaching and mentoring his peers on the latest and greatest of technologies. If I were starting a company, Richard is that one man development team everyone should try to find."
+    },
+    {
+      "name": "Spencer Creasey",
+      "work": "Project Management Institute",
+      "date": "2011-07-19",
+      "position": "Stealth",
+      "relationship": "Spencer reported directly to Richard",
+      "reference": "Richard's deliverable value to PMI and high-level of expertise could not be understated. Together, his sensitivity to others, attention-to-detail, and his focus on communication was more than a pleasure to work with. Richard became a close mentor as well as a personal friend; a defining time in my career."
+    },
+    {
+      "name": "Thom Rossi",
+      "work": "Project Management Institute",
+      "date": "2011-06-20",
+      "position": "Experienced technology leader skilled in affecting change",
+      "relationship": "Thom managed Richard directly",
+      "reference": "Richard is a superb technical architect and lead developer who works effectively with his team and business partners to deliver value. I hope to have the pleasure of working with him again in the future."
+    },
+    {
+      "name": "Mark Henderson, CFA",
+      "work": "Chatham Financial",
+      "date": "2008-06-05",
+      "position": "SVP, Director of Capital Markets at WSFS Bank",
+      "relationship": "Mark worked with Richard but on different teams",
+      "reference": "Richard is an insightful, out-of-the-box thinker who broadens the approach of his team. He's low-key, but highly professional. I have enjoyed working with him on projects and I'm always interested to hear his thoughts. He's an asset to the team, a neat guy, and I hope to work with him in the future."
     }
   ],
   "meta": {
