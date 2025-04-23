@@ -8,7 +8,7 @@ github_username: radleta
 theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: "default"
 
-description: "Richard Adleta, Hands-On Senior Engineer & Solution Architect, passionate about hands-on coding, AI, and building innovative, scalable software solutions."
+description: "Richard Adleta, Hands-On Senior Software Architect & Full-Stack Engineer, passionate about hands-on coding, AI, and building innovative, scalable software solutions."
 
 exclude:
   - Gemfile
@@ -58,9 +58,10 @@ defaults:
 
 author:
   name: "Richard Adleta"
+  email: "radleta@gmail.com"
   avatar: "/assets/images/radleta_headshot_v3.jpg"
-  bio: "Senior Software Developer & Solution Architect"
-  location: "Dallas, TX, USA"
+  bio: "Senior Software Architect & Full-Stack Engineer"
+  location: "Dallas, TX"
   links:
     - label: "About Me"
       icon: "fas fa-fw fa-user"

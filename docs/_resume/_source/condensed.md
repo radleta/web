@@ -1,93 +1,75 @@
-## Professional Summary  
+{% assign positions_limit = 3 %}
+{% assign companies = site.data.resume.work | group_by: "name" %}
+{% assign companies_to_show = companies | slice: 0, positions_limit %}
+{% assign remaining_companies = companies | slice: positions_limit, 100 %}
+{% if site.data.resume.work.size > 0 %}
+{% assign earliest_position = site.data.resume.work | last %}
+{% assign earliest_year = earliest_position.startDate | date: "%Y" %}
+{% endif %}
+{% assign highlight_limit = 0 %}
+{% assign cert_limit = 2 %}
+{% if site.data.resume.certificates.size < cert_limit %}{% assign cert_limit = site.data.resume.certificates.size %}{% endif %}
 
-Senior software architect and full‑stack engineer with 20+ years of shipping production code and scaling cloud‑native, data‑intensive, and AI‑powered products. I design and build high‑throughput systems—like 25 M‑email‑per‑day pipelines, 80 M‑record search platforms, and AI assistants—using C#, .NET 6/8, Angular, React, TypeScript, SQL/NoSQL, and AWS. Known for translating fuzzy requirements into clean, testable code, I champion automation, performance, and observability while staying heads‑down in the repo. I thrive as an individual contributor who influences architecture through deep technical expertise and collaborative problem‑solving rather than formal management.
+## Professional Summary
 
-## Professional Experience  
+{{ site.data.resume.basics.summary }}
 
-### Nexxt, Inc. | Frisco, TX  
+## Experience
 
-**Lead Architect** *Oct 2023 - Present*  
+{% for company in companies_to_show %}
+{% assign company_jobs = company.items | sort: "startDate" | reverse %}
+{% assign most_recent_job = company_jobs | first %}
+{% assign earliest_job = company_jobs | last %}
 
-- Design and code an enterprise AI Assistant for email, web-page, and job-post
-  generation (C#, ASP.NET MVC, GPT models).  
-- Engineer an event-driven integration framework with validation layers that
-  speeds onboarding of external AI and data services (.NET 6, AWS).  
-- Develop job-title-normalization algorithms with confidence scoring to elevate
-  data quality across internal systems.  
-- Build admin dashboards and analytics that improve monitoring and operational
-  insight.  
-- Champion infrastructure upgrades, including a new beta environment and
-  automated zero-downtime deployments.  
+### {{ company.name }} ({% if company_jobs.size > 1 %}{% if most_recent_job.endDate %}{{ earliest_job.startDate | date: "%b %Y" }} - {{ most_recent_job.endDate | date: "%b %Y" }}{% else %}{{ earliest_job.startDate | date: "%b %Y" }} - Present{% endif %}{% else %}{% if most_recent_job.endDate %}{{ most_recent_job.startDate | date: "%b %Y" }} - {{ most_recent_job.endDate | date: "%b %Y" }}{% else %}{{ most_recent_job.startDate | date: "%b %Y" }} - Present{% endif %}{% endif %})
+{% for job in company_jobs %}
+- **{{ job.position }}** {% if job.endDate %}({{ job.startDate | date: "%b %Y" }} - {{ job.endDate | date: "%b %Y" }}){% else %}({{ job.startDate | date: "%b %Y" }} - Present){% endif %} - {{ job.summary }}
+{% endfor %}
 
-*Technologies:* .NET 6, C#, ASP.NET MVC, Angular, TypeScript, SQL Server, AWS (Lambda, S3,  
-CloudFront, EC2), Git, Jenkins, OpenAI GPT  
+{% if most_recent_job.highlights.size > 0 %}
+{% if highlight_limit > most_recent_job.highlights.size %}{% assign job_highlight_limit = most_recent_job.highlights.size %}{% else %}{% assign job_highlight_limit = highlight_limit %}{% endif %}
+{% if job_highlight_limit > 0 %}
+{% for i in (0..job_highlight_limit-1) %}
+- {{ most_recent_job.highlights[i] }}
+{% endfor %}
+{% endif %}
+{% endif %}
 
-### All Kids Network, LLC | Frisco, TX  
+{% assign all_skills = "" | split: "" %}
+{% for job in company_jobs %}
+{% for skill in job.skills %}
+{% assign all_skills = all_skills | push: skill.name %}
+{% endfor %}
+{% endfor %}
+{% assign unique_skills = all_skills | uniq | sort %}
+{% if unique_skills.size > 0 %}**Skills:** {{ unique_skills | join: ", " }}{% endif %}
+{% endfor %}
 
-**Partner & Principal Engineer** *May 2014 - Present*  
+{% if remaining_companies.size > 0 %}
+### Previous Experience
 
-- Hold 40% equity; co-own all business & technical decisions while working part-time outside primary employment.
-- Admin CMS – evolved from Node.js + Jade + JavaScript → ASP.NET MVC + React → today's React + TypeScript + Tailwind UI backed by C# REST APIs.
-- Public platform – ASP.NET MVC + Razor app using DynamoDB for data, Redis ElastiCache for caching, S3 for static assets, and a C# Lambda pipeline feeding Amazon OpenSearch for sub‑100 ms queries.
-- Deliver a weekly newsletter to 175K+ subscribers via AWS SES + Mailtrain.
-- Maintain 9K+ content pages and a 2.2M-member user base with a 30 ms average server response.
-- Manage Git workflows in Bitbucket and scripted, repeatable deployments.
+{% assign previous_companies_to_show = remaining_companies | slice: 0, 3 %}
+{% for company in previous_companies_to_show %}
+{% assign company_jobs = company.items | sort: "startDate" | reverse %}
+{% assign most_recent_job = company_jobs | first %}
+{% assign earliest_job = company_jobs | last %}
+- **{{ company.name }}**: {% if company_jobs.size > 1 %}{{ company_jobs.size }} positions{% else %}{{ most_recent_job.position }}{% endif %} ({% if earliest_job.startDate %}{{ earliest_job.startDate | date: "%Y" }}{% endif %} - {% if most_recent_job.endDate %}{{ most_recent_job.endDate | date: "%Y" }}{% else %}Present{% endif %})
+{% endfor %}
 
-*Technologies:* ASP.NET MVC, C#, React, TypeScript, Tailwind CSS, AWS (Elastic Beanstalk, ALB,  
-WAF, OpenSearch, DynamoDB, ElastiCache Redis, S3, Lambda, SES), Git/Bitbucket  
+{% assign remaining_companies_count = remaining_companies.size | minus: 3 %}
+{% if remaining_companies_count > 0 %}
+**Additional Experience:** Positions at {{ remaining_companies_count }} more companies dating back to {{ earliest_year }} are available upon request.
+{% endif %}
+{% endif %}
 
-### Steem Monsters Corp. dba Splinterlands | Philadelphia, PA  
+## Education
 
-**Head of Product** (Dec 2022 - Sep 2023) · **Chief Technology Officer**
- (Dec 2021 - Dec 2022) · **VP of Engineering** (Sep 2021 - Dec 2021)  
+{% for edu in site.data.resume.education %}
+**{{ edu.studyType }}** in {{ edu.area }}, {{ edu.institution }} ({% if edu.endDate %}{{ edu.startDate | date: "%Y" }} - {{ edu.endDate | date: "%Y" }}{% else %}{{ edu.startDate | date: "%Y" }} - Present{% endif %})
+{% endfor %}
 
-- Stabilised a HIVE-based collectible-card game during explosive user growth,
-  adding Redis caching and PostgreSQL tuning.  
-- Shipped React + TypeScript features and AWS-hosted services powering new
-  in-game economies and marketplace.  
-- Introduced Agile practices and CI/CD pipelines while scaling engineering from
-  20 + to 150 + contributors.  
-- Presented architectural innovations at Game Developers Conference 2022.  
+## Certifications
 
-*Technologies:* React, TypeScript, PostgreSQL, DynamoDB, Redis, AWS, Git  
-
-### Nexxt, Inc. | Philadelphia, PA  
-
-**Lead Architect** (Jan 2018 - Sep 2021) · **Solutions Architect**
- (May 2011 - Jan 2018)  
-
-- Engineered a horizontally scalable email platform sending **25 M +**
-  messages/day with compliance throttling.  
-- Built a 50-server grid-computing framework for near real-time data
-  processing.  
-- Managed an Elasticsearch cluster indexing ~ 80 M resumes and tens of millions
-  of job listings.  
-- Established CI/CD pipelines (Jenkins, MSBuild, Web Deploy) enabling rapid,
-  reliable releases.  
-- Modernised legacy job-search and people-search apps, boosting organic traffic
-  via SEO and responsive design.  
-
-*Technologies:* .NET Core, C#, ASP.NET MVC, Elasticsearch, MSMQ, AngularJS, AWS (DynamoDB, S3, CloudFront), SQL Server, Couchbase, Redis, Git/Mercurial  
-
-### Earlier Career (1995 - 2011)  
-
-Enterprise Architect & Team Lead at PMI, Sr. .NET Developer at ATK Elkton, Process & Infrastructure Lead / Web Team Lead at Chatham Financial, plus additional engineering roles dating back to 1995 (details available on request).
-
-## Open Source Contributions  
-
-- **Open Flash Chart:** .NET API integration  
-- **NAntContrib:** VssDelete build-automation task  
-- **Copy Context:** VS Code extension for markdown-formatted file copies  
-
-## Education  
-
-- **B.S. Business Administration**, Oral Roberts University - Dec 2002  
-- MBA coursework in e-Business & Org Change, Regent University (2000 - 2001)  
-
-## Certifications  
-
-- Microsoft Certified Solutions Developer (MCSD)  
-- Dale Carnegie Course Graduate  
-- Certified PC Troubleshooter  
-
-*Full, annotated résumé available on request.*
+{% for i in (0..cert_limit-1) %}
+- {{ site.data.resume.certificates[i].name }}{% if site.data.resume.certificates[i].date %} ({{ site.data.resume.certificates[i].date | date: "%b %Y" }}){% endif %}
+{% endfor %}

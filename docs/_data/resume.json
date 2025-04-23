@@ -1,15 +1,15 @@
 {
   "basics": {
-    "name": "Richard C. Adleta",
-    "label": "Senior Software Architect / Full‑Stack Engineer",
+    "name": "Richard Adleta",
+    "label": "Senior Software Architect & Full-Stack Engineer",
     "email": "radleta@gmail.com",
     "url": "https://www.richardadleta.com",
     "location": {
-      "city": "Frisco",
+      "city": "Dallas",
       "region": "TX",
       "countryCode": "US"
     },
-    "summary": "Senior software architect and full‑stack engineer with 20+ years of shipping production code and scaling cloud‑native, data‑intensive, and AI‑powered products. Known for translating fuzzy requirements into clean, testable code, championing automation, performance, and observability."
+    "summary": "Senior software architect and full-stack engineer with 20+ years of shipping production code and scaling cloud-native, data-intensive, and AI-powered products. Known for translating fuzzy requirements into clean, testable code, championing automation, performance, and observability."
   },
   "work": [
     {
@@ -24,21 +24,21 @@
         "Built advanced admin interfaces and reporting dashboards",
         "Supported infrastructure enhancements, including beta environment setup and domain-certification handling"
       ],
-      "technologies": [
-        ".NET",
-        "ASP.NET MVC",
-        "C#",
-        "Angular",
-        "AngularJS",
-        "TypeScript",
-        "SQL Server",
-        "T-SQL",
-        "Git",
-        "Jenkins",
-        "RESTful APIs",
-        "OpenAI GPT",
-        "Event-Driven Architecture",
-        "Data Validation"
+      "skills": [
+        { "name": ".NET" },
+        { "name": "ASP.NET MVC" },
+        { "name": "C#" },
+        { "name": "Angular" },
+        { "name": "AngularJS" },
+        { "name": "TypeScript" },
+        { "name": "SQL Server" },
+        { "name": "T-SQL" },
+        { "name": "Git" },
+        { "name": "Jenkins" },
+        { "name": "RESTful APIs" },
+        { "name": "OpenAI GPT" },
+        { "name": "Event-Driven Architecture" },
+        { "name": "Data Validation" }
       ]
     },
     {
@@ -53,29 +53,29 @@
         "Maintained blue-green deployments on AWS Elastic Beanstalk",
         "Delivered weekly newsletter to 175K+ subscribers using AWS SES"
       ],
-      "technologies": [
-        ".NET",
-        "C#",
-        "ASP.NET",
-        "React",
-        "TypeScript",
-        "Tailwind CSS",
-        "AWS",
-        "Git",
-        "DynamoDB",
-        "OpenSearch",
-        "Lambda",
-        "SES",
-        "Elastic Beanstalk",
-        "S3",
-        "CloudFront",
-        "CloudFormation",
-        "Route 53",
-        "WAF",
-        "ALB",
-        "CloudWatch",
-        "MySQL",
-        "Redis"
+      "skills": [
+        { "name": ".NET" },
+        { "name": "C#" },
+        { "name": "ASP.NET" },
+        { "name": "React" },
+        { "name": "TypeScript" },
+        { "name": "Tailwind CSS" },
+        { "name": "AWS" },
+        { "name": "Git" },
+        { "name": "DynamoDB" },
+        { "name": "OpenSearch" },
+        { "name": "Lambda" },
+        { "name": "SES" },
+        { "name": "Elastic Beanstalk" },
+        { "name": "S3" },
+        { "name": "CloudFront" },
+        { "name": "CloudFormation" },
+        { "name": "Route 53" },
+        { "name": "WAF" },
+        { "name": "ALB" },
+        { "name": "CloudWatch" },
+        { "name": "MySQL" },
+        { "name": "Redis" }
       ]
     },
     {
@@ -88,14 +88,14 @@
         "Developed and deployed projects using React, TypeScript, PostgreSQL, DynamoDB, Redis, and AWS",
         "Assisted in product design using HIVE engine blockchain"
       ],
-      "technologies": [
-        "React",
-        "TypeScript",
-        "PostgreSQL",
-        "DynamoDB",
-        "Redis",
-        "AWS",
-        "HIVE Engine Blockchain"
+      "skills": [
+        { "name": "React" },
+        { "name": "TypeScript" },
+        { "name": "PostgreSQL" },
+        { "name": "DynamoDB" },
+        { "name": "Redis" },
+        { "name": "AWS" },
+        { "name": "HIVE Engine Blockchain" }
       ]
     },
     {
@@ -109,15 +109,15 @@
         "Developed technology and product strategy for multiple gaming products",
         "Presented at Game Developer Conference (GDC) 2022"
       ],
-      "technologies": [
-        "Blockchain Technology",
-        "Web3",
-        "NFTs",
-        "Cryptocurrency",
-        "Decentralized Applications (dApps)",
-        "Smart Contracts",
-        "Game Development",
-        "Web Development"
+      "skills": [
+        { "name": "Blockchain Technology" },
+        { "name": "Web3" },
+        { "name": "NFTs" },
+        { "name": "Cryptocurrency" },
+        { "name": "Decentralized Applications (dApps)" },
+        { "name": "Smart Contracts" },
+        { "name": "Game Development" },
+        { "name": "Web Development" }
       ]
     },
     {
@@ -131,14 +131,14 @@
         "Hired and organized developers to expand the engineering team",
         "Implemented best practices for architecture and software development"
       ],
-      "technologies": [
-        "Git",
-        "JavaScript",
-        "PostgreSQL",
-        "Redis",
-        "AWS",
-        "EC2",
-        "WAF"
+      "skills": [
+        { "name": "Git" },
+        { "name": "JavaScript" },
+        { "name": "PostgreSQL" },
+        { "name": "Redis" },
+        { "name": "AWS" },
+        { "name": "EC2" },
+        { "name": "WAF" }
       ]
     },
     {
@@ -153,7 +153,13 @@
         "Developed an Elasticsearch cluster for 80M+ resumes and job listings",
         "Enhanced enterprise API monitoring and tracking"
       ],
-      "technologies": [".NET", "C#", "Elasticsearch", "AWS", "Redis"]
+      "skills": [
+        { "name": ".NET" },
+        { "name": "C#" },
+        { "name": "Elasticsearch" },
+        { "name": "AWS" },
+        { "name": "Redis" }
+      ]
     },
     {
       "name": "Nexxt",
@@ -166,12 +172,12 @@
         "Unified Classic ASP and .NET components into consolidated solutions",
         "Introduced alert systems and diagnostic tools for production readiness"
       ],
-      "technologies": [
-        ".NET",
-        "C#",
-        "SQL Server",
-        "Classic ASP",
-        "CI/CD Pipelines"
+      "skills": [
+        { "name": ".NET" },
+        { "name": "C#" },
+        { "name": "SQL Server" },
+        { "name": "Classic ASP" },
+        { "name": "CI/CD Pipelines" }
       ]
     },
     {
@@ -185,15 +191,15 @@
         "Led public eCommerce and portal sites development",
         "Designed and deployed DotNetNuke organization-wide"
       ],
-      "technologies": [
-        ".NET",
-        "C#",
-        "ASP.NET",
-        "SharePoint",
-        "BizTalk",
-        "Commerce Server",
-        "SQL Server",
-        "DotNetNuke"
+      "skills": [
+        { "name": ".NET" },
+        { "name": "C#" },
+        { "name": "ASP.NET" },
+        { "name": "SharePoint" },
+        { "name": "BizTalk" },
+        { "name": "Commerce Server" },
+        { "name": "SQL Server" },
+        { "name": "DotNetNuke" }
       ]
     },
     {
@@ -207,15 +213,15 @@
         "Implemented Atlassian suite (Jira, Confluence, FishEye)",
         "Built division-wide CruiseControl.NET automation"
       ],
-      "technologies": [
-        ".NET",
-        "C#",
-        "SharePoint",
-        "BizTalk",
-        "CruiseControl.NET",
-        "Jira",
-        "Confluence",
-        "FishEye"
+      "skills": [
+        { "name": ".NET" },
+        { "name": "C#" },
+        { "name": "SharePoint" },
+        { "name": "BizTalk" },
+        { "name": "CruiseControl.NET" },
+        { "name": "Jira" },
+        { "name": "Confluence" },
+        { "name": "FishEye" }
       ]
     },
     {
@@ -228,7 +234,13 @@
         "Transitioned from Cincom to Costpoint 6.0",
         "Worked with VB.NET, C#.NET, Oracle, and SQL Server"
       ],
-      "technologies": [".NET", "C#", "VB.NET", "SQL Server", "Oracle"]
+      "skills": [
+        { "name": ".NET" },
+        { "name": "C#" },
+        { "name": "VB.NET" },
+        { "name": "SQL Server" },
+        { "name": "Oracle" }
+      ]
     },
     {
       "name": "Chatham Financial",
@@ -241,15 +253,15 @@
         "Enhanced Agile and Release Management processes",
         "Customized BugTracker.NET for Agile and compliance needs"
       ],
-      "technologies": [
-        ".NET",
-        "C#",
-        "VB.NET",
-        "SQL Server",
-        "Build Automation",
-        "Code Generation",
-        "Agile Processes",
-        "Release Management"
+      "skills": [
+        { "name": ".NET" },
+        { "name": "C#" },
+        { "name": "VB.NET" },
+        { "name": "SQL Server" },
+        { "name": "Build Automation" },
+        { "name": "Code Generation" },
+        { "name": "Agile Processes" },
+        { "name": "Release Management" }
       ]
     },
     {
@@ -262,7 +274,7 @@
         "Mentored developers across teams",
         "Guided long-term architectural strategy"
       ],
-      "technologies": ["Mentoring", "Software Architecture"]
+      "skills": [{ "name": "Mentoring" }, { "name": "Software Architecture" }]
     },
     {
       "name": "Chatham Financial",
@@ -274,13 +286,13 @@
         "Oversaw web strategy and team of 6",
         "Led multi-year ASP to ASP.NET migration"
       ],
-      "technologies": [
-        ".NET",
-        "C#",
-        "ASP.NET",
-        "SQL Server",
-        "Agile",
-        "ASP to ASP.NET Migration"
+      "skills": [
+        { "name": ".NET" },
+        { "name": "C#" },
+        { "name": "ASP.NET" },
+        { "name": "SQL Server" },
+        { "name": "Agile" },
+        { "name": "ASP to ASP.NET Migration" }
       ]
     },
     {
@@ -293,12 +305,12 @@
         "Developed custom reporting and code-gen tools",
         "Implemented company-wide build scripts"
       ],
-      "technologies": [
-        ".NET",
-        "C#",
-        "Custom Reporting",
-        "Code Generation",
-        "Build Scripts"
+      "skills": [
+        { "name": ".NET" },
+        { "name": "C#" },
+        { "name": "Custom Reporting" },
+        { "name": "Code Generation" },
+        { "name": "Build Scripts" }
       ]
     },
     {
@@ -311,14 +323,14 @@
         "Worked on .NET Web Services and Remoting",
         "Built ASP.NET and C# web applications"
       ],
-      "technologies": [
-        ".NET",
-        "C#",
-        "ASP.NET",
-        "SQL Server",
-        "XML",
-        ".NET Web Services",
-        ".NET Remoting"
+      "skills": [
+        { "name": ".NET" },
+        { "name": "C#" },
+        { "name": "ASP.NET" },
+        { "name": "SQL Server" },
+        { "name": "XML" },
+        { "name": ".NET Web Services" },
+        { "name": ".NET Remoting" }
       ]
     },
     {
@@ -331,16 +343,16 @@
         "Created XML/XSLT SQL report systems",
         "Enhanced Dialogic telephony apps with VB6"
       ],
-      "technologies": [
-        ".NET",
-        "C#",
-        "ASP.NET",
-        "SQL Server",
-        "VB.NET",
-        "VB6",
-        "XML",
-        "XSLT",
-        "Dialogic Telephony"
+      "skills": [
+        { "name": ".NET" },
+        { "name": "C#" },
+        { "name": "ASP.NET" },
+        { "name": "SQL Server" },
+        { "name": "VB.NET" },
+        { "name": "VB6" },
+        { "name": "XML" },
+        { "name": "XSLT" },
+        { "name": "Dialogic Telephony" }
       ]
     },
     {
@@ -353,7 +365,14 @@
         "Used Reflection in .NET assemblies",
         "Maintained ActiveX libraries in VB6"
       ],
-      "technologies": [".NET", "C#", "VB.NET", "ActiveX", "COM", "Reflection"]
+      "skills": [
+        { "name": ".NET" },
+        { "name": "C#" },
+        { "name": "VB.NET" },
+        { "name": "ActiveX" },
+        { "name": "COM" },
+        { "name": "Reflection" }
+      ]
     },
     {
       "name": "Baker Oil Tools",
@@ -365,7 +384,13 @@
         "Integrated Office and web apps with Documentum",
         "Supported multiple international server environments"
       ],
-      "technologies": ["Documentum", "Visual Basic", "VBA", "ASP", "COM"]
+      "skills": [
+        { "name": "Documentum" },
+        { "name": "Visual Basic" },
+        { "name": "VBA" },
+        { "name": "ASP" },
+        { "name": "COM" }
+      ]
     },
     {
       "name": "Network for Strategic Missions",
@@ -377,7 +402,13 @@
         "Built PostgreSQL-backed websites with PHP and ASP",
         "Led livethecall.com launch for 300,000+ campaign"
       ],
-      "technologies": ["PHP", "ASP", "PostgreSQL", "HTML", "JavaScript"]
+      "skills": [
+        { "name": "PHP" },
+        { "name": "ASP" },
+        { "name": "PostgreSQL" },
+        { "name": "HTML" },
+        { "name": "JavaScript" }
+      ]
     },
     {
       "name": "Family Mission/Vision Enterprises",
@@ -387,9 +418,9 @@
       "summary": "Sales and IT management at conferences and internal operations.",
       "highlights": [
         "Maintained Windows peer-to-peer network",
-        "Launched company\u2019s first online catalog"
+        "Launched company’s first online catalog"
       ],
-      "technologies": ["Windows Networking", "HTML"]
+      "skills": [{ "name": "Windows Networking" }, { "name": "HTML" }]
     },
     {
       "name": "PC Consulting",
@@ -401,7 +432,7 @@
         "Performed hardware diagnostics",
         "Represented wholesalers at local markets"
       ],
-      "technologies": ["Hardware Diagnostics"]
+      "skills": [{ "name": "Hardware Diagnostics" }]
     }
   ],
   "education": [

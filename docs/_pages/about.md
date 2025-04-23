@@ -6,11 +6,11 @@ share: true
 toc: true
 ---
 
-## **Hands‑On Senior Engineer & Solution Architect**
+## 👨‍💻 **Hands‑On Senior Software Architect & Full-Stack Engineer**
 
 With over 20 years of experience in software architecture, engineering leadership, and building innovative solutions, I thrive at the intersection of **creativity** and **technology**. My passion for **coding** and **problem-solving** has always been the driving force behind everything I do, both in my career and as a hobby.
 
-## My Journey
+## 🚀 My Journey
 
 From early in my career as a .NET developer to leading teams as a Lead Architect, my path has been one of continuous exploration. Whether I'm solving complex challenges at work or creating something new in my spare time, I'm always drawn to **building things that people use**. Nothing brings me more satisfaction than watching someone interact with what I've built and hearing their reaction: _"Wow!"_
 
@@ -22,13 +22,13 @@ Over the years, I've taken on a variety of roles:
 
 Through all of these experiences, I've remained hands-on with the code. I love **writing code**, solving problems, and pushing the limits of what's possible. The rise of **AI** has only fueled my excitement, enabling me to build smarter, more innovative solutions.
 
-## My Approach
+## 🧠 My Approach
 
 I'm not just a leader—I'm a **builder** at heart. I take pride in rolling up my sleeves and diving into the code, whether it's to solve a problem, architect a new system, or optimize an existing one. My approach is rooted in being **hands-on** and **collaborative**: I love working directly with teams to bring ideas to life.
 
 For me, coding is both a **hobby** and a career. I'm constantly torn between the two, as I find immense joy in exploring new ideas and creating things, whether at work or in my free time. That drive for exploration is what keeps me excited every day—there's always something new to learn, a new challenge to tackle, or a new solution to build.
 
-## Technologies & Expertise
+## 🛠️ Technologies & Expertise
 
 Over the years, I've mastered a wide array of technologies that allow me to build efficient, scalable solutions. Here's a breakdown of my core expertise:
 
@@ -42,13 +42,13 @@ Over the years, I've mastered a wide array of technologies that allow me to buil
 
 Every technology in my toolkit has been honed by building real-world solutions that impact users and drive business success. Whether it's designing microservices, implementing AI-driven features, or architecting cloud-native applications, I'm passionate about the **craft** of development.
 
-## Beyond Work
+## 🎮 Beyond Work
 
 When I'm not coding, you'll often find me relaxing with a good **game**. Gaming has always been my go-to way to unwind, and I love the creativity and immersion that great games provide. It's this same love for creating experiences that drives my work—whether I'm writing code or playing, I'm always thinking about how to build something better.
 
 In addition to gaming, I spend as much time as I can with my family. I believe in maintaining a healthy balance between work, play, and family life, which keeps me grounded and creative.
 
-## Let's Connect
+## 🤝 Let's Connect
 
 I'm always interested in collaborating, whether on exciting new projects, innovative technologies, or simply connecting with fellow creators. Feel free to [reach out on LinkedIn](https://www.linkedin.com/in/radleta) or [check out my GitHub](https://github.com/radleta) to see some of my work.
 

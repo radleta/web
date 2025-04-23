@@ -1,0 +1,534 @@
+{
+  "basics": {
+    "name": "Richard Adleta",
+    "label": "Senior Software Architect & Full-Stack Engineer",
+    "email": "radleta@gmail.com",
+    "url": "https://www.richardadleta.com",
+    "location": {
+      "city": "Dallas",
+      "region": "TX",
+      "countryCode": "US"
+    },
+    "summary": "Senior software architect and full-stack engineer with 20+ years of shipping production code and scaling cloud-native, data-intensive, and AI-powered products. Known for translating fuzzy requirements into clean, testable code, championing automation, performance, and observability."
+  },
+  "work": [
+    {
+      "name": "Nexxt",
+      "position": "Lead Architect",
+      "startDate": "2023-10-01",
+      "summary": "Architected and developed scalable AI-driven solutions and integrations.",
+      "highlights": [
+        "Developed enterprise AI Assistant for email composition, web-page building, and job postings",
+        "Designed event-driven integration framework with robust data-validation mechanisms",
+        "Implemented job-title-normalization algorithms with confidence scoring",
+        "Built advanced admin interfaces and reporting dashboards",
+        "Supported infrastructure enhancements, including beta environment setup and domain-certification handling"
+      ],
+      "skills": [
+        { "name": ".NET" },
+        { "name": "ASP.NET MVC" },
+        { "name": "C#" },
+        { "name": "Angular" },
+        { "name": "AngularJS" },
+        { "name": "TypeScript" },
+        { "name": "SQL Server" },
+        { "name": "T-SQL" },
+        { "name": "Git" },
+        { "name": "Jenkins" },
+        { "name": "RESTful APIs" },
+        { "name": "OpenAI GPT" },
+        { "name": "Event-Driven Architecture" },
+        { "name": "Data Validation" }
+      ]
+    },
+    {
+      "name": "All Kids Network",
+      "position": "Partner & Principal Engineer",
+      "startDate": "2014-05-01",
+      "summary": "Co-owned business and led end-to-end development of a high-traffic educational platform.",
+      "highlights": [
+        "Served 6.8M page views annually, with 2.2M-member user base",
+        "Built CMS with React, TypeScript, and RESTful C# APIs",
+        "Enabled search via AWS Lambda → OpenSearch pipeline",
+        "Maintained blue-green deployments on AWS Elastic Beanstalk",
+        "Delivered weekly newsletter to 175K+ subscribers using AWS SES"
+      ],
+      "skills": [
+        { "name": ".NET" },
+        { "name": "C#" },
+        { "name": "ASP.NET" },
+        { "name": "React" },
+        { "name": "TypeScript" },
+        { "name": "Tailwind CSS" },
+        { "name": "AWS" },
+        { "name": "Git" },
+        { "name": "DynamoDB" },
+        { "name": "OpenSearch" },
+        { "name": "Lambda" },
+        { "name": "SES" },
+        { "name": "Elastic Beanstalk" },
+        { "name": "S3" },
+        { "name": "CloudFront" },
+        { "name": "CloudFormation" },
+        { "name": "Route 53" },
+        { "name": "WAF" },
+        { "name": "ALB" },
+        { "name": "CloudWatch" },
+        { "name": "MySQL" },
+        { "name": "Redis" }
+      ]
+    },
+    {
+      "name": "Splinterlands",
+      "position": "Head of Product / Solutions Developer",
+      "startDate": "2022-12-01",
+      "endDate": "2023-09-30",
+      "summary": "Developed and deployed projects for the Splinterlands collectible card game.",
+      "highlights": [
+        "Developed and deployed projects using React, TypeScript, PostgreSQL, DynamoDB, Redis, and AWS",
+        "Assisted in product design using HIVE engine blockchain"
+      ],
+      "skills": [
+        { "name": "React" },
+        { "name": "TypeScript" },
+        { "name": "PostgreSQL" },
+        { "name": "DynamoDB" },
+        { "name": "Redis" },
+        { "name": "AWS" },
+        { "name": "HIVE Engine Blockchain" }
+      ]
+    },
+    {
+      "name": "Splinterlands",
+      "position": "Chief Technology Officer",
+      "startDate": "2021-12-01",
+      "endDate": "2022-12-31",
+      "summary": "Helped grow the organization and launch simultaneous products.",
+      "highlights": [
+        "Scaled the organization from 20+ to 150+ employees and contractors",
+        "Developed technology and product strategy for multiple gaming products",
+        "Presented at Game Developer Conference (GDC) 2022"
+      ],
+      "skills": [
+        { "name": "Blockchain Technology" },
+        { "name": "Web3" },
+        { "name": "NFTs" },
+        { "name": "Cryptocurrency" },
+        { "name": "Decentralized Applications (dApps)" },
+        { "name": "Smart Contracts" },
+        { "name": "Game Development" },
+        { "name": "Web Development" }
+      ]
+    },
+    {
+      "name": "Splinterlands",
+      "position": "Vice President Of Engineering",
+      "startDate": "2021-09-01",
+      "endDate": "2021-12-31",
+      "summary": "Stabilized the company's main product and grew the engineering team.",
+      "highlights": [
+        "Troubleshot and stabilized Splinterlands during rapid growth",
+        "Hired and organized developers to expand the engineering team",
+        "Implemented best practices for architecture and software development"
+      ],
+      "skills": [
+        { "name": "Git" },
+        { "name": "JavaScript" },
+        { "name": "PostgreSQL" },
+        { "name": "Redis" },
+        { "name": "AWS" },
+        { "name": "EC2" },
+        { "name": "WAF" }
+      ]
+    },
+    {
+      "name": "Nexxt",
+      "position": "Lead Architect",
+      "startDate": "2018-01-01",
+      "endDate": "2021-09-30",
+      "summary": "Directed architectural efforts for large-scale web applications.",
+      "highlights": [
+        "Engineered a horizontally scalable email-delivery system for 25M+ emails/day",
+        "Built a grid-computing framework operating on 50+ servers",
+        "Developed an Elasticsearch cluster for 80M+ resumes and job listings",
+        "Enhanced enterprise API monitoring and tracking"
+      ],
+      "skills": [
+        { "name": ".NET" },
+        { "name": "C#" },
+        { "name": "Elasticsearch" },
+        { "name": "AWS" },
+        { "name": "Redis" }
+      ]
+    },
+    {
+      "name": "Nexxt",
+      "position": "Solutions Architect",
+      "startDate": "2011-05-01",
+      "endDate": "2018-01-31",
+      "summary": "Modernized web applications and implemented CI/CD pipelines.",
+      "highlights": [
+        "Led development of a next-generation job-search engine",
+        "Unified Classic ASP and .NET components into consolidated solutions",
+        "Introduced alert systems and diagnostic tools for production readiness"
+      ],
+      "skills": [
+        { "name": ".NET" },
+        { "name": "C#" },
+        { "name": "SQL Server" },
+        { "name": "Classic ASP" },
+        { "name": "CI/CD Pipelines" }
+      ]
+    },
+    {
+      "name": "Project Management Institute",
+      "position": "Enterprise Architect / Team Lead",
+      "startDate": "2009-06-01",
+      "endDate": "2011-06-30",
+      "summary": "Led architecture reviews, team leadership, and major IT platform development for 300,000+ user base.",
+      "highlights": [
+        "Shaped future IT architecture and optimized SDLC processes",
+        "Led public eCommerce and portal sites development",
+        "Designed and deployed DotNetNuke organization-wide"
+      ],
+      "skills": [
+        { "name": ".NET" },
+        { "name": "C#" },
+        { "name": "ASP.NET" },
+        { "name": "SharePoint" },
+        { "name": "BizTalk" },
+        { "name": "Commerce Server" },
+        { "name": "SQL Server" },
+        { "name": "DotNetNuke" }
+      ]
+    },
+    {
+      "name": "Project Management Institute",
+      "position": "Technical Lead / Sr. Developer",
+      "startDate": "2008-08-01",
+      "endDate": "2009-06-30",
+      "summary": "Directed Agile Scrum projects and improved build processes.",
+      "highlights": [
+        "Completed 5-week Agile sprints with .NET, SharePoint, BizTalk",
+        "Implemented Atlassian suite (Jira, Confluence, FishEye)",
+        "Built division-wide CruiseControl.NET automation"
+      ],
+      "skills": [
+        { "name": ".NET" },
+        { "name": "C#" },
+        { "name": "SharePoint" },
+        { "name": "BizTalk" },
+        { "name": "CruiseControl.NET" },
+        { "name": "Jira" },
+        { "name": "Confluence" },
+        { "name": "FishEye" }
+      ]
+    },
+    {
+      "name": "ATK Elkton",
+      "position": "Sr. .NET Developer",
+      "startDate": "2008-02-01",
+      "endDate": "2008-08-31",
+      "summary": "Migrated ERP systems and developed .NET applications.",
+      "highlights": [
+        "Transitioned from Cincom to Costpoint 6.0",
+        "Worked with VB.NET, C#.NET, Oracle, and SQL Server"
+      ],
+      "skills": [
+        { "name": ".NET" },
+        { "name": "C#" },
+        { "name": "VB.NET" },
+        { "name": "SQL Server" },
+        { "name": "Oracle" }
+      ]
+    },
+    {
+      "name": "Chatham Financial",
+      "position": "Software Development Process and Infrastructure Department Lead",
+      "startDate": "2007-11-01",
+      "endDate": "2008-01-31",
+      "summary": "Directed process and automation groups in software development.",
+      "highlights": [
+        "Founded Build Automation and Code Generation groups",
+        "Enhanced Agile and Release Management processes",
+        "Customized BugTracker.NET for Agile and compliance needs"
+      ],
+      "skills": [
+        { "name": ".NET" },
+        { "name": "C#" },
+        { "name": "VB.NET" },
+        { "name": "SQL Server" },
+        { "name": "Build Automation" },
+        { "name": "Code Generation" },
+        { "name": "Agile Processes" },
+        { "name": "Release Management" }
+      ]
+    },
+    {
+      "name": "Chatham Financial",
+      "position": "Architecture/Mentoring Department Lead",
+      "startDate": "2007-01-01",
+      "endDate": "2008-01-31",
+      "summary": "Co-led software architecture direction and mentoring initiatives.",
+      "highlights": [
+        "Mentored developers across teams",
+        "Guided long-term architectural strategy"
+      ],
+      "skills": [{ "name": "Mentoring" }, { "name": "Software Architecture" }]
+    },
+    {
+      "name": "Chatham Financial",
+      "position": "Web Team Lead",
+      "startDate": "2006-03-01",
+      "endDate": "2007-10-31",
+      "summary": "Led web team for US/UK platforms with Agile execution.",
+      "highlights": [
+        "Oversaw web strategy and team of 6",
+        "Led multi-year ASP to ASP.NET migration"
+      ],
+      "skills": [
+        { "name": ".NET" },
+        { "name": "C#" },
+        { "name": "ASP.NET" },
+        { "name": "SQL Server" },
+        { "name": "Agile" },
+        { "name": "ASP to ASP.NET Migration" }
+      ]
+    },
+    {
+      "name": "Chatham Financial",
+      "position": "Sr. .NET Developer",
+      "startDate": "2004-02-01",
+      "endDate": "2006-03-31",
+      "summary": "Delivered full lifecycle financial reporting and automation tools.",
+      "highlights": [
+        "Developed custom reporting and code-gen tools",
+        "Implemented company-wide build scripts"
+      ],
+      "skills": [
+        { "name": ".NET" },
+        { "name": "C#" },
+        { "name": "Custom Reporting" },
+        { "name": "Code Generation" },
+        { "name": "Build Scripts" }
+      ]
+    },
+    {
+      "name": "Exelon Power Team",
+      "position": ".NET Developer",
+      "startDate": "2003-01-01",
+      "endDate": "2004-02-29",
+      "summary": "Supported power trading systems using full Microsoft stack.",
+      "highlights": [
+        "Worked on .NET Web Services and Remoting",
+        "Built ASP.NET and C# web applications"
+      ],
+      "skills": [
+        { "name": ".NET" },
+        { "name": "C#" },
+        { "name": "ASP.NET" },
+        { "name": "SQL Server" },
+        { "name": "XML" },
+        { "name": ".NET Web Services" },
+        { "name": ".NET Remoting" }
+      ]
+    },
+    {
+      "name": "MiraTech Consulting Group",
+      "position": ".NET Developer",
+      "startDate": "2002-09-01",
+      "endDate": "2003-01-31",
+      "summary": "Consulted across multiple simultaneous projects.",
+      "highlights": [
+        "Created XML/XSLT SQL report systems",
+        "Enhanced Dialogic telephony apps with VB6"
+      ],
+      "skills": [
+        { "name": ".NET" },
+        { "name": "C#" },
+        { "name": "ASP.NET" },
+        { "name": "SQL Server" },
+        { "name": "VB.NET" },
+        { "name": "VB6" },
+        { "name": "XML" },
+        { "name": "XSLT" },
+        { "name": "Dialogic Telephony" }
+      ]
+    },
+    {
+      "name": "AppsChannel",
+      "position": ".NET Developer",
+      "startDate": "2002-01-01",
+      "endDate": "2002-08-31",
+      "summary": "Built Visual Studio .NET extensions and COM integrations.",
+      "highlights": [
+        "Used Reflection in .NET assemblies",
+        "Maintained ActiveX libraries in VB6"
+      ],
+      "skills": [
+        { "name": ".NET" },
+        { "name": "C#" },
+        { "name": "VB.NET" },
+        { "name": "ActiveX" },
+        { "name": "COM" },
+        { "name": "Reflection" }
+      ]
+    },
+    {
+      "name": "Baker Oil Tools",
+      "position": "DMS Systems Programmer",
+      "startDate": "2001-08-01",
+      "endDate": "2002-01-31",
+      "summary": "Installed and supported Documentum systems worldwide.",
+      "highlights": [
+        "Integrated Office and web apps with Documentum",
+        "Supported multiple international server environments"
+      ],
+      "skills": [
+        { "name": "Documentum" },
+        { "name": "Visual Basic" },
+        { "name": "VBA" },
+        { "name": "ASP" },
+        { "name": "COM" }
+      ]
+    },
+    {
+      "name": "Network for Strategic Missions",
+      "position": "Lead Programmer",
+      "startDate": "1999-03-01",
+      "endDate": "2001-04-30",
+      "summary": "Built full-stack web platforms and Linux-hosted databases.",
+      "highlights": [
+        "Built PostgreSQL-backed websites with PHP and ASP",
+        "Led livethecall.com launch for 300,000+ campaign"
+      ],
+      "skills": [
+        { "name": "PHP" },
+        { "name": "ASP" },
+        { "name": "PostgreSQL" },
+        { "name": "HTML" },
+        { "name": "JavaScript" }
+      ]
+    },
+    {
+      "name": "Family Mission/Vision Enterprises",
+      "position": "IS Admin / Sales Representative",
+      "startDate": "1995-02-01",
+      "endDate": "1997-08-31",
+      "summary": "Sales and IT management at conferences and internal operations.",
+      "highlights": [
+        "Maintained Windows peer-to-peer network",
+        "Launched company’s first online catalog"
+      ],
+      "skills": [{ "name": "Windows Networking" }, { "name": "HTML" }]
+    },
+    {
+      "name": "PC Consulting",
+      "position": "Independent Consultant",
+      "startDate": "1993-01-01",
+      "endDate": "1995-02-28",
+      "summary": "Provided IBM PC troubleshooting and retail hardware/software solutions.",
+      "highlights": [
+        "Performed hardware diagnostics",
+        "Represented wholesalers at local markets"
+      ],
+      "skills": [{ "name": "Hardware Diagnostics" }]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Regent University",
+      "area": "e-Business and Organizational Change",
+      "studyType": "MBA Coursework",
+      "startDate": "2000-08-01",
+      "endDate": "2001-05-31"
+    },
+    {
+      "institution": "Oral Roberts University",
+      "area": "Business Administration",
+      "studyType": "Bachelor of Science",
+      "startDate": "1997-08-01",
+      "endDate": "2002-12-31",
+      "gpa": "3.49"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Dale Carnegie Course",
+      "date": "2005-06"
+    },
+    {
+      "name": "Microsoft Certified Solutions Developer (MCSD)",
+      "date": "2005-06"
+    },
+    {
+      "name": "Certified PC Troubleshooter",
+      "issuer": "NRI Schools",
+      "date": "2000-04"
+    },
+    {
+      "name": "Certified in eCommerce Concepts",
+      "issuer": "Brainbench.com",
+      "date": "2000-01"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Open Flash Chart",
+      "description": ".NET API for Flash Charting Component",
+      "url": "http://teethgrinder.co.uk/open-flash-chart/"
+    },
+    {
+      "name": "NAntContrib",
+      "description": "Submitted VssDelete task",
+      "url": "http://nantcontrib.sourceforge.net/"
+    },
+    {
+      "name": "Copy Context",
+      "description": "VS Code extension for copying selected files as formatted markdown"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Backend",
+      "keywords": [
+        "C#",
+        "ASP.NET MVC",
+        ".NET 6",
+        ".NET 8",
+        "Lambda",
+        "Elasticsearch",
+        "DynamoDB",
+        "SQL Server"
+      ]
+    },
+    {
+      "name": "Frontend",
+      "keywords": [
+        "React",
+        "Angular",
+        "TypeScript",
+        "Tailwind CSS",
+        "JavaScript",
+        "HTML5",
+        "CSS3"
+      ]
+    },
+    {
+      "name": "DevOps & Cloud",
+      "keywords": [
+        "AWS",
+        "Elastic Beanstalk",
+        "WAF",
+        "S3",
+        "ALB",
+        "Git",
+        "Jenkins",
+        "Bitbucket"
+      ]
+    }
+  ],
+  "meta": {
+    "version": "v1"
+  }
+}

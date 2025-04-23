@@ -1,7 +1,7 @@
 ---
 layout: home
 author_profile: true
-title: "Richard Adleta - Hands‑On Senior Engineer & Solution Architect"
+title: "Hands‑On Senior Software Architect & Full-Stack Engineer"
 permalink: /
 ---
 

@@ -5,7 +5,7 @@ OUTPUT_DIR="assets/downloads"
 YML_FILE="_data/downloads.yml"
 
 # Supported output formats
-FORMATS=("pdf" "docx" "odt" "epub")
+FORMATS=("md" "pdf" "docx" "odt" "epub" "json")
 
 # Ensure the output directory exists
 mkdir -p $OUTPUT_DIR
@@ -32,8 +32,11 @@ convert_file() {
 
     for format in "${FORMATS[@]}"; do
         output_file="${OUTPUT_DIR}/${base_name}.${format}"
+        # if the format is json, then we just copy the file from the _data/resume.json
+        if [ "$format" == "json" ]; then
+            cp "_data/resume.json" "$output_file"        
         # if the format is pdf, use the eisvogel template
-        if [ "$format" == "pdf" ]; then
+        elif [ "$format" == "pdf" ]; then
             pandoc "$input_file" -o "$output_file" --template eisvogel
         else
             pandoc "$input_file" -o "$output_file"

@@ -2,6 +2,8 @@
 adleta_richard_resume_full:
   title: "adleta_richard_resume_full"
   formats:
+    - format: "md"
+      path: "assets/downloads/adleta_richard_resume_full.md"
     - format: "pdf"
       path: "assets/downloads/adleta_richard_resume_full.pdf"
     - format: "docx"
@@ -10,9 +12,13 @@ adleta_richard_resume_full:
       path: "assets/downloads/adleta_richard_resume_full.odt"
     - format: "epub"
       path: "assets/downloads/adleta_richard_resume_full.epub"
+    - format: "json"
+      path: "assets/downloads/adleta_richard_resume_full.json"
 adleta_richard_resume_condensed:
   title: "adleta_richard_resume_condensed"
   formats:
+    - format: "md"
+      path: "assets/downloads/adleta_richard_resume_condensed.md"
     - format: "pdf"
       path: "assets/downloads/adleta_richard_resume_condensed.pdf"
     - format: "docx"
@@ -21,3 +27,5 @@ adleta_richard_resume_condensed:
       path: "assets/downloads/adleta_richard_resume_condensed.odt"
     - format: "epub"
       path: "assets/downloads/adleta_richard_resume_condensed.epub"
+    - format: "json"
+      path: "assets/downloads/adleta_richard_resume_condensed.json"
