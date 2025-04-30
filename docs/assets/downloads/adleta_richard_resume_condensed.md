@@ -62,34 +62,53 @@ request.
 
 ## Skills
 
-**Backend Development**: C#, .NET, .NET Core, .NET Framework, .NET 6,
-.NET 8, ASP.NET MVC, ASP.NET Core, ASP.NET Razor, ASP.NET Web API, LINQ,
-Windows Services
+**Core Programming & Development**: C#, .NET, .NET Core, .NET Framework,
+.NET Standard, .NET 6, .NET 8, LINQ, TypeScript, JavaScript, REST APIs,
+RESTful APIs, JSON, XML, Webhooks, PowerShell, Bash, VB.NET, Code
+Generation, Windows Services, xUnit, NUnit, NCover, Automated Testing
 
-**Frontend Development**: React, Angular, AngularJS, TypeScript,
-JavaScript, HTML, CSS, Tailwind CSS, Bootstrap, LESS, jQuery, AJAX
+**Frontend Technologies**: React, Angular, AngularJS, TypeScript,
+JavaScript, HTML, CSS, Tailwind CSS, Bootstrap, LESS, jQuery, AJAX,
+Schema.org, SEO Optimization, Web Development, Google Analytics, Google
+Webmaster Tools, Google AdSense
 
-**Databases & Search**: SQL Server, T-SQL, PostgreSQL, MySQL, DynamoDB,
+**Backend & Server Technologies**: ASP.NET MVC, ASP.NET Core, ASP.NET
+Razor, ASP.NET Web API, ASP.NET, Windows Services, API Integration,
+Authentication/Authorization, OAuth, IIS, Linux, Ubuntu, HAProxy, MSMQ,
+Event-Driven Architecture, .NET Web Services, .NET Remoting, BizTalk,
+Commerce Server, Classic ASP
+
+**Data Management**: SQL Server, T-SQL, PostgreSQL, MySQL, DynamoDB,
 Redis, Elasticsearch, OpenSearch, Couchbase, RavenDB, MongoDB, Lucene,
-Solr
+Solr, Neo4j, Oracle, InfluxDB, AWS ElastiCache, AWS Redshift, AWS
+CloudSearch, Data Migration, Data Validation
 
-**Cloud & DevOps**: AWS, AWS Lambda, AWS S3, AWS CloudFront, AWS Elastic
-Beanstalk, AWS DynamoDB, AWS CloudWatch, AWS SES, AWS Route 53, AWS WAF,
-AWS EC2, CI/CD Pipelines, Git, Jenkins, Azure DevOps, Bitbucket, Ansible
+**Cloud & Infrastructure**: AWS, AWS Lambda, AWS S3, AWS CloudFront, AWS
+Elastic Beanstalk, AWS DynamoDB, AWS CloudWatch, AWS SES, AWS Route 53,
+AWS WAF, AWS EC2, AWS SNS, AWS EMR, AWS DataSync, Azure, Azure DevOps,
+CI/CD Pipelines, Git, GitHub, Jenkins, Bitbucket, Ansible, DevOps, Build
+Automation, CruiseControl.NET, MSBuild, NAnt, Web Deploy, Infrastructure
+Management, Nagios, NagiosXI, Kinesis
 
-**Architecture & Design**: Software Architecture, Enterprise Systems
-Design, Event-Driven Architecture, RESTful APIs, Microservices, Scalable
-Systems, High-Volume Processing, Grid Computing, Performance Tuning
+**Architecture & Performance**: Software Architecture, Enterprise
+Architecture, Enterprise Systems Design, Event-Driven Architecture,
+Microservices, Scalable Systems, High-Volume Processing, Grid Computing,
+Performance Tuning, Software Development Life Cycle (SDLC), Code
+Generation, Process Improvement, Technical Documentation, Algorithm
+Design
 
-**AI & Machine Learning**: OpenAI GPT, Machine Learning Integration,
-Algorithm Design, Confidence Scoring, Data Validation
+**Specialized Technologies & Domains**: OpenAI GPT, Machine Learning
+Integration, Confidence Scoring, HIVE Engine Blockchain, Web3, NFTs,
+Cryptocurrency, Decentralized Applications (dApps), Smart Contracts,
+Blockchain Technology, Game Development, Game Design, Game Monetization,
+Game Analytics, SharePoint, Documentum, DotNetNuke, PHP, Costpoint, ERP
+Systems, VB6, Visual Basic, ActiveX, COM, COM Interop
 
-**Blockchain & Web3**: HIVE Engine Blockchain, Web3, NFTs,
-Cryptocurrency, Decentralized Applications (dApps), Smart Contracts
-
-**Leadership**: Team Leadership, Mentoring, Technical Leadership,
-Cross-team Coordination, Agile, Scrum, Requirements Gathering, Strategic
-Planning
+**Leadership & Project Management**: Team Leadership, Technical
+Leadership, Executive Leadership, Mentoring, Cross-team Coordination,
+Strategic Planning, Succession Planning, Requirements Gathering, Product
+Management, Agile, Scrum, Scrum Master, Release Management, Trello,
+Jira, Confluence, FishEye, Microsoft Teams
 
 ## Education & Certifications {#education--certifications}
 

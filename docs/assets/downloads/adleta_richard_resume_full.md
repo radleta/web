@@ -33,16 +33,15 @@ architecture, OpenAI GPT integration, and AWS cloud services.
 - Supported infrastructure enhancements, including beta environment
   setup and domain-certification handling
 
-**Skills:** .NET, .NET Core, .NET Framework, .NET Standard, .NET 6,
-ASP.NET MVC, ASP.NET Core, ASP.NET Razor, C#, Angular, AngularJS,
-TypeScript, SQL Server, T-SQL, JavaScript, HTML, CSS, OpenAI GPT,
-Elasticsearch, OpenSearch, Azure DevOps, Git, Jenkins, AWS Services,
-RESTful APIs, JSON, Webhooks, Event-Driven Architecture, Data
-Validation, Algorithm Design, Machine Learning Integration, CI/CD
-Pipelines, Trello, Team Leadership, Mentoring, Technical Leadership,
-Scalable Systems, Software Architecture, Enterprise Systems Design,
-Cross-team Coordination, Strategic Planning, Performance Tuning,
-Requirements Gathering
+**Skills:** .NET, .NET Core, .NET Framework, .NET Standard, ASP.NET MVC,
+ASP.NET Core, ASP.NET Razor, C#, Angular, AngularJS, TypeScript, SQL
+Server, T-SQL, JavaScript, HTML, CSS, OpenAI GPT, Elasticsearch,
+OpenSearch, Azure DevOps, Git, Jenkins, AWS Services, RESTful APIs,
+JSON, Webhooks, Event-Driven Architecture, Data Validation, Algorithm
+Design, Machine Learning Integration, CI/CD Pipelines, Trello, Team
+Leadership, Mentoring, Technical Leadership, Scalable Systems, Software
+Architecture, Enterprise Systems Design, Cross-team Coordination,
+Strategic Planning, Performance Tuning, Requirements Gathering
 
 ### Partner & Principal Engineer \| All Kids Network {#partner--principal-engineer--all-kids-network}
 
@@ -67,12 +66,12 @@ annually.
 ASP.NET, ASP.NET MVC, ASP.NET Razor, React, TypeScript, Tailwind CSS,
 AWS, Git, AWS DynamoDB, AWS OpenSearch, AWS CloudSearch, AWS Lambda, AWS
 SES, AWS Elastic Beanstalk, AWS S3, AWS CloudFront, AWS Route 53, AWS
-WAF, AWS EC2, Azure DevOps, Jenkins, Bitbucket, CI/CD Pipelines, REST
-APIs, JSON, XML, AWS CloudWatch, AWS ElastiCache, MySQL, Redis,
-JavaScript, HTML, CSS, LESS, Bootstrap, AJAX, jQuery, xUnit, Agile,
-Scrum, Bash, Trello, Team Leadership, Technical Leadership, Strategic
-Planning, Software Architecture, Scalable Systems, High-Volume
-Processing, Performance Tuning, Requirements Gathering, Mentoring
+WAF, AWS EC2, Bitbucket, CI/CD Pipelines, REST APIs, JSON, AWS
+CloudWatch, AWS ElastiCache, MySQL, Redis, JavaScript, HTML, CSS, LESS,
+Bootstrap, AJAX, jQuery, xUnit, Agile, Scrum, Bash, Trello, Team
+Leadership, Technical Leadership, Strategic Planning, Software
+Architecture, Scalable Systems, High-Volume Processing, Performance
+Tuning, Requirements Gathering, Mentoring
 
 ### Head of Product / Solutions Developer \| Splinterlands {#head-of-product--solutions-developer--splinterlands}
 
@@ -161,18 +160,18 @@ transactions daily.
 - Enhanced enterprise API monitoring and tracking
 
 **Skills:** .NET, .NET Core, .NET Framework, .NET Standard, C#, LINQ,
-ASP.NET, SQL Server, T-SQL, PostgreSQL, Elasticsearch, Elasticsearch
-Kibana, NEST, Lucene, Solr, Redis, Couchbase, AWS, AWS Lambda, AWS
-DynamoDB, AWS S3, AWS EC2, AWS Elastic Beanstalk, AWS CloudFront, AWS
-CloudWatch, AWS SES, AWS Route 53, AWS EMR, AWS DataSync, PowerShell,
-JavaScript, AngularJS, HTML, CSS, Classic ASP, Git, GitHub, Jenkins,
-Nagios, NagiosXI, Ansible, Windows Services, Linux, Ubuntu, IIS, MSMQ,
-REST APIs, JSON, XML, Robocopy, HAProxy, DevOps, CI/CD Pipelines,
-Trello, Microsoft Teams, NUnit, xUnit, Agile, Scrum, Bash, Technical
-Leadership, Software Architecture, Scalable Systems, High-Volume
-Processing, Grid Computing, Performance Tuning, Requirements Gathering,
-Mentoring, Team Leadership, Cross-team Coordination, Strategic Planning,
-Enterprise Systems Design, Process Improvement, Technical Documentation
+ASP.NET, SQL Server, T-SQL, Elasticsearch, Elasticsearch Kibana, NEST,
+Lucene, Solr, Redis, Couchbase, AWS, AWS Lambda, AWS DynamoDB, AWS S3,
+AWS EC2, AWS Elastic Beanstalk, AWS CloudFront, AWS CloudWatch, AWS SES,
+AWS Route 53, AWS EMR, AWS DataSync, PowerShell, JavaScript, AngularJS,
+HTML, CSS, Classic ASP, Git, GitHub, Jenkins, Nagios, NagiosXI, Ansible,
+Windows Services, Linux, Ubuntu, IIS, MSMQ, REST APIs, JSON, XML,
+Robocopy, HAProxy, DevOps, CI/CD Pipelines, Trello, Microsoft Teams,
+NUnit, xUnit, Agile, Scrum, Bash, Technical Leadership, Software
+Architecture, Scalable Systems, High-Volume Processing, Grid Computing,
+Performance Tuning, Requirements Gathering, Mentoring, Team Leadership,
+Cross-team Coordination, Strategic Planning, Enterprise Systems Design,
+Process Improvement, Technical Documentation
 
 ### Solutions Architect \| Nexxt {#solutions-architect--nexxt}
 
@@ -194,15 +193,15 @@ T-SQL, MySQL, Elasticsearch, Solr, Redis, Couchbase, RavenDB, MongoDB,
 DynamoDB, JavaScript, jQuery, AJAX, AngularJS, HTML, CSS, LESS,
 Bootstrap, AWS, AWS S3, AWS CloudFront, AWS SNS, AWS EMR, AWS Redshift,
 AWS Lambda, AWS EC2, Azure, Git, SVN, Mercurial, Jenkins, CI/CD
-Pipelines, NuGet, MSBuild, NAnt, Web Deploy, MSDeploy, IIS, Windows
-Services, Nagios, MSMQ, XML, JSON, REST APIs, Ninject, SquishIt,
-Cassette, Google Analytics, Google Webmaster Tools, SEO Optimization,
-Schema.org, OAuth, Neo4j, InfluxDB, Kinesis, HAProxy, NUnit, NCover,
-Perl, Ansible, COM Interop, Google AdSense, Performance Tuning, Agile,
-Scrum, Trello, Technical Leadership, Mentoring, Software Architecture,
-Scalable Systems, High-Volume Processing, Grid Computing, Process
-Improvement, Cross-team Coordination, Strategic Planning, Enterprise
-Systems Design, Technical Documentation
+Pipelines, MSBuild, NAnt, Web Deploy, MSDeploy, IIS, Windows Services,
+Nagios, MSMQ, XML, JSON, REST APIs, Ninject, SquishIt, Cassette, Google
+Analytics, Google Webmaster Tools, SEO Optimization, Schema.org, OAuth,
+Neo4j, InfluxDB, Kinesis, HAProxy, NUnit, NCover, Perl, Ansible, COM
+Interop, Google AdSense, Performance Tuning, Agile, Scrum, Trello,
+Technical Leadership, Mentoring, Software Architecture, Scalable
+Systems, High-Volume Processing, Grid Computing, Process Improvement,
+Cross-team Coordination, Strategic Planning, Enterprise Systems Design,
+Technical Documentation
 
 ### Enterprise Architect / Team Lead \| Project Management Institute {#enterprise-architect--team-lead--project-management-institute}
 
@@ -217,10 +216,10 @@ development for 300,000+ user base.
 
 - Designed and deployed DotNetNuke organization-wide
 
-**Skills:** .NET, C#, ASP.NET, SharePoint, BizTalk, Commerce Server, SQL
-Server, DotNetNuke, Team Leadership, Technical Leadership, Enterprise
-Systems Design, Software Architecture, Mentoring, Requirements
-Gathering, Strategic Planning
+**Skills:** .NET, .NET Framework, C#, ASP.NET, SharePoint, BizTalk,
+Commerce Server, SQL Server, DotNetNuke, Team Leadership, Technical
+Leadership, Enterprise Systems Design, Software Architecture, Mentoring,
+Requirements Gathering, Strategic Planning
 
 ### Technical Lead / Sr. Developer \| Project Management Institute {#technical-lead--sr-developer--project-management-institute}
 
@@ -234,10 +233,11 @@ Directed Agile Scrum projects and improved build processes.
 
 - Built division-wide CruiseControl.NET automation
 
-**Skills:** .NET, C#, SharePoint, BizTalk, CruiseControl.NET, Jira,
-Confluence, FishEye, Agile, Scrum, Team Leadership, Technical
-Leadership, Mentoring, Software Architecture, Enterprise Systems Design,
-Process Improvement, Cross-team Coordination, Strategic Planning
+**Skills:** .NET, .NET Framework, C#, SharePoint, BizTalk,
+CruiseControl.NET, Jira, Confluence, FishEye, Agile, Scrum, Team
+Leadership, Technical Leadership, Mentoring, Software Architecture,
+Enterprise Systems Design, Process Improvement, Cross-team Coordination,
+Strategic Planning
 
 ### Sr. .NET Developer \| ATK Elkton {#sr-net-developer--atk-elkton}
 
@@ -249,8 +249,8 @@ Migrated ERP systems and developed .NET applications.
 
 - Worked with VB.NET, C#.NET, Oracle, and SQL Server
 
-**Skills:** .NET, C#, VB.NET, SQL Server, Oracle, Costpoint, ERP
-Systems, Data Migration
+**Skills:** .NET, .NET Framework, C#, VB.NET, SQL Server, Oracle,
+Costpoint, ERP Systems, Data Migration
 
 ### Software Development Process and Infrastructure Department Lead \| Chatham Financial {#software-development-process-and-infrastructure-department-lead--chatham-financial}
 
@@ -275,13 +275,13 @@ Agile methodologies while ensuring SAS70 compliance.
 - Facilitated communication across department leads to drive continuous
   improvement in software development practices
 
-**Skills:** .NET, C#, VB.NET, SQL Server, BugTracker.NET, Build
-Automation, Code Generation, Agile Processes, Scrum, Release Management,
-SAS70 Compliance, Continuous Integration, Automated Testing, Technical
-Leadership, Team Leadership, Process Improvement, Cross-team
-Coordination, Strategic Planning, Enterprise Systems Design, Software
-Architecture, Mentoring, Technical Documentation, Infrastructure
-Management
+**Skills:** .NET, .NET Framework, C#, VB.NET, SQL Server,
+BugTracker.NET, Build Automation, Code Generation, Agile Processes,
+Scrum, Release Management, SAS70 Compliance, Continuous Integration,
+Automated Testing, Technical Leadership, Team Leadership, Process
+Improvement, Cross-team Coordination, Strategic Planning, Enterprise
+Systems Design, Software Architecture, Mentoring, Technical
+Documentation, Infrastructure Management
 
 ### Architecture/Mentoring Department Lead \| Chatham Financial {#architecturementoring-department-lead--chatham-financial}
 
@@ -331,11 +331,11 @@ ASP to ASP.NET migration and delivering business-critical features.
 - Developed team capabilities and succession planning, ultimately
   transitioning leadership to a team member
 
-**Skills:** .NET, C#, ASP.NET, SQL Server, Agile, Scrum Master, ASP to
-ASP.NET Migration, Team Leadership, Release Planning, Web Development,
-Cross-team Coordination, Succession Planning, Mentoring, Process
-Improvement, Technical Leadership, Software Development Life Cycle
-(SDLC), Enterprise Systems Design, Technical Documentation,
+**Skills:** .NET, .NET Framework, C#, ASP.NET, SQL Server, Agile, Scrum
+Master, ASP to ASP.NET Migration, Team Leadership, Release Planning, Web
+Development, Cross-team Coordination, Succession Planning, Mentoring,
+Process Improvement, Technical Leadership, Software Development Life
+Cycle (SDLC), Enterprise Systems Design, Technical Documentation,
 Infrastructure Management, Cross-team Collaboration
 
 ### Sr. .NET Developer \| Chatham Financial {#sr-net-developer--chatham-financial}
@@ -361,13 +361,14 @@ scripts and code generation while developing complex reporting software.
 - Led full-cycle development from requirements gathering through
   implementation and rollout
 
-**Skills:** .NET, C#, VB.NET, SQL Server, SQL Server Reporting Services,
-Microsoft Office 2003 Integration, Code Smith Templates, Code
-Generation, Build Scripts, Windows Forms, Web Forms, Windows Services,
-Requirements Gathering, Financial Reporting, Custom Reporting, Data
-Entities, Data Access Layers, Full Lifecycle Development, Software
-Development Life Cycle (SDLC), Enterprise Systems Design, Technical
-Leadership, Mentoring, Process Improvement, Cross-team Coordination
+**Skills:** .NET, .NET Framework, C#, VB.NET, SQL Server, SQL Server
+Reporting Services, Microsoft Office 2003 Integration, Code Smith
+Templates, Code Generation, Build Scripts, Windows Forms, Web Forms,
+Windows Services, Requirements Gathering, Financial Reporting, Custom
+Reporting, Data Entities, Data Access Layers, Full Lifecycle
+Development, Software Development Life Cycle (SDLC), Enterprise Systems
+Design, Technical Leadership, Mentoring, Process Improvement, Cross-team
+Coordination
 
 ### .NET Developer \| Exelon Power Team {#net-developer--exelon-power-team}
 
@@ -381,9 +382,9 @@ trading industry.
 
 - Built ASP.NET and C# web applications
 
-**Skills:** .NET, C#, ASP.NET, SQL Server, XML, .NET Web Services, .NET
-Remoting, Web Applications, C# Web Applications, Financial Systems,
-Power Trading Systems
+**Skills:** .NET, .NET Framework, C#, ASP.NET, SQL Server, XML, .NET Web
+Services, .NET Remoting, Web Applications, C# Web Applications,
+Financial Systems, Power Trading Systems
 
 ### .NET Developer \| MiraTech Consulting Group {#net-developer--miratech-consulting-group}
 
@@ -397,8 +398,8 @@ telephony application development.
 
 - Enhanced Dialogic telephony apps with VB6
 
-**Skills:** .NET, C#, ASP.NET, SQL Server, VB.NET, VB6, XML, XSLT,
-Dialogic Telephony
+**Skills:** .NET, .NET Framework, C#, ASP.NET, SQL Server, VB.NET, VB6,
+XML, XSLT, Dialogic Telephony
 
 ### .NET Developer \| AppsChannel {#net-developer--appschannel}
 
@@ -412,7 +413,7 @@ enhancing developer productivity.
 
 - Maintained ActiveX libraries in VB6
 
-**Skills:** .NET, C#, VB.NET, ActiveX, COM, Reflection
+**Skills:** .NET, .NET Framework, C#, VB.NET, ActiveX, COM, Reflection
 
 ### DMS Systems Programmer \| Baker Oil Tools {#dms-systems-programmer--baker-oil-tools}
 
@@ -520,47 +521,65 @@ representation for technology wholesalers.
 
 ## Skills
 
-### Backend Development
+### Core Programming & Development {#core-programming--development}
 
-C#, .NET, .NET Core, .NET Framework, .NET 6, .NET 8, ASP.NET MVC,
-ASP.NET Core, ASP.NET Razor, ASP.NET Web API, LINQ, Windows Services
+C#, .NET, .NET Core, .NET Framework, .NET Standard, .NET 6, .NET 8,
+LINQ, TypeScript, JavaScript, REST APIs, RESTful APIs, JSON, XML,
+Webhooks, PowerShell, Bash, VB.NET, Code Generation, Windows Services,
+xUnit, NUnit, NCover, Automated Testing
 
-### Frontend Development
+### Frontend Technologies
 
 React, Angular, AngularJS, TypeScript, JavaScript, HTML, CSS, Tailwind
-CSS, Bootstrap, LESS, jQuery, AJAX
+CSS, Bootstrap, LESS, jQuery, AJAX, Schema.org, SEO Optimization, Web
+Development, Google Analytics, Google Webmaster Tools, Google AdSense
 
-### Databases & Search {#databases--search}
+### Backend & Server Technologies {#backend--server-technologies}
+
+ASP.NET MVC, ASP.NET Core, ASP.NET Razor, ASP.NET Web API, ASP.NET,
+Windows Services, API Integration, Authentication/Authorization, OAuth,
+IIS, Linux, Ubuntu, HAProxy, MSMQ, Event-Driven Architecture, .NET Web
+Services, .NET Remoting, BizTalk, Commerce Server, Classic ASP
+
+### Data Management
 
 SQL Server, T-SQL, PostgreSQL, MySQL, DynamoDB, Redis, Elasticsearch,
-OpenSearch, Couchbase, RavenDB, MongoDB, Lucene, Solr
+OpenSearch, Couchbase, RavenDB, MongoDB, Lucene, Solr, Neo4j, Oracle,
+InfluxDB, AWS ElastiCache, AWS Redshift, AWS CloudSearch, Data
+Migration, Data Validation
 
-### Cloud & DevOps {#cloud--devops}
+### Cloud & Infrastructure {#cloud--infrastructure}
 
 AWS, AWS Lambda, AWS S3, AWS CloudFront, AWS Elastic Beanstalk, AWS
-DynamoDB, AWS CloudWatch, AWS SES, AWS Route 53, AWS WAF, AWS EC2, CI/CD
-Pipelines, Git, Jenkins, Azure DevOps, Bitbucket, Ansible
+DynamoDB, AWS CloudWatch, AWS SES, AWS Route 53, AWS WAF, AWS EC2, AWS
+SNS, AWS EMR, AWS DataSync, Azure, Azure DevOps, CI/CD Pipelines, Git,
+GitHub, Jenkins, Bitbucket, Ansible, DevOps, Build Automation,
+CruiseControl.NET, MSBuild, NAnt, Web Deploy, Infrastructure Management,
+Nagios, NagiosXI, Kinesis
 
-### Architecture & Design {#architecture--design}
+### Architecture & Performance {#architecture--performance}
 
-Software Architecture, Enterprise Systems Design, Event-Driven
-Architecture, RESTful APIs, Microservices, Scalable Systems, High-Volume
-Processing, Grid Computing, Performance Tuning
+Software Architecture, Enterprise Architecture, Enterprise Systems
+Design, Event-Driven Architecture, Microservices, Scalable Systems,
+High-Volume Processing, Grid Computing, Performance Tuning, Software
+Development Life Cycle (SDLC), Code Generation, Process Improvement,
+Technical Documentation, Algorithm Design
 
-### AI & Machine Learning {#ai--machine-learning}
+### Specialized Technologies & Domains {#specialized-technologies--domains}
 
-OpenAI GPT, Machine Learning Integration, Algorithm Design, Confidence
-Scoring, Data Validation
+OpenAI GPT, Machine Learning Integration, Confidence Scoring, HIVE
+Engine Blockchain, Web3, NFTs, Cryptocurrency, Decentralized
+Applications (dApps), Smart Contracts, Blockchain Technology, Game
+Development, Game Design, Game Monetization, Game Analytics, SharePoint,
+Documentum, DotNetNuke, PHP, Costpoint, ERP Systems, VB6, Visual Basic,
+ActiveX, COM, COM Interop
 
-### Blockchain & Web3 {#blockchain--web3}
+### Leadership & Project Management {#leadership--project-management}
 
-HIVE Engine Blockchain, Web3, NFTs, Cryptocurrency, Decentralized
-Applications (dApps), Smart Contracts
-
-### Leadership
-
-Team Leadership, Mentoring, Technical Leadership, Cross-team
-Coordination, Agile, Scrum, Requirements Gathering, Strategic Planning
+Team Leadership, Technical Leadership, Executive Leadership, Mentoring,
+Cross-team Coordination, Strategic Planning, Succession Planning,
+Requirements Gathering, Product Management, Agile, Scrum, Scrum Master,
+Release Management, Trello, Jira, Confluence, FishEye, Microsoft Teams
 
 # References
 
