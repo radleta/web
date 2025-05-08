@@ -1,0 +1,16 @@
+{%- assign startDate = include.startDate -%}
+{%- assign startDateText = include.startDate | date: "%b %Y" -%}
+{%- assign endDate = include.endDate -%}
+{%- assign endDateText = include.endDate | date: "%b %Y" -%}
+{%- assign parens = include.parens -%}
+{%- if startDate or endDate -%}
+  {%- if parens -%}({%- endif -%}
+  {%- if startDate and endDate and startDateText == endDateText -%}
+    {{ startDateText }}
+  {%- else -%}
+    {%- if startDate -%}{{ startDateText }}{%- endif -%}
+    {%- if startDate %} - {% endif -%}
+    {%- if endDate and endDate != "" -%}{{ endDateText }}{%- else -%}Present{%- endif -%}
+  {%- endif -%}
+  {%- if parens -%}){%- endif -%}
+{%- endif -%}

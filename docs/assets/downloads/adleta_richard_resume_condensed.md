@@ -60,6 +60,15 @@ observability.
 Positions at 10 more companies dating back to 1993 are available upon
 request.
 
+## Education & Certifications {#education--certifications}
+
+**Education:** *MBA Coursework* in e-Business and Organizational Change,
+*Bachelor of Science* in Business Administration
+
+**Certifications:** Dale Carnegie Course (2005), Microsoft Certified
+Solutions Developer (MCSD) (2005), Certified PC Troubleshooter (2000),
+Certified in eCommerce Concepts (2000),
+
 ## Skills
 
 **Core Programming & Development**: C#, .NET, .NET Core, .NET Framework,
@@ -110,27 +119,20 @@ Strategic Planning, Succession Planning, Requirements Gathering, Product
 Management, Agile, Scrum, Scrum Master, Release Management, Trello,
 Jira, Confluence, FishEye, Microsoft Teams
 
-## Education & Certifications {#education--certifications}
-
-**Education:** *MBA Coursework* in e-Business and Organizational Change,
-*Bachelor of Science* in Business Administration
-
-**Certifications:** Dale Carnegie Course (2005-06), Microsoft Certified
-Solutions Developer (MCSD) (2005-06), Certified PC Troubleshooter
-(2000-04), Certified in eCommerce Concepts (2000-01),
-
 ## References
-
-**Strong professional references** available from leadership at Nexxt,
-Project Management Institute, and Chatham Financial available upon
-request.
 
 > "I've had the privilege of working with Richard Adleta for over 10
 > years at Nexxt, and during that time, he's consistently demonstrated
-> the kind of technical leadership and versa..."
+> the kind of technical leadership and versatility that any engineering
+> team would be lucky to have. Richard bring..."
+> [more](https://www.richardadleta.com/resume/full#references)
 >
 > --- Bill Rybinski, Director of Technology at Nexxt, Inc.
 
+Read more references on the [full
+resume](https://www.richardadleta.com/resume/full#references).
+
 ## Additional Information
 
-Full, annotated resume available upon request.
+Full, annotated resume available at
+[richardadleta.com/resume/full](https://www.richardadleta.com/resume/full).

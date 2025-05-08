@@ -905,24 +905,31 @@
   "certificates": [
     {
       "name": "Dale Carnegie Course",
-      "date": "2005-06"
+      "date": "2005-06-01"
     },
     {
       "name": "Microsoft Certified Solutions Developer (MCSD)",
-      "date": "2005-06"
+      "date": "2005-06-01"
     },
     {
       "name": "Certified PC Troubleshooter",
       "issuer": "NRI Schools",
-      "date": "2000-04"
+      "date": "2000-04-01"
     },
     {
       "name": "Certified in eCommerce Concepts",
       "issuer": "Brainbench.com",
-      "date": "2000-01"
+      "date": "2000-01-01"
     }
   ],
   "projects": [
+    {
+      "name": "Resume Viewer",
+      "description": "Designed and developed a prototype web application that showcases professional skills through an interactive resume platform. Built with React, Tailwind CSS, and a Zod-based schema system extending the JSON Resume standard. Features include responsive design, customizable deployment parameters, and dynamic data visualization components.",
+      "url": "https://resume-viewer.richardadleta.com",
+      "client": "Richard Adleta",
+      "startDate": "2025-04-15"
+    },
     {
       "name": "PromptPasta",
       "description": "A VS Code extension that allows users to copy selected files as formatted markdown.",
@@ -953,21 +960,22 @@
       "name": "Demeanor Add-in for Visual Studio .NET",
       "description": "Developed a Microsoft C# .NET add-in for Wise Owl's Demeanor obfuscation utility, enabling on-the-fly assembly obfuscation directly within the IDE",
       "client": "Wise Owl, Inc.",
-      "startDate": "2002-04",
-      "endDate": "2002-06"
+      "startDate": "2002-04-01",
+      "endDate": "2002-06-30"
     },
     {
       "name": "FasstScan",
       "description": "Created a VB6 application enabling bank tellers to scan and save important documents and track banking information using COM, Microsoft Access, and scanning components",
       "client": "First Nation Bank of Coweta",
-      "startDate": "2001-09",
-      "endDate": "2001-12"
+      "startDate": "2001-09-01",
+      "endDate": "2001-12-31"
     },
     {
       "name": "Billionhours.org",
       "description": "Developed a web application using PHP, MySQL, and Corel Photo-Shop 9 to provide web exposure for a global organization's project",
       "client": "Global Christian Network Incorporated",
-      "startDate": "1999-02"
+      "startDate": "1999-02-01",
+      "endDate": "1999-02-01"
     }
   ],
   "skills": [

@@ -37,14 +37,16 @@ resume_full:
     children:
       - title: "Professional Summary"
         url: /resume/full#professional-summary
-      - title: "Professional Experience"
-        url: /resume/full#professional-experience
-      - title: "Open Source Contributions"
-        url: /resume/full#open-source-contributions
+      - title: "Experience"
+        url: /resume/full#experience
       - title: "Education"
         url: /resume/full#education
       - title: "Certifications"
         url: /resume/full#certifications
+      - title: "Projects"
+        url: /resume/full#projects
+      - title: "Skills"
+        url: /resume/full#skills
       - title: "References"
         url: /resume/full#references
 
@@ -53,13 +55,11 @@ resume_condensed:
     children:
       - title: "Professional Summary"
         url: /resume/condensed#professional-summary
-      - title: "Professional Experience"
-        url: /resume/condensed#professional-experience
-      - title: "Open Source Contributions"
-        url: /resume/condensed#open-source-contributions
-      - title: "Education"
-        url: /resume/condensed#education
-      - title: "Certifications"
-        url: /resume/condensed#certifications
+      - title: "Experience"
+        url: /resume/condensed#experience
+      - title: "Education & Certifications"
+        url: /resume/condensed#education--certifications
+      - title: "Skills"
+        url: /resume/condensed#skills
       - title: "References"
         url: /resume/condensed#references

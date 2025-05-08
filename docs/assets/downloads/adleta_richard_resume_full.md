@@ -473,51 +473,63 @@ representation for technology wholesalers.
 
 ## Education
 
-### MBA Coursework in e-Business and Organizational Change
+- **MBA Coursework** in e-Business and Organizational Change: Regent
+  University (Aug 2000 - May 2001)
 
-**Regent University** \| 2000 - 2001
-
-### Bachelor of Science in Business Administration
-
-**Oral Roberts University** \| 1997 - 2002 \| GPA: 3.49
+- **Bachelor of Science** in Business Administration: Oral Roberts
+  University with a GPA of *3.49* (Aug 1997 - Dec 2002)
 
 ## Certifications
 
-- Dale Carnegie Course (2005-06)
+- Dale Carnegie Course (Jun 2005)
 
-- Microsoft Certified Solutions Developer (MCSD) (2005-06)
+- Microsoft Certified Solutions Developer (MCSD) (Jun 2005)
 
-- Certified PC Troubleshooter, NRI Schools (2000-04)
+- Certified PC Troubleshooter, NRI Schools (Apr 2000)
 
-- Certified in eCommerce Concepts, Brainbench.com (2000-01)
+- Certified in eCommerce Concepts, Brainbench.com (Jan 2000)
 
 ## Projects
 
+- **Resume Viewer**: Designed and developed a prototype web application
+  that showcases professional skills through an interactive resume
+  platform. Built with React, Tailwind CSS, and a Zod-based schema
+  system extending the JSON Resume standard. Features include responsive
+  design, customizable deployment parameters, and dynamic data
+  visualization components. ([Learn
+  More](https://resume-viewer.richardadleta.com))\
+  (Apr 2025 - Present)
+
 - **PromptPasta**: A VS Code extension that allows users to copy
-  selected files as formatted markdown.
-  [Link](https://marketplace.visualstudio.com/items?itemName=RichardAdleta.promptpasta)
+  selected files as formatted markdown. ([Learn
+  More](https://marketplace.visualstudio.com/items?itemName=RichardAdleta.promptpasta))\
+  (Oct 2024)
 
 - **Copy Context**: Submitted enhancements and features for the VS Code
-  extension for copying selected files as formatted markdown
-  [Link](https://marketplace.visualstudio.com/items?itemName=collinc777.context-copy)
+  extension for copying selected files as formatted markdown ([Learn
+  More](https://marketplace.visualstudio.com/items?itemName=collinc777.context-copy))\
+  (Aug 2024)
 
-- **Open Flash Chart**: .NET API for Flash Charting Component
-  [Link](http://teethgrinder.co.uk/open-flash-chart/)
+- **Open Flash Chart**: .NET API for Flash Charting Component ([Learn
+  More](http://teethgrinder.co.uk/open-flash-chart/))\
 
-- **NAntContrib**: Submitted VssDelete task
-  [Link](http://nantcontrib.sourceforge.net/)
+- **NAntContrib**: Submitted VssDelete task ([Learn
+  More](http://nantcontrib.sourceforge.net/))\
 
 - **Demeanor Add-in for Visual Studio .NET**: Developed a Microsoft C#
   .NET add-in for Wise Owl's Demeanor obfuscation utility, enabling
-  on-the-fly assembly obfuscation directly within the IDE
+  on-the-fly assembly obfuscation directly within the IDE\
+  (Apr 2002 - Jun 2002)
 
 - **FasstScan**: Created a VB6 application enabling bank tellers to scan
   and save important documents and track banking information using COM,
-  Microsoft Access, and scanning components
+  Microsoft Access, and scanning components\
+  (Sep 2001 - Dec 2001)
 
 - **Billionhours.org**: Developed a web application using PHP, MySQL,
   and Corel Photo-Shop 9 to provide web exposure for a global
-  organization's project
+  organization's project\
+  (Feb 1999)
 
 ## Skills
 
@@ -581,7 +593,7 @@ Cross-team Coordination, Strategic Planning, Succession Planning,
 Requirements Gathering, Product Management, Agile, Scrum, Scrum Master,
 Release Management, Trello, Jira, Confluence, FishEye, Microsoft Teams
 
-# References
+## References
 
 > "I've had the privilege of working with Richard Adleta for over 10
 > years at Nexxt, and during that time, he's consistently demonstrated

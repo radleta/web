@@ -6,17 +6,17 @@
 
 {% for job in site.data.resume.work %}
 ### {{ job.position }} | {{ job.name }}
-{% if job.endDate %}{{ job.startDate | date: "%b %Y" }} - {{ job.endDate | date: "%b %Y" }}{% else %}{{ job.startDate | date: "%b %Y" }} - Present{% endif %}
+{% include date-range.html startDate=job.startDate endDate=job.endDate parens=false %}
 
 {{ job.summary }}
 
-{% if job.highlights.size > 0 %}
+{% if job.highlights and job.highlights.size > 0 %}
 {% for highlight in job.highlights %}
 - {{ highlight }}
 {% endfor %}
 {% endif %}
 
-{% if job.skills.size > 0 %}
+{% if job.skills and job.skills.size > 0 %}
 **Skills:** {% for skill in job.skills %}{% if forloop.first %}{{ skill.name }}{% else %}, {{ skill.name }}{% endif %}{% endfor %}
 {% endif %}
 
@@ -25,20 +25,20 @@
 ## Education
 
 {% for edu in site.data.resume.education %}
-### {{ edu.studyType }} in {{ edu.area }}
-**{{ edu.institution }}** | {% if edu.endDate %}{{ edu.startDate | date: "%Y" }} - {{ edu.endDate | date: "%Y" }}{% else %}{{ edu.startDate | date: "%Y" }} - Present{% endif %}{% if edu.gpa %} | GPA: {{ edu.gpa }}{% endif %}
+- **{{ edu.studyType }}** in {{ edu.area }}: {{ edu.institution }}{% if edu.gpa %} with a GPA of _{{ edu.gpa }}_{% endif %} ({% include date-range.html startDate=edu.startDate endDate=edu.endDate %})
 {% endfor %}
 
 ## Certifications
 
 {% for cert in site.data.resume.certificates %}
-- {{ cert.name }}{% if cert.issuer %}, {{ cert.issuer }}{% endif %}{% if cert.date %} ({{ cert.date | date: "%b %Y" }}){% endif %}
+- {{ cert.name }}{% if cert.issuer %}, {{ cert.issuer }}{% endif %}{% if cert.date %} ({{ cert.date | date: '%b %Y'}}){% endif %}
 {% endfor %}
 
 ## Projects
 
 {% for project in site.data.resume.projects %}
-- **{{ project.name }}**: {{ project.description }}{% if project.url %} [Link]({{ project.url }}){% endif %}
+- **{{ project.name }}**: {{ project.description }}{% if project.url %} ([Learn More]({{ project.url }})){% endif %}
+  <br/>{% include date-range.html startDate=project.startDate endDate=project.endDate parens=true %}
 {% endfor %}
 
 ## Skills
@@ -48,7 +48,7 @@
 {{ skillGroup.keywords | join: ", " }}
 {% endfor %}
 
-# References
+## References
 
 {% for reference in site.data.resume.references %}
 {% if reference.reference %}

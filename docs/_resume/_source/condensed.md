@@ -45,27 +45,25 @@ Positions at {{ remaining_companies_count }} more companies dating back to {{ ea
 {% endif %}
 {% endif %}
 
-## Skills
-
-{% for skill_category in site.data.resume.skills %}
-**{{ skill_category.name }}**: {{ skill_category.keywords | join: ", " }}
-{% endfor %}
-
 ## Education & Certifications
 
 **Education:** {% for edu in site.data.resume.education %}_{{ edu.studyType }}_ in {{ edu.area }}{% unless forloop.last %}, {% endunless %}{% endfor %}
 
 **Certifications:** {% for i in (0..cert_limit) %}{{ site.data.resume.certificates[i].name }}{% if site.data.resume.certificates[i].date %} ({{ site.data.resume.certificates[i].date | date: "%Y" }}){% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}
 
-## References
+## Skills
 
-**Strong professional references** available from leadership at Nexxt, Project Management Institute, and Chatham Financial available upon request.
+{% for skill_category in site.data.resume.skills %}
+**{{ skill_category.name }}**: {{ skill_category.keywords | join: ", " }}
+{% endfor %}
 
 {% if site.data.resume.references.size > 0 %}
+## References
 
 {% assign top_reference = site.data.resume.references | first %}
-> "{{ top_reference.reference | truncate: 180 }}"
+> "{{ top_reference.reference | truncate: 250 }}" [more]({{ site.url }}/resume/full#references)
 > 
 > — {{ top_reference.name }}, {{ top_reference.position }}
 
+Read more references on the [full resume]({{ site.url }}/resume/full#references).
 {% endif %}

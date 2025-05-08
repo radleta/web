@@ -8,4 +8,4 @@ description: "Condensed Resume"
 
 ## Additional Information
 
-Full, annotated resume available upon request.
+Full, annotated resume available at [richardadleta.com/resume/full]({{ site.url }}/resume/full).
