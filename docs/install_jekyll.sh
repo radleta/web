@@ -18,12 +18,23 @@ YELLOW='\033[0;33m'
 
 # Update and install necessary packages
 print_message $YELLOW "Installing required dependencies..."
-sudo apt update && sudo apt install -y git curl libssl-dev libreadline-dev zlib1g-dev autoconf bison build-essential libyaml-dev libncurses5-dev libffi-dev libgdbm-dev
+sudo apt update && sudo apt install -y git curl libssl-dev libreadline-dev zlib1g-dev autoconf bison build-essential libyaml-dev libncurses5-dev libffi-dev libgdbm-dev ruby-dev locales
 
 if [ $? -eq 0 ]; then
     print_message $GREEN "Dependencies installed successfully."
 else
     print_message $RED "Failed to install dependencies. Exiting..."
+    exit 1
+fi
+
+# Generate UTF-8 locale to avoid encoding issues
+print_message $YELLOW "Generating en_US.UTF-8 locale..."
+sudo locale-gen en_US.UTF-8
+
+if [ $? -eq 0 ]; then
+    print_message $GREEN "Locale generated successfully."
+else
+    print_message $RED "Failed to generate locale. Exiting..."
     exit 1
 fi
 
@@ -43,8 +54,11 @@ if ! grep -q 'rbenv' ~/.bashrc; then
     print_message $YELLOW "Configuring rbenv..."
     echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
     echo 'eval "$(rbenv init -)"' >> ~/.bashrc
-    source ~/.bashrc
 fi
+
+# Load rbenv in the current shell
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
 
 # Verify rbenv installation
 if type rbenv > /dev/null; then
@@ -145,6 +159,30 @@ if [ $? -eq 0 ]; then
     print_message $GREEN "Jekyll installed successfully."
 else
     print_message $RED "Failed to install Jekyll. Exiting..."
+    exit 1
+fi
+
+# Configure Bundler for the docs project
+print_message $YELLOW "Configuring Bundler to use local vendor/bundle path..."
+cd "$(dirname "$0")"  # Navigate to the docs directory where this script is located
+
+bundle config set --local path vendor/bundle
+
+if [ $? -eq 0 ]; then
+    print_message $GREEN "Bundler configured successfully."
+else
+    print_message $RED "Failed to configure Bundler. Exiting..."
+    exit 1
+fi
+
+# Install project dependencies
+print_message $YELLOW "Installing project dependencies with Bundler..."
+bundle install
+
+if [ $? -eq 0 ]; then
+    print_message $GREEN "Bundle install completed successfully."
+else
+    print_message $RED "Failed to run bundle install. Exiting..."
     exit 1
 fi
 

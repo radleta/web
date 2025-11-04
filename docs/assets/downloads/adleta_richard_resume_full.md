@@ -4,44 +4,47 @@
 
 ## Professional Summary
 
-Senior software architect and full-stack engineer with 20+ years of
-shipping production code and scaling cloud-native, data-intensive, and
-AI-powered products. Known for translating fuzzy requirements into
-clean, testable code, championing automation, performance, and
-observability.
+Senior software architect, full-stack engineer, and technology
+entrepreneur with 20+ years of shipping production code and scaling
+cloud-native, data-intensive, and AI-powered products. Co-founder of
+educational technology startup while actively contributing to
+open-source tooling and AI integration projects. Known for translating
+fuzzy requirements into clean, testable code, championing automation,
+performance, and observability.
 
 ## Experience
 
-### Lead Architect \| Nexxt {#lead-architect--nexxt}
+### Co-Founder & Technical Lead \| Forty-Two Ink, LLC {#co-founder--technical-lead--forty-two-ink-llc}
 
-Oct 2023 - Present
+May 2025 - Present
 
-Architected and developed scalable AI-driven solutions and integrations
-using .NET, C#, Angular, and TypeScript. Specialized in event-driven
-architecture, OpenAI GPT integration, and AWS cloud services.
+Co-founded educational technology company developing specialized
+scheduling and compliance software for K-12 schools. Led full-stack
+development using modern technologies with focus on clean architecture,
+type safety, and scalability.
 
-- Developed enterprise AI Assistant for email composition, web-page
-  building, and job postings
+- Architected and developed full-stack educational scheduling platform
+  from inception using React, TypeScript, .NET 8, and PostgreSQL
 
-- Designed event-driven integration framework with robust
-  data-validation mechanisms
+- Implemented repository pattern with unit of work, comprehensive
+  migration system (95+ DbUp migrations), and Zod schema validation for
+  type safety
 
-- Implemented job-title-normalization algorithms with confidence scoring
+- Built responsive single-page application with React 18.3, Tailwind CSS
+  4, and strict TypeScript 5.8 configuration
 
-- Built advanced admin interfaces and reporting dashboards
+- Designed PostgreSQL 17 database schema supporting complex scheduling
+  workflows and compliance tracking
 
-- Supported infrastructure enhancements, including beta environment
-  setup and domain-certification handling
+- Established development infrastructure with modern tooling, automated
+  migrations, and deployment on Digital Ocean App Platform
 
-**Skills:** .NET, .NET Core, .NET Framework, .NET Standard, ASP.NET MVC,
-ASP.NET Core, ASP.NET Razor, C#, Angular, AngularJS, TypeScript, SQL
-Server, T-SQL, JavaScript, HTML, CSS, OpenAI GPT, Elasticsearch,
-OpenSearch, Azure DevOps, Git, Jenkins, AWS Services, RESTful APIs,
-JSON, Webhooks, Event-Driven Architecture, Data Validation, Algorithm
-Design, Machine Learning Integration, CI/CD Pipelines, Trello, Team
-Leadership, Mentoring, Technical Leadership, Scalable Systems, Software
-Architecture, Enterprise Systems Design, Cross-team Coordination,
-Strategic Planning, Performance Tuning, Requirements Gathering
+**Skills:** React, TypeScript, Tailwind CSS, Vite, .NET 8, C#, ASP.NET
+Core, Dapper, DbUp, PostgreSQL, Zod, Repository Pattern, Unit of Work
+Pattern, Database Migrations, Digital Ocean, Schema Validation, Clean
+Architecture, Full-Stack Development, Educational Technology, SPA
+Development, Startup Founding, Technical Leadership, Product
+Development, Software Architecture
 
 ### Partner & Principal Engineer \| All Kids Network {#partner--principal-engineer--all-kids-network}
 
@@ -72,6 +75,37 @@ Bootstrap, AJAX, jQuery, xUnit, Agile, Scrum, Bash, Trello, Team
 Leadership, Technical Leadership, Strategic Planning, Software
 Architecture, Scalable Systems, High-Volume Processing, Performance
 Tuning, Requirements Gathering, Mentoring
+
+### Lead Architect \| Nexxt {#lead-architect--nexxt}
+
+Oct 2023 - Aug 2025
+
+Architected and developed scalable AI-driven solutions and integrations
+using .NET, C#, Angular, and TypeScript. Specialized in event-driven
+architecture, OpenAI GPT integration, and AWS cloud services.
+
+- Developed enterprise AI Assistant for email composition, web-page
+  building, and job postings
+
+- Designed event-driven integration framework with robust
+  data-validation mechanisms
+
+- Implemented job-title-normalization algorithms with confidence scoring
+
+- Built advanced admin interfaces and reporting dashboards
+
+- Supported infrastructure enhancements, including beta environment
+  setup and domain-certification handling
+
+**Skills:** .NET, .NET Core, .NET Framework, .NET Standard, ASP.NET MVC,
+ASP.NET Core, ASP.NET Razor, C#, Angular, AngularJS, TypeScript, SQL
+Server, T-SQL, JavaScript, HTML, CSS, OpenAI GPT, Elasticsearch,
+OpenSearch, Azure DevOps, Git, Jenkins, AWS Services, RESTful APIs,
+JSON, Webhooks, Event-Driven Architecture, Data Validation, Algorithm
+Design, Machine Learning Integration, CI/CD Pipelines, Trello, Team
+Leadership, Mentoring, Technical Leadership, Scalable Systems, Software
+Architecture, Enterprise Systems Design, Cross-team Coordination,
+Strategic Planning, Performance Tuning, Requirements Gathering
 
 ### Head of Product / Solutions Developer \| Splinterlands {#head-of-product--solutions-developer--splinterlands}
 
@@ -490,6 +524,31 @@ representation for technology wholesalers.
 - Certified in eCommerce Concepts, Brainbench.com (Jan 2000)
 
 ## Projects
+
+- **claude-iterate**: TypeScript CLI tool enabling autonomous multi-step
+  task execution with Claude Code through managed workspaces, reusable
+  templates, and intelligent iteration loops. Developed collaboratively
+  with Claude Code. Published to npm with comprehensive testing and
+  verification framework. ([Learn
+  More](https://www.npmjs.com/package/claude-iterate))\
+  (Oct 2025 - Present)
+
+- **mdite**: Graph-based markdown documentation toolkit treating docs as
+  connected systems rather than isolated files. Enables validation,
+  dependency analysis, and orphan detection using depth-first traversal.
+  Developed collaboratively with Claude Code. Published to npm with
+  multi-platform CI/CD. ([Learn
+  More](https://www.npmjs.com/package/mdite))\
+  (Oct 2025 - Present)
+
+- **Model Context Protocol Implementation for Backlog.md**:
+  Comprehensive Model Context Protocol (MCP) integration enabling AI
+  agents (Claude Code, Codex, Gemini CLI) to interact with Backlog.md
+  task management system. Developed collaboratively with Claude Code and
+  project author. Massive feature addition implementing 75+ MCP tools
+  with dynamic resources and full test coverage. ([Learn
+  More](https://github.com/MrLesk/Backlog.md))\
+  (Oct 2025)
 
 - **Resume Viewer**: Designed and developed a prototype web application
   that showcases professional skills through an interactive resume

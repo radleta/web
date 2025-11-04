@@ -4,17 +4,35 @@
 
 ## Professional Summary
 
-Senior software architect and full-stack engineer with 20+ years of
-shipping production code and scaling cloud-native, data-intensive, and
-AI-powered products. Known for translating fuzzy requirements into
-clean, testable code, championing automation, performance, and
-observability.
+Senior software architect, full-stack engineer, and technology
+entrepreneur with 20+ years of shipping production code and scaling
+cloud-native, data-intensive, and AI-powered products. Co-founder of
+educational technology startup while actively contributing to
+open-source tooling and AI integration projects. Known for translating
+fuzzy requirements into clean, testable code, championing automation,
+performance, and observability.
 
 ## Experience
 
-### Nexxt (May 2011 - Present)
+### Forty-Two Ink, LLC (May 2025 - Present)
 
-- **Lead Architect** (Oct 2023 - Present) - Architected and developed
+- **Co-Founder & Technical Lead** (May 2025 - Present) - Co-founded
+  educational technology company developing specialized scheduling and
+  compliance software for K-12 schools. Led full-stack development using
+  modern technologies with focus on clean architecture, type safety, and
+  scalability.
+
+### All Kids Network (May 2014 - Present)
+
+- **Partner & Principal Engineer** (May 2014 - Present) - Co-owned
+  business and led end-to-end development of a high-traffic educational
+  platform using React, TypeScript, .NET, C#, and AWS cloud
+  infrastructure. Managed scalable systems serving millions of page
+  views annually.
+
+### Nexxt (May 2011 - Aug 2025)
+
+- **Lead Architect** (Oct 2023 - Aug 2025) - Architected and developed
   scalable AI-driven solutions and integrations using .NET, C#, Angular,
   and TypeScript. Specialized in event-driven architecture, OpenAI GPT
   integration, and AWS cloud services.
@@ -30,34 +48,9 @@ observability.
   MVC, AngularJS, SQL Server, and AWS. Led development of
   next-generation search technologies and production monitoring systems.
 
-### All Kids Network (May 2014 - Present)
-
-- **Partner & Principal Engineer** (May 2014 - Present) - Co-owned
-  business and led end-to-end development of a high-traffic educational
-  platform using React, TypeScript, .NET, C#, and AWS cloud
-  infrastructure. Managed scalable systems serving millions of page
-  views annually.
-
-### Splinterlands (Sep 2021 - Sep 2023)
-
-- **Head of Product / Solutions Developer** (Dec 2022 - Sep 2023) -
-  Developed and deployed blockchain gaming projects using React,
-  TypeScript, PostgreSQL, DynamoDB, Redis, and AWS. Specialized in Web3
-  technologies and HIVE engine blockchain integration.
-
-- **Chief Technology Officer** (Dec 2021 - Dec 2022) - Led organization
-  growth and multi-product launches in blockchain gaming space. Applied
-  executive leadership, strategic planning, and Web3 expertise to scale
-  from 20+ to 150+ employees and contractors.
-
-- **Vice President Of Engineering** (Sep 2021 - Dec 2021) - Stabilized
-  high-growth gaming product and expanded engineering team using AWS,
-  PostgreSQL, Redis, and JavaScript. Implemented performance tuning and
-  technical leadership practices during rapid expansion.
-
 ### Previous Experience
 
-Positions at 10 more companies dating back to 1993 are available upon
+Positions at 11 more companies dating back to 1993 are available upon
 request.
 
 ## Education & Certifications {#education--certifications}

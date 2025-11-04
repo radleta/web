@@ -5,6 +5,7 @@ url: https://www.richardadleta.com
 github_username: radleta
 
 # Build settings
+encoding: utf-8
 theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: "default"
 
@@ -14,6 +15,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
+  - vendor/bundle
   - README.md
   - "*.sh"
   - _source

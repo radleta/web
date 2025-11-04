@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# Set encoding to UTF-8 to handle Unicode characters in SCSS/CSS
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+export RUBYOPT="-E utf-8:utf-8"
+
 # Copy the dist output from vite to the assets directory and then copies the .vite/manifest.json file to the data directory.
 echo "Building Vite projects..."
 bash build_vite.sh
