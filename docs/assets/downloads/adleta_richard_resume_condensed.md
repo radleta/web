@@ -16,11 +16,11 @@ performance, and observability.
 
 ### Forty-Two Ink, LLC (May 2025 - Present)
 
-- **Co-Founder & Technical Lead** (May 2025 - Present) - Co-founded
-  educational technology company developing specialized scheduling and
-  compliance software for K-12 schools. Led full-stack development using
-  modern technologies with focus on clean architecture, type safety, and
-  scalability.
+- **Co-Founder & Technical Lead** (May 2025 - Present) - Co-founding
+  educational technology company building specialized scheduling and
+  compliance software for K-12 schools. Leading full-stack development
+  using modern technologies with focus on clean architecture, type
+  safety, and scalability.
 
 ### All Kids Network (May 2014 - Present)
 

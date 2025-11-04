@@ -16,13 +16,13 @@
       "name": "Forty-Two Ink, LLC",
       "position": "Co-Founder & Technical Lead",
       "startDate": "2025-05-30",
-      "summary": "Co-founded educational technology company developing specialized scheduling and compliance software for K-12 schools. Led full-stack development using modern technologies with focus on clean architecture, type safety, and scalability.",
+      "summary": "Co-founding educational technology company building specialized scheduling and compliance software for K-12 schools. Leading full-stack development using modern technologies with focus on clean architecture, type safety, and scalability.",
       "highlights": [
-        "Architected and developed full-stack educational scheduling platform from inception using React, TypeScript, .NET 8, and PostgreSQL",
-        "Implemented repository pattern with unit of work, comprehensive migration system (95+ DbUp migrations), and Zod schema validation for type safety",
-        "Built responsive single-page application with React 18.3, Tailwind CSS 4, and strict TypeScript 5.8 configuration",
-        "Designed PostgreSQL 17 database schema supporting complex scheduling workflows and compliance tracking",
-        "Established development infrastructure with modern tooling, automated migrations, and deployment on Digital Ocean App Platform"
+        "Architecting and developing full-stack educational scheduling platform from inception using React, TypeScript, .NET 8, and PostgreSQL",
+        "Implementing repository pattern with unit of work, comprehensive migration system (95+ DbUp migrations), and Zod schema validation for type safety",
+        "Building responsive single-page application with React 18.3, Tailwind CSS 4, and strict TypeScript 5.8 configuration",
+        "Designing PostgreSQL 17 database schema supporting complex scheduling workflows and compliance tracking",
+        "Establishing development infrastructure with modern tooling, automated migrations, and deployment on Digital Ocean App Platform"
       ],
       "skills": [
         { "name": "React", "startDate": "2025-05-30" },

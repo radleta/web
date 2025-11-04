@@ -18,25 +18,25 @@ performance, and observability.
 
 May 2025 - Present
 
-Co-founded educational technology company developing specialized
-scheduling and compliance software for K-12 schools. Led full-stack
+Co-founding educational technology company building specialized
+scheduling and compliance software for K-12 schools. Leading full-stack
 development using modern technologies with focus on clean architecture,
 type safety, and scalability.
 
-- Architected and developed full-stack educational scheduling platform
+- Architecting and developing full-stack educational scheduling platform
   from inception using React, TypeScript, .NET 8, and PostgreSQL
 
-- Implemented repository pattern with unit of work, comprehensive
+- Implementing repository pattern with unit of work, comprehensive
   migration system (95+ DbUp migrations), and Zod schema validation for
   type safety
 
-- Built responsive single-page application with React 18.3, Tailwind CSS
-  4, and strict TypeScript 5.8 configuration
+- Building responsive single-page application with React 18.3, Tailwind
+  CSS 4, and strict TypeScript 5.8 configuration
 
-- Designed PostgreSQL 17 database schema supporting complex scheduling
+- Designing PostgreSQL 17 database schema supporting complex scheduling
   workflows and compliance tracking
 
-- Established development infrastructure with modern tooling, automated
+- Establishing development infrastructure with modern tooling, automated
   migrations, and deployment on Digital Ocean App Platform
 
 **Skills:** React, TypeScript, Tailwind CSS, Vite, .NET 8, C#, ASP.NET
