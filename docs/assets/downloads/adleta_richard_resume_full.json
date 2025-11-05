@@ -9,48 +9,9 @@
       "region": "TX",
       "countryCode": "US"
     },
-    "summary": "Senior software architect, full-stack engineer, and technology entrepreneur with 20+ years of shipping production code and scaling cloud-native, data-intensive, and AI-powered products. Co-founder of educational technology startup while actively contributing to open-source tooling and AI integration projects. Known for translating fuzzy requirements into clean, testable code, championing automation, performance, and observability."
+    "summary": "Senior software architect, full-stack engineer, and technology entrepreneur with 20+ years of shipping production code and scaling cloud-native, data-intensive, and AI-powered products. Currently exploring hands-on senior engineering and architecture roles focused on building scalable, production systems while maintaining momentum through open-source contributions and bootstrapped ventures. Known for translating fuzzy requirements into clean, testable code, championing automation, performance, and observability."
   },
   "work": [
-    {
-      "name": "Forty-Two Ink, LLC",
-      "position": "Co-Founder & Technical Lead",
-      "startDate": "2025-05-30",
-      "summary": "Co-founding educational technology company building specialized scheduling and compliance software for K-12 schools. Leading full-stack development using modern technologies with focus on clean architecture, type safety, and scalability.",
-      "highlights": [
-        "Architecting and developing full-stack educational scheduling platform from inception using React, TypeScript, .NET 8, and PostgreSQL",
-        "Implementing repository pattern with unit of work, comprehensive migration system (95+ DbUp migrations), and Zod schema validation for type safety",
-        "Building responsive single-page application with React 18.3, Tailwind CSS 4, and strict TypeScript 5.8 configuration",
-        "Designing PostgreSQL 17 database schema supporting complex scheduling workflows and compliance tracking",
-        "Establishing development infrastructure with modern tooling, automated migrations, and deployment on Digital Ocean App Platform"
-      ],
-      "skills": [
-        { "name": "React", "startDate": "2025-05-30" },
-        { "name": "TypeScript", "startDate": "2025-05-30" },
-        { "name": "Tailwind CSS", "startDate": "2025-05-30" },
-        { "name": "Vite", "startDate": "2025-05-30" },
-        { "name": ".NET 8", "startDate": "2025-05-30" },
-        { "name": "C#", "startDate": "2025-05-30" },
-        { "name": "ASP.NET Core", "startDate": "2025-05-30" },
-        { "name": "Dapper", "startDate": "2025-05-30" },
-        { "name": "DbUp", "startDate": "2025-05-30" },
-        { "name": "PostgreSQL", "startDate": "2025-05-30" },
-        { "name": "Zod", "startDate": "2025-05-30" },
-        { "name": "Repository Pattern", "startDate": "2025-05-30" },
-        { "name": "Unit of Work Pattern", "startDate": "2025-05-30" },
-        { "name": "Database Migrations", "startDate": "2025-05-30" },
-        { "name": "Digital Ocean", "startDate": "2025-05-30" },
-        { "name": "Schema Validation", "startDate": "2025-05-30" },
-        { "name": "Clean Architecture", "startDate": "2025-05-30" },
-        { "name": "Full-Stack Development", "startDate": "2025-05-30" },
-        { "name": "Educational Technology", "startDate": "2025-05-30" },
-        { "name": "SPA Development", "startDate": "2025-05-30" },
-        { "name": "Startup Founding", "startDate": "2025-05-30" },
-        { "name": "Technical Leadership", "startDate": "2025-05-30" },
-        { "name": "Product Development", "startDate": "2025-05-30" },
-        { "name": "Software Architecture", "startDate": "2025-05-30" }
-      ]
-    },
     {
       "name": "All Kids Network",
       "position": "Partner & Principal Engineer",
@@ -963,6 +924,46 @@
     }
   ],
   "projects": [
+    {
+      "name": "Educational Scheduling Platform",
+      "entity": "Forty-Two Ink, LLC",
+      "description": "Full-stack educational technology platform for Elementary Schools scheduling and compliance tracking. Bootstrapped passion project built with modern tech stack while exploring new opportunities.",
+      "roles": ["Co-Founder", "Lead Developer"],
+      "type": "application",
+      "startDate": "2025-05-30",
+      "highlights": [
+        "Architecting and developing full-stack educational scheduling platform from inception using React 18.3, TypeScript 5.8, .NET 8, and PostgreSQL 17",
+        "Implementing repository pattern with unit of work, comprehensive migration system (95+ DbUp migrations), and Zod schema validation for type safety",
+        "Building responsive single-page application with Tailwind CSS 4 and strict TypeScript configuration with focus on clean architecture",
+        "Designing PostgreSQL database schema supporting complex scheduling workflows and compliance tracking for elementary education",
+        "Active daily development with 280+ C# files and 318+ TypeScript files, deployed on Digital Ocean App Platform"
+      ],
+      "keywords": [
+        "React",
+        "TypeScript",
+        ".NET 8",
+        "C#",
+        "PostgreSQL",
+        "ASP.NET Core",
+        "Tailwind CSS",
+        "Vite",
+        "Dapper",
+        "DbUp",
+        "Zod",
+        "Repository Pattern",
+        "Unit of Work Pattern",
+        "Database Migrations",
+        "Clean Architecture",
+        "Educational Technology",
+        "SPA Development",
+        "Full-Stack Development",
+        "Startup Founding",
+        "Digital Ocean",
+        "Schema Validation",
+        "Product Development",
+        "Software Architecture"
+      ]
+    },
     {
       "name": "claude-iterate",
       "description": "TypeScript CLI tool enabling autonomous multi-step task execution with Claude Code through managed workspaces, reusable templates, and intelligent iteration loops. Developed collaboratively with Claude Code. Published to npm with comprehensive testing and verification framework.",

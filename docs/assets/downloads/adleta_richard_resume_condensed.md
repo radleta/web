@@ -6,21 +6,14 @@
 
 Senior software architect, full-stack engineer, and technology
 entrepreneur with 20+ years of shipping production code and scaling
-cloud-native, data-intensive, and AI-powered products. Co-founder of
-educational technology startup while actively contributing to
-open-source tooling and AI integration projects. Known for translating
-fuzzy requirements into clean, testable code, championing automation,
-performance, and observability.
+cloud-native, data-intensive, and AI-powered products. Currently
+exploring hands-on senior engineering and architecture roles focused on
+building scalable, production systems while maintaining momentum through
+open-source contributions and bootstrapped ventures. Known for
+translating fuzzy requirements into clean, testable code, championing
+automation, performance, and observability.
 
 ## Experience
-
-### Forty-Two Ink, LLC (May 2025 - Present)
-
-- **Co-Founder & Technical Lead** (May 2025 - Present) - Co-founding
-  educational technology company building specialized scheduling and
-  compliance software for K-12 schools. Leading full-stack development
-  using modern technologies with focus on clean architecture, type
-  safety, and scalability.
 
 ### All Kids Network (May 2014 - Present)
 
@@ -48,9 +41,26 @@ performance, and observability.
   MVC, AngularJS, SQL Server, and AWS. Led development of
   next-generation search technologies and production monitoring systems.
 
+### Splinterlands (Sep 2021 - Sep 2023)
+
+- **Head of Product / Solutions Developer** (Dec 2022 - Sep 2023) -
+  Developed and deployed blockchain gaming projects using React,
+  TypeScript, PostgreSQL, DynamoDB, Redis, and AWS. Specialized in Web3
+  technologies and HIVE engine blockchain integration.
+
+- **Chief Technology Officer** (Dec 2021 - Dec 2022) - Led organization
+  growth and multi-product launches in blockchain gaming space. Applied
+  executive leadership, strategic planning, and Web3 expertise to scale
+  from 20+ to 150+ employees and contractors.
+
+- **Vice President Of Engineering** (Sep 2021 - Dec 2021) - Stabilized
+  high-growth gaming product and expanded engineering team using AWS,
+  PostgreSQL, Redis, and JavaScript. Implemented performance tuning and
+  technical leadership practices during rapid expansion.
+
 ### Previous Experience
 
-Positions at 11 more companies dating back to 1993 are available upon
+Positions at 10 more companies dating back to 1993 are available upon
 request.
 
 ## Education & Certifications {#education--certifications}

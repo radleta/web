@@ -6,45 +6,14 @@
 
 Senior software architect, full-stack engineer, and technology
 entrepreneur with 20+ years of shipping production code and scaling
-cloud-native, data-intensive, and AI-powered products. Co-founder of
-educational technology startup while actively contributing to
-open-source tooling and AI integration projects. Known for translating
-fuzzy requirements into clean, testable code, championing automation,
-performance, and observability.
+cloud-native, data-intensive, and AI-powered products. Currently
+exploring hands-on senior engineering and architecture roles focused on
+building scalable, production systems while maintaining momentum through
+open-source contributions and bootstrapped ventures. Known for
+translating fuzzy requirements into clean, testable code, championing
+automation, performance, and observability.
 
 ## Experience
-
-### Co-Founder & Technical Lead \| Forty-Two Ink, LLC {#co-founder--technical-lead--forty-two-ink-llc}
-
-May 2025 - Present
-
-Co-founding educational technology company building specialized
-scheduling and compliance software for K-12 schools. Leading full-stack
-development using modern technologies with focus on clean architecture,
-type safety, and scalability.
-
-- Architecting and developing full-stack educational scheduling platform
-  from inception using React, TypeScript, .NET 8, and PostgreSQL
-
-- Implementing repository pattern with unit of work, comprehensive
-  migration system (95+ DbUp migrations), and Zod schema validation for
-  type safety
-
-- Building responsive single-page application with React 18.3, Tailwind
-  CSS 4, and strict TypeScript 5.8 configuration
-
-- Designing PostgreSQL 17 database schema supporting complex scheduling
-  workflows and compliance tracking
-
-- Establishing development infrastructure with modern tooling, automated
-  migrations, and deployment on Digital Ocean App Platform
-
-**Skills:** React, TypeScript, Tailwind CSS, Vite, .NET 8, C#, ASP.NET
-Core, Dapper, DbUp, PostgreSQL, Zod, Repository Pattern, Unit of Work
-Pattern, Database Migrations, Digital Ocean, Schema Validation, Clean
-Architecture, Full-Stack Development, Educational Technology, SPA
-Development, Startup Founding, Technical Leadership, Product
-Development, Software Architecture
 
 ### Partner & Principal Engineer \| All Kids Network {#partner--principal-engineer--all-kids-network}
 
@@ -524,6 +493,12 @@ representation for technology wholesalers.
 - Certified in eCommerce Concepts, Brainbench.com (Jan 2000)
 
 ## Projects
+
+- **Educational Scheduling Platform**: Full-stack educational technology
+  platform for Elementary Schools scheduling and compliance tracking.
+  Bootstrapped passion project built with modern tech stack while
+  exploring new opportunities.\
+  (May 2025 - Present)
 
 - **claude-iterate**: TypeScript CLI tool enabling autonomous multi-step
   task execution with Claude Code through managed workspaces, reusable
