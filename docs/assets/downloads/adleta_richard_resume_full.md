@@ -494,76 +494,161 @@ representation for technology wholesalers.
 
 ## Projects
 
-- **Educational Scheduling Platform**: Full-stack educational technology
-  platform for Elementary Schools scheduling and compliance tracking.
-  Bootstrapped passion project built with modern tech stack while
-  exploring new opportunities.\
-  (May 2025 - Present)
+### Educational Scheduling Platform
 
-- **claude-iterate**: TypeScript CLI tool enabling autonomous multi-step
-  task execution with Claude Code through managed workspaces, reusable
-  templates, and intelligent iteration loops. Developed collaboratively
-  with Claude Code. Published to npm with comprehensive testing and
-  verification framework. ([Learn
-  More](https://www.npmjs.com/package/claude-iterate))\
-  (Oct 2025 - Present)
+Richard Adleta May 2025 - Present
 
-- **mdite**: Graph-based markdown documentation toolkit treating docs as
-  connected systems rather than isolated files. Enables validation,
-  dependency analysis, and orphan detection using depth-first traversal.
-  Developed collaboratively with Claude Code. Published to npm with
-  multi-platform CI/CD. ([Learn
-  More](https://www.npmjs.com/package/mdite))\
-  (Oct 2025 - Present)
+Full-stack educational technology platform for Elementary Schools
+scheduling and compliance tracking. Bootstrapped passion project built
+with modern tech stack while exploring new opportunities.
 
-- **Model Context Protocol Implementation for Backlog.md**:
-  Comprehensive Model Context Protocol (MCP) integration enabling AI
-  agents (Claude Code, Codex, Gemini CLI) to interact with Backlog.md
-  task management system. Developed collaboratively with Claude Code and
-  project author. Massive feature addition implementing 75+ MCP tools
-  with dynamic resources and full test coverage. ([Learn
-  More](https://github.com/MrLesk/Backlog.md))\
-  (Oct 2025)
+- Architecting and developing full-stack educational scheduling platform
+  from inception using React 18.3, TypeScript 5.8, .NET 8, and
+  PostgreSQL 17
 
-- **Resume Viewer**: Designed and developed a prototype web application
-  that showcases professional skills through an interactive resume
-  platform. Built with React, Tailwind CSS, and a Zod-based schema
-  system extending the JSON Resume standard. Features include responsive
-  design, customizable deployment parameters, and dynamic data
-  visualization components. ([Learn
-  More](https://resume-viewer.richardadleta.com))\
-  (Apr 2025 - Present)
+- Implementing repository pattern with unit of work, comprehensive
+  migration system (95+ DbUp migrations), and Zod schema validation for
+  type safety
 
-- **PromptPasta**: A VS Code extension that allows users to copy
-  selected files as formatted markdown. ([Learn
-  More](https://marketplace.visualstudio.com/items?itemName=RichardAdleta.promptpasta))\
-  (Oct 2024)
+- Building responsive single-page application with Tailwind CSS 4 and
+  strict TypeScript configuration with focus on clean architecture
 
-- **Copy Context**: Submitted enhancements and features for the VS Code
-  extension for copying selected files as formatted markdown ([Learn
-  More](https://marketplace.visualstudio.com/items?itemName=collinc777.context-copy))\
-  (Aug 2024)
+- Designing PostgreSQL database schema supporting complex scheduling
+  workflows and compliance tracking for elementary education
 
-- **Open Flash Chart**: .NET API for Flash Charting Component ([Learn
-  More](http://teethgrinder.co.uk/open-flash-chart/))\
+- Active daily development with 280+ C# files and 318+ TypeScript files,
+  deployed on Digital Ocean App Platform
 
-- **NAntContrib**: Submitted VssDelete task ([Learn
-  More](http://nantcontrib.sourceforge.net/))\
+### [claude-iterate](https://www.npmjs.com/package/claude-iterate)
 
-- **Demeanor Add-in for Visual Studio .NET**: Developed a Microsoft C#
-  .NET add-in for Wise Owl's Demeanor obfuscation utility, enabling
-  on-the-fly assembly obfuscation directly within the IDE\
-  (Apr 2002 - Jun 2002)
+Richard Adleta Oct 2025 - Present
 
-- **FasstScan**: Created a VB6 application enabling bank tellers to scan
-  and save important documents and track banking information using COM,
-  Microsoft Access, and scanning components\
-  (Sep 2001 - Dec 2001)
+TypeScript CLI tool enabling autonomous multi-step task execution with
+Claude Code through managed workspaces, reusable templates, and
+intelligent iteration loops. Developed collaboratively with Claude Code.
+Published to npm with comprehensive testing and verification framework.
 
-- **Billionhours.org**: Developed a web application using PHP, MySQL,
-  and Corel Photo-Shop 9 to provide web exposure for a global
-  organization's project\
-  (Feb 1999)
+- Developed 8,578-line TypeScript CLI tool with strategy pattern
+  architecture enabling autonomous AI agent workflows with dual
+  execution modes (loop and iterative)
+
+- Published to npm with 228 passing Vitest tests achieving 100% mocked
+  external dependencies and deterministic CI/CD without real API calls
+
+- Implemented three-tier verification system (quick/standard/deep) with
+  evidence-based prompts and automatic resume-on-fail capabilities
+  ensuring work quality
+
+- Architected extensible mode factory with template manager and 4-layer
+  configuration hierarchy (CLI \> Workspace \> Project \> User)
+  following git-style interface patterns
+
+### [mdite](https://www.npmjs.com/package/mdite)
+
+Richard Adleta Oct 2025 - Present
+
+Graph-based markdown documentation toolkit treating docs as connected
+systems rather than isolated files. Enables validation, dependency
+analysis, and orphan detection using depth-first traversal. Developed
+collaboratively with Claude Code. Published to npm with multi-platform
+CI/CD.
+
+- Architected novel graph-based documentation system (6.4K LOC
+  TypeScript) treating markdown files as connected nodes/edges, enabling
+  system-wide validation and dependency analysis impossible with
+  traditional tools
+
+- Achieved 2-3x performance improvement via centralized markdown caching
+  and 5-10x speedup through parallel link validation with controlled
+  concurrency using custom promise pooling
+
+- Built Unix-philosophy CLI with stdout/stderr separation, TTY
+  detection, proper exit codes, and signal handling; published to npm
+  with 70%+ test coverage across Ubuntu, macOS, and Windows
+
+- Developed comprehensive validation system supporting file links,
+  anchor links, cross-file anchors, orphan detection, and JMESPath
+  frontmatter queries with multi-file entry points
+
+### [Model Context Protocol Implementation for Backlog.md](https://github.com/MrLesk/Backlog.md) {#model-context-protocol-implementation-for-backlogmd}
+
+Backlog.md Oct 2025
+
+Comprehensive Model Context Protocol (MCP) integration enabling AI
+agents (Claude Code, Codex, Gemini CLI) to interact with Backlog.md task
+management system. Developed collaboratively with Claude Code and
+project author. Massive feature addition implementing 75+ MCP tools with
+dynamic resources and full test coverage.
+
+- Authored complete Model Context Protocol (MCP) implementation as
+  massive open-source contribution: 97 files changed, 6,620 insertions,
+  1,669 deletions
+
+- Implemented 75+ MCP tools covering full task lifecycle (create, read,
+  update, delete, search, status management) with dynamic resource
+  discovery and comprehensive test coverage
+
+- Built stdio/HTTP/SSE transport layer architecture enabling AI agent
+  integration across multiple platforms (Claude Code, Codex, Gemini CLI)
+
+- Followed strict architectural principles maintaining pure protocol
+  wrapper with zero business logic coupling, enabling clean separation
+  of concerns
+
+### [Resume Viewer](https://resume-viewer.richardadleta.com)
+
+Richard Adleta Apr 2025 - Present
+
+Designed and developed a prototype web application that showcases
+professional skills through an interactive resume platform. Built with
+React, Tailwind CSS, and a Zod-based schema system extending the JSON
+Resume standard. Features include responsive design, customizable
+deployment parameters, and dynamic data visualization components.
+
+### [PromptPasta](https://marketplace.visualstudio.com/items?itemName=RichardAdleta.promptpasta)
+
+Richard Adleta Oct 2024
+
+A VS Code extension that allows users to copy selected files as
+formatted markdown.
+
+### [Copy Context](https://marketplace.visualstudio.com/items?itemName=collinc777.context-copy)
+
+Collin Campbell Aug 2024
+
+Submitted enhancements and features for the VS Code extension for
+copying selected files as formatted markdown
+
+### [Open Flash Chart](http://teethgrinder.co.uk/open-flash-chart/)
+
+.NET API for Flash Charting Component
+
+### [NAntContrib](http://nantcontrib.sourceforge.net/)
+
+Submitted VssDelete task
+
+### Demeanor Add-in for Visual Studio .NET {#demeanor-add-in-for-visual-studio-net}
+
+Wise Owl, Inc. Apr 2002 - Jun 2002
+
+Developed a Microsoft C# .NET add-in for Wise Owl's Demeanor obfuscation
+utility, enabling on-the-fly assembly obfuscation directly within the
+IDE
+
+### FasstScan
+
+First Nation Bank of Coweta Sep 2001 - Dec 2001
+
+Created a VB6 application enabling bank tellers to scan and save
+important documents and track banking information using COM, Microsoft
+Access, and scanning components
+
+### Billionhours.org {#billionhoursorg}
+
+Global Christian Network Incorporated Feb 1999
+
+Developed a web application using PHP, MySQL, and Corel Photo-Shop 9 to
+provide web exposure for a global organization's project
 
 ## Skills
 

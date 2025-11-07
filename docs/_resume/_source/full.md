@@ -37,9 +37,16 @@
 ## Projects
 
 {% for project in site.data.resume.projects %}
-- **{{ project.name }}**: {{ project.description }}{% if project.url %} ([Learn More]({{ project.url }})){% endif %}
-  <br/>{% include date-range.html startDate=project.startDate endDate=project.endDate parens=true %}
+### {% if project.url %}[{{ project.name }}]({{ project.url }}){% else %}{{ project.name }}{% endif %}
+{% if project.client %}{{ project.client }}
+{% endif %}{% include date-range.html startDate=project.startDate endDate=project.endDate parens=false %}{% if project.description %}
+
+{{ project.description }}{% endif %}{% if project.highlights and project.highlights.size > 0 %}
+{% for highlight in project.highlights %}
+- {{ highlight }}
 {% endfor %}
+
+{% endif %}{% endfor %}
 
 ## Skills
 

@@ -13,6 +13,25 @@ open-source contributions and bootstrapped ventures. Known for
 translating fuzzy requirements into clean, testable code, championing
 automation, performance, and observability.
 
+## Recent Projects
+
+**Educational Scheduling Platform** (May 2025 - Present) - Architecting
+and developing full-stack educational scheduling platform from inception
+using React 18.3, TypeScript 5.8, .NET 8, and PostgreSQL 17
+
+**[claude-iterate](https://www.npmjs.com/package/claude-iterate)** (Oct
+2025 - Present) - Developed 8,578-line TypeScript CLI tool with strategy
+pattern architecture enabling autonomous AI agent workflows with dual
+execution modes (loop and iterative)
+
+**[mdite](https://www.npmjs.com/package/mdite)** (Oct 2025 - Present) -
+Architected novel graph-based documentation system (6.4K LOC TypeScript)
+treating markdown files as connected nodes/edges, enabling system-wide
+validation and dependency analysis impossible with traditional tools
+
+View all projects:
+[richardadleta.com/resume/full#projects](https://www.richardadleta.com/resume/full#projects)
+
 ## Experience
 
 ### All Kids Network (May 2014 - Present)
@@ -85,15 +104,14 @@ Schema.org, SEO Optimization, Web Development, Google Analytics, Google
 Webmaster Tools, Google AdSense
 
 **Backend & Server Technologies**: ASP.NET MVC, ASP.NET Core, ASP.NET
-Razor, ASP.NET Web API, ASP.NET, Windows Services, API Integration,
-Authentication/Authorization, OAuth, IIS, Linux, Ubuntu, HAProxy, MSMQ,
-Event-Driven Architecture, .NET Web Services, .NET Remoting, BizTalk,
-Commerce Server, Classic ASP
+Razor, ASP.NET Web API, ASP.NET, Windows Services, OAuth, IIS, Linux,
+Ubuntu, HAProxy, MSMQ, Event-Driven Architecture, .NET Web Services,
+.NET Remoting, BizTalk, Commerce Server, Classic ASP
 
 **Data Management**: SQL Server, T-SQL, PostgreSQL, MySQL, DynamoDB,
-Redis, Elasticsearch, OpenSearch, Couchbase, RavenDB, MongoDB, Lucene,
-Solr, Neo4j, Oracle, InfluxDB, AWS ElastiCache, AWS Redshift, AWS
-CloudSearch, Data Migration, Data Validation
+Redis, Elasticsearch, OpenSearch, Couchbase, Lucene, Solr, Neo4j,
+Oracle, InfluxDB, AWS ElastiCache, AWS Redshift, AWS CloudSearch, Data
+Migration, Data Validation
 
 **Cloud & Infrastructure**: AWS, AWS Lambda, AWS S3, AWS CloudFront, AWS
 Elastic Beanstalk, AWS DynamoDB, AWS CloudWatch, AWS SES, AWS Route 53,
@@ -104,17 +122,16 @@ Management, Nagios, NagiosXI, Kinesis
 
 **Architecture & Performance**: Software Architecture, Enterprise
 Architecture, Enterprise Systems Design, Event-Driven Architecture,
-Microservices, Scalable Systems, High-Volume Processing, Grid Computing,
-Performance Tuning, Software Development Life Cycle (SDLC), Code
-Generation, Process Improvement, Technical Documentation, Algorithm
-Design
+Scalable Systems, High-Volume Processing, Grid Computing, Performance
+Tuning, Software Development Life Cycle (SDLC), Code Generation, Process
+Improvement, Technical Documentation, Algorithm Design
 
 **Specialized Technologies & Domains**: OpenAI GPT, Machine Learning
-Integration, Confidence Scoring, HIVE Engine Blockchain, Web3, NFTs,
-Cryptocurrency, Decentralized Applications (dApps), Smart Contracts,
-Blockchain Technology, Game Development, Game Design, Game Monetization,
-Game Analytics, SharePoint, Documentum, DotNetNuke, PHP, Costpoint, ERP
-Systems, VB6, Visual Basic, ActiveX, COM, COM Interop
+Integration, HIVE Engine Blockchain, Web3, NFTs, Cryptocurrency,
+Decentralized Applications (dApps), Smart Contracts, Blockchain
+Technology, Game Development, Game Design, Game Monetization, Game
+Analytics, SharePoint, Documentum, DotNetNuke, PHP, Costpoint, ERP
+Systems, VB6, Visual Basic, ActiveX, COM
 
 **Leadership & Project Management**: Team Leadership, Technical
 Leadership, Executive Leadership, Mentoring, Cross-team Coordination,
@@ -128,12 +145,11 @@ Jira, Confluence, FishEye, Microsoft Teams
 > years at Nexxt, and during that time, he's consistently demonstrated
 > the kind of technical leadership and versatility that any engineering
 > team would be lucky to have. Richard bring..."
-> [more](https://www.richardadleta.com/resume/full#references)
 >
 > --- Bill Rybinski, Director of Technology at Nexxt, Inc.
 
-Read more references on the [full
-resume](https://www.richardadleta.com/resume/full#references).
+Read more references:
+[richardadleta.com/resume/full#references](https://www.richardadleta.com/resume/full#references)
 
 ## Additional Information
 

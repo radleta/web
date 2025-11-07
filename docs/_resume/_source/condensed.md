@@ -9,10 +9,22 @@
 {% assign highlight_limit = 0 %}
 {% assign cert_limit = 4 %}
 {% if site.data.resume.certificates.size < cert_limit %}{% assign cert_limit = site.data.resume.certificates.size %}{% endif %}
+{% assign projects_limit = 3 %}
 
 ## Professional Summary
 
 {{ site.data.resume.basics.summary }}
+
+## Recent Projects
+
+{% for project in site.data.resume.projects limit:projects_limit %}
+**{% if project.url %}[{{ project.name }}]({{ project.url }}){% else %}{{ project.name }}{% endif %}**{% if project.startDate %} ({% if project.endDate %}{{ project.startDate | date: "%b %Y" }} - {{ project.endDate | date: "%b %Y" }}{% else %}{{ project.startDate | date: "%b %Y" }} - Present{% endif %}){% endif %} - {% if project.highlights.size > 0 %}{{ project.highlights[0] }}{% else %}{{ project.description }}{% endif %}
+
+{% endfor %}
+
+{% if site.data.resume.projects.size > projects_limit %}
+View all projects: [richardadleta.com/resume/full#projects]({{ site.url }}/resume/full#projects)
+{% endif %}
 
 ## Experience
 
@@ -53,17 +65,54 @@ Positions at {{ remaining_companies_count }} more companies dating back to {{ ea
 
 ## Skills
 
+{% assign current_year = "now" | date: "%Y" | plus: 0 %}
+{% assign cutoff_year = current_year | minus: 10 %}
+{% assign recent_skills = "" | split: "" %}
+
+{% for job in site.data.resume.work %}
+  {% if job.skills and job.skills.size > 0 %}
+    {% for skill in job.skills %}
+      {% assign include_skill = false %}
+
+      {% if skill.endDate %}
+        {% assign end_year = skill.endDate | date: "%Y" | plus: 0 %}
+        {% if end_year >= cutoff_year %}
+          {% assign include_skill = true %}
+        {% endif %}
+      {% else %}
+        {% assign include_skill = true %}
+      {% endif %}
+
+      {% if include_skill %}
+        {% assign skill_array = skill.name | split: "|" %}
+        {% assign recent_skills = recent_skills | concat: skill_array %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}
+
+{% assign recent_skills = recent_skills | uniq %}
+
 {% for skill_category in site.data.resume.skills %}
-**{{ skill_category.name }}**: {{ skill_category.keywords | join: ", " }}
+{% assign filtered_keywords = "" | split: "" %}
+{% for keyword in skill_category.keywords %}
+  {% if recent_skills contains keyword %}
+    {% assign keyword_array = keyword | split: "|" %}
+    {% assign filtered_keywords = filtered_keywords | concat: keyword_array %}
+  {% endif %}
+{% endfor %}
+{% if filtered_keywords.size > 0 %}
+**{{ skill_category.name }}**: {{ filtered_keywords | join: ", " }}
+{% endif %}
 {% endfor %}
 
 {% if site.data.resume.references.size > 0 %}
 ## References
 
 {% assign top_reference = site.data.resume.references | first %}
-> "{{ top_reference.reference | truncate: 250 }}" [more]({{ site.url }}/resume/full#references)
-> 
+> "{{ top_reference.reference | truncate: 250 }}"
+>
 > — {{ top_reference.name }}, {{ top_reference.position }}
 
-Read more references on the [full resume]({{ site.url }}/resume/full#references).
+Read more references: [richardadleta.com/resume/full#references]({{ site.url }}/resume/full#references)
 {% endif %}

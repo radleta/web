@@ -3,6 +3,10 @@
 # Enable error handling
 set -e
 
+# Update and install necessary packages
+print_message $YELLOW "Installing required dependencies..."
+sudo apt update && sudo apt install -y wget curl
+
 echo "Fetching the latest pandoc version..."
 
 # Get the latest version tag from GitHub
