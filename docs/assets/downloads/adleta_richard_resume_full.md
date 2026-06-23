@@ -24,7 +24,8 @@ educational platform using React, TypeScript, .NET, C#, and AWS cloud
 infrastructure. Managed scalable systems serving millions of page views
 annually.
 
-- Served 6.8M page views annually, with 2.2M-member user base
+- Operated a high-traffic educational platform serving 1M+ annual
+  visitors
 
 - Built CMS with React, TypeScript, and RESTful C# APIs
 
@@ -32,7 +33,7 @@ annually.
 
 - Maintained blue-green deployments on AWS Elastic Beanstalk
 
-- Delivered weekly newsletter to 175K+ subscribers using AWS SES
+- Operated a 1M+ subscriber weekly newsletter system on AWS SES
 
 **Skills:** .NET, .NET Framework, .NET Core, .NET 6, .NET 8, C#,
 ASP.NET, ASP.NET MVC, ASP.NET Razor, React, TypeScript, Tailwind CSS,

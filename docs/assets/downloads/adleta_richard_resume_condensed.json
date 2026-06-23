@@ -5,8 +5,8 @@
     "email": "radleta@gmail.com",
     "url": "https://www.richardadleta.com",
     "location": {
-      "city": "Dallas",
-      "region": "TX",
+      "city": "Greater Spokane Area",
+      "region": "WA",
       "countryCode": "US"
     },
     "summary": "Senior software architect, full-stack engineer, and technology entrepreneur with 20+ years of shipping production code and scaling cloud-native, data-intensive, and AI-powered products. Currently exploring hands-on senior engineering and architecture roles focused on building scalable, production systems while maintaining momentum through open-source contributions and bootstrapped ventures. Known for translating fuzzy requirements into clean, testable code, championing automation, performance, and observability."
@@ -18,11 +18,11 @@
       "startDate": "2014-05-01",
       "summary": "Co-owned business and led end-to-end development of a high-traffic educational platform using React, TypeScript, .NET, C#, and AWS cloud infrastructure. Managed scalable systems serving millions of page views annually.",
       "highlights": [
-        "Served 6.8M page views annually, with 2.2M-member user base",
+        "Operated a high-traffic educational platform serving 1M+ annual visitors",
         "Built CMS with React, TypeScript, and RESTful C# APIs",
         "Enabled search via AWS Lambda → OpenSearch pipeline",
         "Maintained blue-green deployments on AWS Elastic Beanstalk",
-        "Delivered weekly newsletter to 175K+ subscribers using AWS SES"
+        "Operated a 1M+ subscriber weekly newsletter system on AWS SES"
       ],
       "skills": [
         { "name": ".NET", "startDate": "2016-12-01" },
