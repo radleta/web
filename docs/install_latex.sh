@@ -3,7 +3,7 @@ set -e
 
 echo "Installing LaTeX..."
 
-sudo apt-get install texlive-latex-base texlive-fonts-recommended texlive-fonts-extra texlive-latex-extra
+sudo apt-get install -y texlive-latex-base texlive-fonts-recommended texlive-fonts-extra texlive-latex-extra
 
 if [ $? -eq 0 ]; then
 	echo "LaTeX has been installed successfully."
