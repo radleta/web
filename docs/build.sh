@@ -50,5 +50,5 @@ changed=$(set -o pipefail; { git diff --name-only --relative HEAD -- assets/down
 if [ -z "$changed" ]; then
 	echo "Downloads unchanged."
 else
-	echo "$(echo "$changed" | wc -l) download files changed; commit them: $(echo $changed)"
+	echo "$(echo "$changed" | wc -l) download files changed; commit them: $(echo "$changed" | paste -sd ' ')"
 fi

@@ -9,7 +9,7 @@ FORMATS=("md" "pdf" "docx" "odt" "epub" "json")
 
 # Pin every value pandoc and pdfTeX would take from the clock, so the same
 # input gives the same bytes and git shows a download only when it changed.
-export SOURCE_DATE_EPOCH=1767225600
+export SOURCE_DATE_EPOCH=1767225600  # 2026-01-01T00:00:00Z, the date embedded in every download
 
 # Check if pandoc is installed
 if ! command -v pandoc &> /dev/null
@@ -50,11 +50,11 @@ convert_file() {
             cp "_data/resume.json" "$staged_file"
         # if the format is pdf, use the eisvogel template; an empty trailer ID keeps the PDF reproducible
         elif [ "$format" == "pdf" ]; then
-            pandoc "$input_file" -o "$staged_file" --template eisvogel -V 'header-includes=\pdftrailerid{}'
+            pandoc -o "$staged_file" --template eisvogel -V 'header-includes=\pdftrailerid{}' -- "$input_file"
         elif [ "$format" == "epub" ]; then
-            pandoc "$input_file" -o "$staged_file" --metadata "identifier=https://www.richardadleta.com/${output_file}"
+            pandoc -o "$staged_file" --metadata "identifier=https://www.richardadleta.com/${output_file}" -- "$input_file"
         else
-            pandoc "$input_file" -o "$staged_file"
+            pandoc -o "$staged_file" -- "$input_file"
         fi
         if [ $? -ne 0 ]; then
             echo "Failed to generate ${output_file}"
@@ -84,7 +84,7 @@ done
 
 # Every format succeeded: copy the staged files into place
 mkdir -p "$OUTPUT_DIR"
-cp "$stage/$OUTPUT_DIR/"* "$OUTPUT_DIR/" && cp "$STAGE_YML" "$YML_FILE" || exit 1
+cp --remove-destination "$stage/$OUTPUT_DIR/"* "$OUTPUT_DIR/" && cp --remove-destination "$STAGE_YML" "$YML_FILE" || exit 1
 
 echo "Conversion complete!"
 echo "YAML file generated at $YML_FILE"
