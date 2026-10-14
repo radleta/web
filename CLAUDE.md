@@ -29,7 +29,7 @@ web/
 │   ├── test.sh                            # Serves locally (bundle exec jekyll serve --host 0.0.0.0 --port 4000)
 │   └── proxy.sh                           # CORS proxy via lcp (optional)
 └── projects/
-    └── vite-react-test/                   # React+Vite micro-app (source); dist must be built and committed
+    └── vite-react-test/                   # React+Vite micro-app (source); dist is gitignored, build_vite.sh copies it into docs/assets/
 ```
 
 ## Build & Deploy
@@ -122,7 +122,7 @@ When resume content changes: edit `resume.json` and the `_source/` partials, the
 | Deleting `docs/CNAME` | GitHub Pages drops the custom domain; site reverts to `radleta.github.io/web` | Never delete or gitignore `CNAME` |
 | Changing `baseurl` from `""` | All asset paths and internal links break on the live site | Leave `baseurl: ""` alone |
 | Pushing without running `build.sh` | Downloads page shows stale or missing files | Run `build.sh` and commit the paths its last line names before push |
-| Vite project not built | `build_vite.sh` fails with "Vite directory does not exist" if `projects/vite-react-test/dist` is absent | Build Vite first: `cd projects/vite-react-test && npm install && npm run build` |
+| Vite project not built | `build_vite.sh` prints "Vite directory ... does not exist." and exits 0, copying nothing, if `projects/vite-react-test/dist` is absent | Build Vite first: `cd projects/vite-react-test && npm install && npm run build` |
 | Pandoc or LaTeX missing | `build_downloads.sh` exits non-zero; PDF generation fails | Run `bash install.sh` first |
 | GH Actions workflow uses Ruby 3.1 | The workflow pins Ruby 3.1 (not 3.3.5 like local). `github-pages` gem (~232) manages its own compatible Jekyll version — do not pin `gem "jekyll"` directly in Gemfile | Gemfile already uses `gem "github-pages"` pattern correctly; don't change the gem strategy |
 | `_config.yml` plugin list | Plugins `jekyll-feed`, `jekyll-seo-tag`, `jekyll-sitemap` are all supported by the `github-pages` gem — safe to use | Only add plugins supported by the `github-pages` gem or the workflow will fail |
