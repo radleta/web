@@ -70,7 +70,7 @@ bash build.sh
 #   4. report: "Downloads unchanged." or "N download files changed; commit them: <paths>"
 ```
 
-The downloads are reproducible: the same resume gives the same bytes, so git shows a download as modified only when its content changed. Commit the paths the report names (relative to `docs/`) alongside the source changes. `build.sh` is safe to run while `test.sh` is serving: the downloads come from the private build, never from the `_site/` that `jekyll serve` rewrites with `http://0.0.0.0:4000` links. A failed format makes `build.sh` exit non-zero with no report and leaves the committed downloads untouched.
+The downloads are reproducible: the same resume gives the same bytes, so git shows a download as modified only when its content changed. Commit the paths the report names (relative to `docs/`) alongside the source changes. `build.sh` is safe to run while `test.sh` is serving: the downloads come from the private build, never from the `_site/` that `jekyll serve` rewrites with dev-server links. A failed format makes `build.sh` exit non-zero with no report and leaves the committed downloads untouched.
 
 To update the Vite micro-app: `cd projects/vite-react-test && npm install && npm run build`, then `cd docs && bash build_vite.sh`, and commit `docs/assets/vite-react-test/` and the manifest.
 
@@ -113,7 +113,7 @@ The resume has two distinct consumers that must stay in sync:
 | `docs/_resume/_source/full.md` + `condensed.md` | Markdown partials rendered into HTML resume pages | Edit manually |
 | `docs/assets/downloads/*` | Static download files (md, pdf, docx, odt, epub, json) | `build_downloads.sh` — run `bash build.sh` |
 
-When resume content changes: edit `resume.json` and the `_source/` partials, then run `bash build.sh` to regenerate the downloads. Commit everything together. The `.json` download files in `assets/downloads/` are just copies of `_data/resume.json` (see `build_downloads.sh` line: `cp "_data/resume.json" "$output_file"`).
+When resume content changes: edit `resume.json` and the `_source/` partials, then run `bash build.sh` to regenerate the downloads. Commit everything together. The `.json` download files in `assets/downloads/` are copies of `_data/resume.json`.
 
 ## Gotchas
 
