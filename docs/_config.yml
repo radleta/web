@@ -25,6 +25,11 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
+feed:
+  collections:
+    notes:
+      path: "/feed/notes.xml"
+
 collections:
   pages:
     output: true
@@ -36,6 +41,9 @@ collections:
     output: true
     permalink: /:collection/:title
   downloads:
+    output: true
+    permalink: /:collection/:title
+  notes:
     output: true
     permalink: /:collection/:title
 
@@ -57,6 +65,12 @@ defaults:
       share: true
       sidebar:
         nav: resume
+  - scope:
+      path: ""
+      type: notes
+    values:
+      layout: note
+      author_profile: true
 
 author:
   name: "Richard Adleta"
@@ -96,3 +110,9 @@ footer:
     - label: "Posts"
       icon: "fas fa-fw fa-pen"
       url: "/posts"
+    - label: "Notes"
+      icon: "fas fa-fw fa-note-sticky"
+      url: "/notes"
+    - label: "Notes feed"
+      icon: "fas fa-fw fa-square-rss"
+      url: "/feed/notes.xml"

@@ -1,0 +1,50 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+search: false
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+/* Notes: the listing page and each note's own page */
+
+.notes-intro { margin: 0 0 1.5em; font-size: .75em; color: mix(#fff, $text-color, 20%); max-width: 38em; }
+
+/* a note's own page: date and tag, takeaway, then a short body */
+.page__content .dnote__meta { margin: 0 0 .7em; font-size: .6em; }
+/* the theme floats .page__meta, so the takeaway clears it rather than starting under it */
+.dnote__takeaway { clear: both; margin: 0 0 1.2em; max-width: 30em; padding: .6em 1em; font-size: 1em; font-style: normal; line-height: 1.4;
+  color: $text-color; background: $lighter-gray; border-inline-start: .25em solid $link-color; }
+.dnote__tldr { display: block; margin-bottom: .2em; font-size: .7em; font-weight: bold; letter-spacing: .08em; color: $link-color; }
+.dnote__body { max-width: 34em; }
+.dnote__body p, .dnote__body li { font-size: .8em; line-height: 1.6; }
+.dnote__body p { margin: 0 0 .75em; }
+.dnote__body ul { margin: 0 0 .75em; padding-inline-start: 1.1em; }
+.dnote__body li { margin: 0 0 .3em; }
+.dnote__body > :last-child { margin-bottom: 0; }
+.dnote__body div.highlighter-rouge { margin: .1em 0 .9em; }
+@media (max-width: 47.9375em) {
+  .dnote__takeaway { font-size: 1.05em; }
+  .dnote__body p, .dnote__body li { font-size: .9em; }
+}
+
+/* a note's own page already shows its date under the title, so drop the theme's "Updated" footer date */
+.layout--note .page__inner-wrap > footer.page__meta { display: none; }
+
+/* Home: recent notes and posts in a panel beside the content, in the space the theme reserves at the right */
+.home__panel { margin-top: 2em; max-width: 38em; }
+.home__panel > .archive__subtitle:first-child { margin-top: 0; }
+.home__panel .archive__item-title { margin-top: .5em; font-size: $type-size-5; white-space: normal; }
+.home__panel .page__meta { margin: .2em 0 0; }
+.home__more { margin: .8em 0 1.5em; font-size: $type-size-6; }
+/* the grid reaches into .archive's right padding, so the content column keeps its old width */
+@include breakpoint($large) {
+  .home { display: grid; grid-template-columns: minmax(0, 1fr) $right-sidebar-width-narrow;
+    margin-inline-end: -1 * $right-sidebar-width-narrow; }
+  .home__panel { margin-top: 0; max-width: none; padding-inline-start: 1.5em; font-size: .875em; }
+}
+@include breakpoint($x-large) {
+  .home { grid-template-columns: minmax(0, 1fr) $right-sidebar-width; margin-inline-end: -1 * $right-sidebar-width; }
+}

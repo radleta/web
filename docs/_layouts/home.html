@@ -1,0 +1,29 @@
+---
+layout: archive
+---
+{%- comment -%} Replaces the theme's home layout: the theme lists recent posts under the content; here recent notes and posts sit in a panel beside it {%- endcomment %}
+<div class="home">
+  <div class="home__main">
+    {{ content }}
+  </div>
+  <aside class="home__panel">
+    <h2 class="archive__subtitle">Recent Notes</h2>
+    {%- assign notes = site.notes | sort: "date" | reverse %}
+    {%- for note in notes limit: 3 %}
+    <div class="list__item">
+      <h3 class="archive__item-title"><a href="{{ note.url | relative_url }}">{{ note.title | markdownify | remove: "<p>" | remove: "</p>" | strip }}</a></h3>
+      <p class="page__meta"><span class="page__meta-date"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> <time datetime="{{ note.date | date: '%Y-%m-%d' }}">{{ note.date | date: "%B %-d, %Y" }}</time></span></p>
+    </div>
+    {%- endfor %}
+    <p class="home__more"><a href="{{ '/notes/' | relative_url }}">All notes</a></p>
+
+    <h2 class="archive__subtitle">Recent Posts</h2>
+    {%- for post in site.posts limit: 3 %}
+    <div class="list__item">
+      <h3 class="archive__item-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+      <p class="page__meta"><span class="page__meta-date"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%B %-d, %Y" }}</time></span></p>
+    </div>
+    {%- endfor %}
+    <p class="home__more"><a href="{{ '/posts/' | relative_url }}">All posts</a></p>
+  </aside>
+</div>

@@ -1,0 +1,25 @@
+---
+layout: archive
+title: "Notes"
+author_profile: true
+---
+<p class="notes-intro">Short, dated notes on what I'm working on and learning across all my projects, AI agents included. A fair bit of it is experimental.</p>
+
+{% comment %}
+  Each note is a title and date linking to its own page, grouped under month-and-year headings, newest first.
+{% endcomment %}
+{%- assign notes = site.notes | sort: "date" | reverse -%}
+{%- assign month = "" -%}
+<div class="entries-list">
+{%- for note in notes %}
+  {%- assign m = note.date | date: "%B %Y" -%}
+  {%- if m != month %}
+  <h2 class="archive__subtitle">{{ m }}</h2>
+  {%- assign month = m -%}
+  {%- endif %}
+  <div class="list__item">
+    <h3 class="archive__item-title"><a href="{{ note.url | relative_url }}">{{ note.title | markdownify | remove: "<p>" | remove: "</p>" | strip }}</a></h3>
+    <p class="page__meta"><span class="page__meta-date"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> <time datetime="{{ note.date | date: '%Y-%m-%d' }}">{{ note.date | date: "%B %-d, %Y" }}</time></span></p>
+  </div>
+{%- endfor %}
+</div>

@@ -1,0 +1,8 @@
+---
+layout: single
+---
+<p class="page__meta dnote__meta"><span class="page__meta-date"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> <time class="dt-published" datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%B %-d, %Y" }}</time></span><span class="page__meta-sep"></span><span class="p-category"><i class="fas fa-fw fa-tag" aria-hidden="true"></i> {{ page.tag }}</span></p>
+<aside class="dnote__takeaway p-summary"><span class="dnote__tldr">TL;DR</span> {{ page.takeaway | markdownify | remove: "<p>" | remove: "</p>" | strip }}</aside>
+<div class="dnote__body">
+{{ content }}
+</div>
