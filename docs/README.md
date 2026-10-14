@@ -32,6 +32,6 @@ Note: The downloads are only generated when the website is built. See the [downl
 
 ## Downloads
 
-The downloads are defined in the `build_downloads.sh` script. The script uses pandoc to convert output in the `_site` directory to the desired formats. The output of which is placed back in the `assets/downloads` directory. It will also regenerate the `_data/downloads.yml` file with the new download paths which are referenced in the website.
+`build.sh` builds the resume pages with Jekyll into a private temporary directory outside `docs/` and passes those HTML pages to `build_downloads.sh`, which uses pandoc to convert them to the download formats. When every format succeeds, `build_downloads.sh` copies the downloads into `assets/downloads` and regenerates `_data/downloads.yml`, which lists the download paths the site references. If any format fails, it leaves both untouched. The downloads are reproducible: the same resume gives the same bytes, and git shows a download as changed only when its content changed.
 
 The `assets/downloads` directory is stored in git. So the site can be hosted on GitHub Pages and the downloads can be served from the same repository without trying to manage the `pandoc` dependencies on the GitHub Pages server.
